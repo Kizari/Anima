@@ -1,3 +1,10 @@
+# [1.0.0-alpha.4](https://github.com/Kizari/Anima/compare/v1.0.0-alpha.3...v1.0.0-alpha.4) (2024-04-07)
+
+
+### Bug Fixes
+
+* bump version number ([c3e6b94](https://github.com/Kizari/Anima/commit/c3e6b94ae73aa12a0baae3b229c6f3465fa443e3))
+
 # [1.0.0-alpha.3](https://github.com/Kizari/Anima/compare/v1.0.0-alpha.2...v1.0.0-alpha.3) (2024-04-07)
 
 

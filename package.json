@@ -1,6 +1,6 @@
 {
   "name": "@kizari/anima",
-  "version": "1.0.0-alpha.3",
+  "version": "1.0.0-alpha.4",
   "description": "Various utilities for .NET projects.",
   "main": "index.js",
   "directories": {
