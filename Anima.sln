@@ -1,8 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anima.Generators.Utilities", "src\Anima.Generators.Utilities\Anima.Generators.Utilities.csproj", "{743ADFB3-8809-4CD5-8B40-2E15DB38FA91}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anima.Utilities.SourceGeneration", "src\Anima.Utilities.SourceGeneration\Anima.Utilities.SourceGeneration.csproj", "{743ADFB3-8809-4CD5-8B40-2E15DB38FA91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anima.Generators", "src\Anima.Generators\Anima.Generators.csproj", "{266027FF-4F1C-4ECD-9ECF-9DEC9265CF4F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anima.EntityFrameworkCore.SourceGeneration", "src\Anima.EntityFrameworkCore.SourceGeneration\Anima.EntityFrameworkCore.SourceGeneration.csproj", "{018A73EC-F68C-4220-BE87-423A04A39AD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anima.DependencyInjection.SourceGeneration", "src\Anima.DependencyInjection.SourceGeneration\Anima.DependencyInjection.SourceGeneration.csproj", "{9114C479-CBB4-4EFE-A9CB-F6A0DB709D9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +16,13 @@ Global
 		{743ADFB3-8809-4CD5-8B40-2E15DB38FA91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{743ADFB3-8809-4CD5-8B40-2E15DB38FA91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{743ADFB3-8809-4CD5-8B40-2E15DB38FA91}.Release|Any CPU.Build.0 = Release|Any CPU
-		{266027FF-4F1C-4ECD-9ECF-9DEC9265CF4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{266027FF-4F1C-4ECD-9ECF-9DEC9265CF4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{266027FF-4F1C-4ECD-9ECF-9DEC9265CF4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{266027FF-4F1C-4ECD-9ECF-9DEC9265CF4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{018A73EC-F68C-4220-BE87-423A04A39AD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{018A73EC-F68C-4220-BE87-423A04A39AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{018A73EC-F68C-4220-BE87-423A04A39AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{018A73EC-F68C-4220-BE87-423A04A39AD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9114C479-CBB4-4EFE-A9CB-F6A0DB709D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9114C479-CBB4-4EFE-A9CB-F6A0DB709D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9114C479-CBB4-4EFE-A9CB-F6A0DB709D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9114C479-CBB4-4EFE-A9CB-F6A0DB709D9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

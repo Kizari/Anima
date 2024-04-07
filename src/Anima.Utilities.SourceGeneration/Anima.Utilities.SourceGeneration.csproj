@@ -6,19 +6,17 @@
         <Nullable>enable</Nullable>
         <LangVersion>latest</LangVersion>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
-        <PackageId>Visium.Anima.Generators.Utilities</PackageId>
+        <PackageId>Visium.Anima.Utilities.SourceGeneration</PackageId>
+        <Description>Utility classes and helper methods to aid in the creation of source generators.</Description>
     </PropertyGroup>
 
     <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
         <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
     </PropertyGroup>
-
-    <ItemGroup Condition="'$(GITHUB_ACTIONS)' != 'true'">
-      <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="4.3.0" />
-      <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.3.0" />
-    </ItemGroup>
     
     <ItemGroup>
+        <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="4.3.0" />
+        <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.3.0" />
         <PackageReference Include="Pluralize.NET" Version="1.0.2" />
     </ItemGroup>
 

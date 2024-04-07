@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
@@ -7,8 +7,9 @@
         <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
         <IsRoslynComponent>true</IsRoslynComponent>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
-        <PackageId>Visium.Anima.Generators</PackageId>
+        <PackageId>Visium.Anima.DependencyInjection.SourceGeneration</PackageId>
         <IncludeBuildOutput>false</IncludeBuildOutput>
+        <Description>Source generators to reduce boilerplate code when working with Microsoft.Extensions.DependencyInjection.</Description>
     </PropertyGroup>
 
     <ItemGroup>
@@ -16,17 +17,16 @@
               PackagePath="analyzers/dotnet/cs" Visible="false" />
     </ItemGroup>
 
-    <ItemGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
+    <ItemGroup>
         <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.4">
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
-        <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.3.0"/>
         <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="4.3.0"/>
     </ItemGroup>
-
+    
     <ItemGroup>
-        <ProjectReference Include="../Anima.Generators.Utilities/Anima.Generators.Utilities.csproj" />
+        <ProjectReference Include="..\Anima.Utilities.SourceGeneration\Anima.Utilities.SourceGeneration.csproj" />
     </ItemGroup>
 
     <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">

@@ -1,9 +1,9 @@
 using System.Text;
 
-namespace Anima.Generators.Utilities;
+namespace Anima.Utilities.SourceGeneration;
 
 /// <summary>
-/// A light wrapper around <see cref="System.Text.StringBuilder" /> that makes building source code strings easier
+/// A light wrapper around <see cref="System.Text.StringBuilder" /> that makes building source code strings easier.
 /// </summary>
 public sealed class SourceBuilder
 {
@@ -12,6 +12,9 @@ public sealed class SourceBuilder
     private int _indentation;
     private bool _shouldIndent;
 
+    /// <summary>
+    /// Instantiates a builder for a new source code string.
+    /// </summary>
     public SourceBuilder()
     {
         // Automatically add boilerplate
@@ -21,18 +24,27 @@ public sealed class SourceBuilder
         AppendLine();
     }
 
+    /// <summary>
+    /// Indents the caret by another 4 spaces.
+    /// </summary>
     public SourceBuilder Indent()
     {
         _indentation++;
         return this;
     }
 
+    /// <summary>
+    /// Outdents the caret by another 4 spaces.
+    /// </summary>
     public SourceBuilder Outdent()
     {
         _indentation = Math.Max(0, _indentation - 1);
         return this;
     }
 
+    /// <summary>
+    /// Appends a character to the source.
+    /// </summary>
     public SourceBuilder Append(char value)
     {
         if (_shouldIndent)
@@ -45,6 +57,9 @@ public sealed class SourceBuilder
         return this;
     }
 
+    /// <summary>
+    /// Appends a string to the source.
+    /// </summary>
     public SourceBuilder Append(string value)
     {
         if (_shouldIndent)
@@ -57,6 +72,9 @@ public sealed class SourceBuilder
         return this;
     }
 
+    /// <summary>
+    /// Appends a line break to the source.
+    /// </summary>
     public SourceBuilder AppendLine()
     {
         _builder.AppendLine();
@@ -65,6 +83,9 @@ public sealed class SourceBuilder
         return this;
     }
 
+    /// <summary>
+    /// Appends a character to the source, followed by a line break.
+    /// </summary>
     public SourceBuilder AppendLine(char value)
     {
         if (_shouldIndent)
@@ -77,6 +98,9 @@ public sealed class SourceBuilder
         return this;
     }
 
+    /// <summary>
+    /// Appends a string to the source, followed by a line break.
+    /// </summary>
     public SourceBuilder AppendLine(string value)
     {
         if (_shouldIndent)
@@ -89,6 +113,12 @@ public sealed class SourceBuilder
         return this;
     }
 
+    /// <summary>
+    /// Appends a line of code to the source for each object in a collection.
+    /// </summary>
+    /// <param name="objects">The objects to generate code for.</param>
+    /// <param name="getValue">Function that gets the source string for each object.</param>
+    /// <typeparam name="TObject">The type of the objects in the collection.</typeparam>
     public SourceBuilder AppendLines<TObject>(IEnumerable<TObject> objects, Func<TObject, string> getValue)
     {
         foreach (var obj in objects)
@@ -99,6 +129,14 @@ public sealed class SourceBuilder
         return this;
     }
 
+    /// <summary>
+    /// Appends a line of code to the source for each object in an array.
+    /// This overload will also add the separator character at the end of each line except the last.
+    /// </summary>
+    /// <param name="objects">The objects to generate code for.</param>
+    /// <param name="getValue">Function that gets the source string for each object.</param>
+    /// <param name="separator">The character to append to the end of each line.</param>
+    /// <typeparam name="TObject">The type of the objects in the collection.</typeparam>
     public SourceBuilder AppendLines<TObject>(TObject[] objects, Func<TObject, string> getValue, char separator)
     {
         for (var i = 0; i < objects.Length; i++)
@@ -117,5 +155,9 @@ public sealed class SourceBuilder
         return this;
     }
 
+    /// <summary>
+    /// Builds the final source code string.
+    /// </summary>
+    /// <returns>The built source code string.</returns>
     public override string ToString() => _builder.ToString();
 }

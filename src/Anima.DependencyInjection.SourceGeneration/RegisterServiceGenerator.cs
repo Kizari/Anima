@@ -3,21 +3,30 @@ using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Linq;
 using System.Threading;
-using Anima.Generators.Utilities;
+using Anima.Utilities.SourceGeneration;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
-using Neurodex.Generators.DependencyInjection;
 
-namespace Anima.Generators.DependencyInjection;
+namespace Anima.DependencyInjection.SourceGeneration;
 
+/// <summary>
+/// Generates extension method for service container and constructors for service classes marked with [RegisterService].
+/// </summary>
 [Generator]
 public class RegisterServiceGenerator : IncrementalClassGenerator<ServiceDefinition>
 {
-    protected override IEnumerable<StaticSourceDefinition> StaticSource => [new RegisterServiceAttribute()];
+    /// <inheritdoc/>
+    protected override IEnumerable<StaticSourceDefinition> StaticSource =>
+    [
+        new RegisterServiceAttribute(),
+        new OnConstructAttribute()
+    ];
 
+    /// <inheritdoc/>
     protected override bool Predicate(ClassDeclarationSyntax declaration) =>
         declaration.HasAttribute(RegisterServiceAttribute.ShortName);
 
+    /// <inheritdoc/>
     protected override ServiceDefinition Transform(
         GeneratorSyntaxContext context,
         CancellationToken cancellationToken)
@@ -43,7 +52,6 @@ public class RegisterServiceGenerator : IncrementalClassGenerator<ServiceDefinit
                     2 => "Transient",
                     _ => throw new NotSupportedException("Service lifetime not supported.")
                 },
-            IsViewModel = symbol.BaseType?.Name is "ViewModelBase" or "ReactiveObject",
             OnConstructMethods = symbol.GetMembers()
                 .OfType<IMethodSymbol>()
                 .Where(m => m.HasAttribute(OnConstructAttribute.Name))
@@ -52,6 +60,7 @@ public class RegisterServiceGenerator : IncrementalClassGenerator<ServiceDefinit
         };
     }
 
+    /// <inheritdoc/>
     protected override void BuildSource(
         SourceProductionContext context,
         Compilation compilation,
@@ -62,12 +71,10 @@ public class RegisterServiceGenerator : IncrementalClassGenerator<ServiceDefinit
             return;
         }
 
-        foreach (var definition in definitions.Where(d => !d.IsViewModel))
+        foreach (var definition in definitions)
         {
             BuildConstructors(context, definition);
         }
-
-        const string name = "AnimaServiceExtensions";
 
         var assemblyName = compilation.AssemblyName!
             .Replace(".", "")
@@ -77,7 +84,7 @@ public class RegisterServiceGenerator : IncrementalClassGenerator<ServiceDefinit
         var builder = new SourceBuilder()
             .AppendLine("namespace Microsoft.Extensions.DependencyInjection;")
             .AppendLine()
-            .AppendLine($"public static class {name}")
+            .AppendLine($"public static class {assemblyName}ServiceExtensions")
             .AppendLine('{')
             .Indent()
             .AppendLine($"public static IServiceCollection Add{assemblyName}(this IServiceCollection services)")
@@ -104,7 +111,7 @@ public class RegisterServiceGenerator : IncrementalClassGenerator<ServiceDefinit
             .Outdent()
             .AppendLine('}');
 
-        context.AddSource($"{name}.g.cs", builder.ToString());
+        context.AddSource($"{assemblyName}ServiceExtensions.g.cs", builder.ToString());
     }
 
     private void BuildConstructors(SourceProductionContext context, ServiceDefinition definition)

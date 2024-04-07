@@ -60,8 +60,9 @@
       ]
     ],
     "projectPath": [
-      "src/Anima.Generators.Utilities/Anima.Generators.Utilities.csproj",
-      "src/Anima.Generators/Anima.Generators.csproj"
+      "src/Anima.Utilities.SourceGeneration/Anima.Utilities.SourceGeneration.csproj",
+      "src/Anima.DependencyInjection.SourceGeneration/Anima.DependencyInjection.SourceGeneration.csproj",
+      "src/Anima.EntityFrameworkCore.SourceGeneration/Anima.EntityFrameworkCore.SourceGeneration.csproj"
     ],
     "npmPublish": false,
     "includeSymbols": true,

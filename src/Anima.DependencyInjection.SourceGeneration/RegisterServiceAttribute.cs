@@ -1,12 +1,23 @@
-using Anima.Generators.Utilities;
+using Anima.Utilities.SourceGeneration;
 
-namespace Anima.Generators.DependencyInjection;
+namespace Anima.DependencyInjection.SourceGeneration;
 
+/// <summary>
+/// Marks service classes for automatic dependency injection.
+/// </summary>
 public class RegisterServiceAttribute : StaticSourceDefinition
 {
+    /// <summary>
+    /// The short name for the attribute.
+    /// </summary>
     public const string ShortName = "RegisterService";
+    
+    /// <summary>
+    /// The class name for the attribute.
+    /// </summary>
     public const string Name = $"{ShortName}Attribute";
         
+    /// <inheritdoc/>
     public override string Source => new SourceBuilder()
         .AppendLine("using System;")
         .AppendLine()
