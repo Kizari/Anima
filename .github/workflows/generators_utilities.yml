@@ -1,0 +1,43 @@
+name: Deploy Anima.Generators.Utilities to NuGet
+
+on:
+  push:
+    branches:
+      - alpha
+    paths:
+      - 'src/Anima.Generators.Utilities/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Build the Project
+        run: dotnet build --configuration Release
+
+      - name: Run Tests
+        run: dotnet test --no-restore --verbosity normal
+        
+      - name: Install Node.JS
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          
+      - name: Install Node Packages
+        run: npm ci --no-fund
+        
+      - name: Release the Package
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NUGET_TOKEN: ${{ secrets.NUGET_API_KEY }}
+        run: npx semantic-release

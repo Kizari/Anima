@@ -1,0 +1,28 @@
+<Project>
+
+    <PropertyGroup>
+        <Version>0.0.0</Version>
+        <Authors>Kizari</Authors>
+        <!--        <Company></Company>-->
+        <Description>General purpose utility classes and helper methods for .NET source generator projects.</Description>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <EmbedUntrackedSources>true</EmbedUntrackedSources>
+        <RepositoryUrl>https://github.com/Kizari/Anima.git</RepositoryUrl>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <!--        <Copyright></Copyright>-->
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageReleaseNotes>https://github.com/Kizari/Anima/blob/main/CHANGELOG.md</PackageReleaseNotes>
+        <RepositoryBranch>main</RepositoryBranch>
+        <RepositoryCommit>390507d43f8aedc10f04db164c22cebb2ab2e2e4</RepositoryCommit>
+        <PackageTags>source-generators;roslyn</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="$(MSBuildThisFileDirectory)LICENSE" Pack="true" PackagePath=""/>
+        <None Include="$(MSBuildThisFileDirectory)README.md" Pack="true" PackagePath=""/>
+        <None Include="$(MSBuildThisFileDirectory)CHANGELOG.md" Pack="true" PackagePath=""/>
+    </ItemGroup>
+
+</Project>
