@@ -1,11 +1,12 @@
-name: Deploy Anima.Generators.Utilities to NuGet
+name: Deploy Alpha Releases to NuGet
 
 on:
   push:
     branches:
       - alpha
     paths:
-      - 'src/Anima.Generators.Utilities/**'
+      - 'src/**/*.csproj'
+      - 'src/**/*.cs'
 
 jobs:
   build:

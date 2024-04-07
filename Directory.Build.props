@@ -3,14 +3,14 @@
     <PropertyGroup>
         <Version>1.0.0-alpha.1</Version>
         <Authors>Kizari</Authors>
-        <!--        <Company></Company>-->
-        <Description>General purpose utility classes and helper methods for .NET source generator projects.</Description>
+        <Company>Visium</Company>
+        <Description>Various utilities for .NET projects.</Description>
         <SymbolPackageFormat>snupkg</SymbolPackageFormat>
         <EmbedUntrackedSources>true</EmbedUntrackedSources>
         <RepositoryUrl>https://github.com/Kizari/Anima.git</RepositoryUrl>
         <PublishRepositoryUrl>true</PublishRepositoryUrl>
         <RepositoryType>git</RepositoryType>
-        <!--        <Copyright></Copyright>-->
+        <Copyright>Copyright © 2024 Kizari</Copyright>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageReleaseNotes>https://github.com/Kizari/Anima/blob/main/CHANGELOG.md</PackageReleaseNotes>

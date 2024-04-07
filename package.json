@@ -1,7 +1,7 @@
 {
-  "name": "@kizari/anima.generators.utilities",
+  "name": "@kizari/anima",
   "version": "1.0.0-alpha.1",
-  "description": "General purpose utility classes and helper methods for .NET source generator projects.",
+  "description": "Various utilities for .NET projects.",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -59,7 +59,10 @@
         }
       ]
     ],
-    "projectPath": "src/Anima.Generators.Utilities/Anima.Generators.Utilities.csproj",
+    "projectPath": [
+      "src/Anima.Generators.Utilities/Anima.Generators.Utilities.csproj",
+      "src/Anima.Generators/Anima.Generators.csproj"
+    ],
     "npmPublish": false,
     "includeSymbols": true,
     "files": [
