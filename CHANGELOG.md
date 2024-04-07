@@ -1,3 +1,10 @@
+# [1.0.0-alpha.5](https://github.com/Kizari/Anima/compare/v1.0.0-alpha.4...v1.0.0-alpha.5) (2024-04-07)
+
+
+### Bug Fixes
+
+* include utilities DLL in nupkgs ([9ec9eab](https://github.com/Kizari/Anima/commit/9ec9eab64fb6e66956feb72cab1094aa3e95c7f4))
+
 # [1.0.0-alpha.4](https://github.com/Kizari/Anima/compare/v1.0.0-alpha.3...v1.0.0-alpha.4) (2024-04-07)
 
 
