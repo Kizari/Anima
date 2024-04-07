@@ -1,7 +1,7 @@
 <Project>
 
     <PropertyGroup>
-        <Version>0.0.0</Version>
+        <Version>1.0.0-alpha.1</Version>
         <Authors>Kizari</Authors>
         <!--        <Company></Company>-->
         <Description>General purpose utility classes and helper methods for .NET source generator projects.</Description>
@@ -15,7 +15,7 @@
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageReleaseNotes>https://github.com/Kizari/Anima/blob/main/CHANGELOG.md</PackageReleaseNotes>
         <RepositoryBranch>main</RepositoryBranch>
-        <RepositoryCommit>390507d43f8aedc10f04db164c22cebb2ab2e2e4</RepositoryCommit>
+        <RepositoryCommit>48a89803a81ccbec5b3467e0b07d6a1b1a0d41f4</RepositoryCommit>
         <PackageTags>source-generators;roslyn</PackageTags>
     </PropertyGroup>
 
