@@ -1,3 +1,16 @@
+# [1.0.0-alpha.3](https://github.com/Kizari/Anima/compare/v1.0.0-alpha.2...v1.0.0-alpha.3) (2024-04-07)
+
+
+### Bug Fixes
+
+* ensure source generator symbols are packed ([5410504](https://github.com/Kizari/Anima/commit/5410504d4d5928f1b931eac640a6bf393f6c59a8))
+* output Anima.Generators as analyzer ([0d0b0c5](https://github.com/Kizari/Anima/commit/0d0b0c5a235c60c9a62072742735c8588f2caf59))
+
+
+### Features
+
+* split source generator projects ([59f57e8](https://github.com/Kizari/Anima/commit/59f57e84beacdf66920a8632f0c210fae6f6c377))
+
 # [1.0.0-alpha.2](https://github.com/Kizari/Anima/compare/v1.0.0-alpha.1...v1.0.0-alpha.2) (2024-04-07)
 
 
