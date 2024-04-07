@@ -1,7 +1,7 @@
 <Project>
 
     <PropertyGroup>
-        <Version>1.0.0-alpha.1</Version>
+        <Version>1.0.0-alpha.2</Version>
         <Authors>Kizari</Authors>
         <Company>Visium</Company>
         <Description>Various utilities for .NET projects.</Description>
@@ -15,7 +15,7 @@
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageReleaseNotes>https://github.com/Kizari/Anima/blob/main/CHANGELOG.md</PackageReleaseNotes>
         <RepositoryBranch>main</RepositoryBranch>
-        <RepositoryCommit>48a89803a81ccbec5b3467e0b07d6a1b1a0d41f4</RepositoryCommit>
+        <RepositoryCommit>b7f3535809ea26a3997af979af261c8537e34b0b</RepositoryCommit>
         <PackageTags>source-generators;roslyn</PackageTags>
     </PropertyGroup>
 
