@@ -17,6 +17,8 @@
               PackagePath="analyzers/dotnet/cs" Visible="false" />
         <None Include="$(OutputPath)\$(AssemblyName).pdb" Pack="true"
               PackagePath="analyzers/dotnet/cs" Visible="false" />
+        <None Include="$(OutputPath)\Anima.Utilities.SourceGeneration.dll" Pack="true"
+              PackagePath="analyzers/dotnet/cs" Visible="false" />
     </ItemGroup>
 
     <ItemGroup>
@@ -25,7 +27,10 @@
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
         <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="4.3.0"/>
-        <ProjectReference Include="..\Anima.Utilities.SourceGeneration\Anima.Utilities.SourceGeneration.csproj" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <ProjectReference Include="..\Anima.Utilities.SourceGeneration\Anima.Utilities.SourceGeneration.csproj" PrivateAssets="all" />
     </ItemGroup>
 
     <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
