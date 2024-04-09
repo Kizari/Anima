@@ -1,3 +1,11 @@
+# [1.0.0-alpha.7](https://github.com/Kizari/Anima/compare/v1.0.0-alpha.6...v1.0.0-alpha.7) (2024-04-09)
+
+
+### Bug Fixes
+
+* include Pluralize.NET DLL in nupkgs ([0bc784e](https://github.com/Kizari/Anima/commit/0bc784e0ee4d1f6ccc8c5fe62daaae994f020f75))
+* internalize Pluralize.NET code ([919d287](https://github.com/Kizari/Anima/commit/919d287689709d26a67d0ce1b09e7cbb3332235e))
+
 # [1.0.0-alpha.6](https://github.com/Kizari/Anima/compare/v1.0.0-alpha.5...v1.0.0-alpha.6) (2024-04-09)
 
 
