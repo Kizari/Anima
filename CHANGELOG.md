@@ -1,3 +1,10 @@
+# [1.0.0-alpha.6](https://github.com/Kizari/Anima/compare/v1.0.0-alpha.5...v1.0.0-alpha.6) (2024-04-09)
+
+
+### Features
+
+* add support for configurationless entities ([17d121c](https://github.com/Kizari/Anima/commit/17d121c98ecc749e9e50c4d3d8c2c2a9d85999d4))
+
 # [1.0.0-alpha.5](https://github.com/Kizari/Anima/compare/v1.0.0-alpha.4...v1.0.0-alpha.5) (2024-04-07)
 
 
