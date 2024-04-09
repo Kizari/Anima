@@ -24,7 +24,8 @@ public sealed class DbSetGenerator : IncrementalClassGenerator
     /// <returns></returns>
     protected override bool Predicate(ClassDeclarationSyntax declaration) =>
         declaration.HasAttribute(GenerateDbSetsAttribute.ShortName)
-        || declaration.HasGenericInterface("IEntityTypeConfiguration");
+        || declaration.HasGenericInterface("IEntityTypeConfiguration")
+        || declaration.HasInterface(EntityInterface.Name);
 
     /// <summary>
     /// Generates the partial class matching the marked DbContext.
