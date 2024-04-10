@@ -19,8 +19,11 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.0.x'
+          
+      - name: Build Local Packages for Integration Tests
+        run: dotnet pack -o ./packages
 
-      - name: Build the Project
+      - name: Build the Projects
         run: dotnet build --configuration Release
 
       - name: Run Tests

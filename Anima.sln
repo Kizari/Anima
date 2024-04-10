@@ -6,6 +6,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anima.EntityFrameworkCore.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anima.DependencyInjection.SourceGeneration", "src\Anima.DependencyInjection.SourceGeneration\Anima.DependencyInjection.SourceGeneration.csproj", "{9114C479-CBB4-4EFE-A9CB-F6A0DB709D9B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{4FFE0F12-74B3-4E57-9CCD-ADE2E3EF4786}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anima.DependencyInjection.SourceGeneration.IntegrationTests", "test\Anima.DependencyInjection.SourceGeneration.IntegrationTests\Anima.DependencyInjection.SourceGeneration.IntegrationTests.csproj", "{DA8EB3BB-0F14-4DBA-9F96-BC41E9B63E3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anima.EntityFrameworkCore.SourceGeneration.IntegrationTests", "test\Anima.EntityFrameworkCore.SourceGeneration.IntegrationTests\Anima.EntityFrameworkCore.SourceGeneration.IntegrationTests.csproj", "{1C327A10-FE4B-4633-9A7F-6ABF9750F831}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +30,17 @@ Global
 		{9114C479-CBB4-4EFE-A9CB-F6A0DB709D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9114C479-CBB4-4EFE-A9CB-F6A0DB709D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9114C479-CBB4-4EFE-A9CB-F6A0DB709D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA8EB3BB-0F14-4DBA-9F96-BC41E9B63E3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA8EB3BB-0F14-4DBA-9F96-BC41E9B63E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA8EB3BB-0F14-4DBA-9F96-BC41E9B63E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA8EB3BB-0F14-4DBA-9F96-BC41E9B63E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C327A10-FE4B-4633-9A7F-6ABF9750F831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C327A10-FE4B-4633-9A7F-6ABF9750F831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C327A10-FE4B-4633-9A7F-6ABF9750F831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C327A10-FE4B-4633-9A7F-6ABF9750F831}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA8EB3BB-0F14-4DBA-9F96-BC41E9B63E3B} = {4FFE0F12-74B3-4E57-9CCD-ADE2E3EF4786}
+		{1C327A10-FE4B-4633-9A7F-6ABF9750F831} = {4FFE0F12-74B3-4E57-9CCD-ADE2E3EF4786}
 	EndGlobalSection
 EndGlobal
