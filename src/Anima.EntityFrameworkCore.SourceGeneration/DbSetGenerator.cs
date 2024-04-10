@@ -15,7 +15,11 @@ namespace Anima.EntityFrameworkCore.SourceGeneration;
 public sealed class DbSetGenerator : IncrementalClassGenerator
 {
     /// <inheritdoc />
-    protected override IEnumerable<StaticSourceDefinition> StaticSource => [new GenerateDbSetsAttribute()];
+    protected override IEnumerable<StaticSourceDefinition> StaticSource => 
+    [
+        new GenerateDbSetsAttribute(),
+        new EntityInterface()
+    ];
 
     /// <summary>
     /// Selects classes that are marked with [GenerateDbSets] or implement IEntityTypeConfiguration.
@@ -41,6 +45,8 @@ public sealed class DbSetGenerator : IncrementalClassGenerator
         if (dbContext != null)
         {
             var builder = new SourceBuilder()
+                .AppendLine("using Microsoft.EntityFrameworkCore;")
+                .AppendLine()
                 .AppendLine($"namespace {dbContext.Namespace};")
                 .AppendLine()
                 .AppendLine($"public partial class {dbContext.Name}")
