@@ -1,7 +1,7 @@
 <Project>
 
     <PropertyGroup>
-        <Version>1.0.0-alpha.7</Version>
+        <Version>1.0.0-alpha.8</Version>
         <Authors>Kizari</Authors>
         <Company>Visium</Company>
         <SymbolPackageFormat>snupkg</SymbolPackageFormat>
@@ -14,7 +14,7 @@
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageReleaseNotes>https://github.com/Kizari/Anima/blob/main/CHANGELOG.md</PackageReleaseNotes>
         <RepositoryBranch>main</RepositoryBranch>
-        <RepositoryCommit>919d287689709d26a67d0ce1b09e7cbb3332235e</RepositoryCommit>
+        <RepositoryCommit>d0119e84ac3d49952e52b317fd4680ee262f10b7</RepositoryCommit>
         <PackageTags>source-generators;roslyn</PackageTags>
     </PropertyGroup>
 

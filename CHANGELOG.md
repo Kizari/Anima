@@ -1,3 +1,10 @@
+# [1.0.0-alpha.8](https://github.com/Kizari/Anima/compare/v1.0.0-alpha.7...v1.0.0-alpha.8) (2024-04-10)
+
+
+### Bug Fixes
+
+* emit IEntity interface ([a0682ae](https://github.com/Kizari/Anima/commit/a0682ae622ba0d3173ae666649e37bba9605a1fb))
+
 # [1.0.0-alpha.7](https://github.com/Kizari/Anima/compare/v1.0.0-alpha.6...v1.0.0-alpha.7) (2024-04-09)
 
 
