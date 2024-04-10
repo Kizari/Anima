@@ -19,8 +19,16 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.0.x'
+          
+      - name: Create Packages Directory
+        run: mkdir packages
+          
+      - name: Build Local Packages for Integration Tests
+        run: |
+          dotnet pack src/Anima.DependencyInjection.SourceGeneration/Anima.DependencyInjection.SourceGeneration.csproj -o ./packages
+          dotnet pack src/Anima.EntityFrameworkCore.SourceGeneration/Anima.EntityFrameworkCore.SourceGeneration.csproj -o ./packages
 
-      - name: Build the Project
+      - name: Build the Projects
         run: dotnet build --configuration Release
 
       - name: Run Tests
