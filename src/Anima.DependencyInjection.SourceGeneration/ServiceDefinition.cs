@@ -10,9 +10,9 @@ namespace Anima.DependencyInjection.SourceGeneration;
 public class ServiceDefinition(INamedTypeSymbol symbol) : ClassDefinition(symbol)
 {
     /// <summary>
-    /// The fully qualified name of the service interface if one is implemented.
+    /// The fully qualified name of the service interfaces if implemented.
     /// </summary>
-    public string? Interface { get; set; }
+    public string[]? Interfaces { get; set; }
     
     /// <summary>
     /// The name of the ServiceLifetime enum member associated with this service.
@@ -27,5 +27,5 @@ public class ServiceDefinition(INamedTypeSymbol symbol) : ClassDefinition(symbol
     /// <summary>
     /// Names of all methods in the service class marked with [OnConstruct].
     /// </summary>
-    public List<string> OnConstructMethods { get; set; } = [];
+    public List<string>? OnConstructMethods { get; set; }
 }

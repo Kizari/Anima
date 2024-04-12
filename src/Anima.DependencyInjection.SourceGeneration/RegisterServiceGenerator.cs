@@ -38,10 +38,16 @@ public class RegisterServiceGenerator : IncrementalClassGenerator<ServiceDefinit
 
         return new ServiceDefinition(symbol)
         {
-            Interface = symbol.AllInterfaces.FirstOrDefault(i => dummy.NameWithoutGenerics
-                .Contains(i.ToDisplayString().Split('.').Last().Substring(1)))
-                ?.ToDisplayString(), // Get interface whose name is contained within the class type
-                                     // for example, UserRepository will match IRepository.
+            // Get interfaces whose name is contained within the type (e.g. UserRepository will match IRepository).
+            Interfaces = symbol.AllInterfaces
+                .Where(i =>
+                {
+                    var dummy2 = new ClassDefinition(i);
+                    return dummy.NameWithoutGenerics
+                        .Contains(dummy2.NameWithoutGenerics.Substring(1));
+                })
+                .Select(s => s.ToDisplayString())
+                .ToArray(),
             ImplementationType = symbol.IsGenericType
                 ? $"{dummy.FullNameWithoutGenerics}<>"
                 : dummy.FullName,
@@ -94,14 +100,18 @@ public class RegisterServiceGenerator : IncrementalClassGenerator<ServiceDefinit
 
         foreach (var definition in definitions)
         {
-            builder.Append($"services.Add{definition.Lifetime}<");
-
-            if (definition.Interface != null)
+            if (definition.Interfaces.Any())
             {
-                builder.Append($"{definition.Interface}, ");
+                foreach (var interfaceType in definition.Interfaces)
+                {
+                    builder.AppendLine(
+                        $"services.Add{definition.Lifetime}<{interfaceType}, {definition.ImplementationType}>();");
+                }
             }
-
-            builder.AppendLine($"{definition.ImplementationType}>();");
+            else
+            {
+                builder.AppendLine($"services.Add{definition.Lifetime}<{definition.ImplementationType}>();");
+            }
         }
 
         builder

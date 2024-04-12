@@ -22,6 +22,21 @@ public class RegisterServiceGeneratorTests
         Assert.NotNull(transient);
         Assert.Equal(ServiceLifetime.Transient, transient.Lifetime);
     }
+
+    [Fact]
+    public void Generator_WhenExtensionCalled_RegistersMultipleInterfacesCorrectly()
+    {
+        var collection = new ServiceCollection()
+            .AddAnimaDependencyInjectionSourceGenerationIntegrationTests();
+
+        var matches = collection
+            .Where(d => d.ImplementationType == typeof(UserRepository))
+            .Select(d => d.ServiceType)
+            .ToArray();
+
+        Assert.Contains(typeof(IRepository<User, int>), matches);
+        Assert.Contains(typeof(IUserRepository), matches);
+    }
 }
 
 [RegisterService(ServiceLifetime.Scoped)]
@@ -32,3 +47,13 @@ public class TestSingletonService;
 
 [RegisterService(ServiceLifetime.Transient)]
 public class TestTransientService;
+
+public interface IRepository<TKey, TItem>;
+public interface IUserRepository;
+
+public class Repository<TKey, TItem> : IRepository<TKey, TItem>;
+
+public class User;
+
+[RegisterService(ServiceLifetime.Singleton)]
+public class UserRepository : Repository<User, int>, IUserRepository;
