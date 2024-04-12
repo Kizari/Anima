@@ -38,9 +38,10 @@ public class RegisterServiceGenerator : IncrementalClassGenerator<ServiceDefinit
 
         return new ServiceDefinition(symbol)
         {
-            Interface = symbol.AllInterfaces.FirstOrDefault(i => i.ToDisplayString()
-                    .Split('.').Last().Substring(1) == dummy.NameWithoutGenerics)
-                ?.ToDisplayString(), // Get interface that matches class name less the 'I' prefix
+            Interface = symbol.AllInterfaces.FirstOrDefault(i => dummy.NameWithoutGenerics
+                .Contains(i.ToDisplayString().Split('.').Last().Substring(1)))
+                ?.ToDisplayString(), // Get interface whose name is contained within the class type
+                                     // for example, UserRepository will match IRepository.
             ImplementationType = symbol.IsGenericType
                 ? $"{dummy.FullNameWithoutGenerics}<>"
                 : dummy.FullName,
