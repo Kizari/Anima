@@ -1,3 +1,10 @@
+# [1.0.0-alpha.9](https://github.com/Kizari/Anima/compare/v1.0.0-alpha.8...v1.0.0-alpha.9) (2024-04-12)
+
+
+### Features
+
+* extend interface name matching ([f714611](https://github.com/Kizari/Anima/commit/f714611adf6219ca78629e34a1128fd1095da391))
+
 # [1.0.0-alpha.8](https://github.com/Kizari/Anima/compare/v1.0.0-alpha.7...v1.0.0-alpha.8) (2024-04-10)
 
 
