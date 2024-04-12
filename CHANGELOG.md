@@ -1,3 +1,10 @@
+# [1.0.0-alpha.10](https://github.com/Kizari/Anima/compare/v1.0.0-alpha.9...v1.0.0-alpha.10) (2024-04-12)
+
+
+### Features
+
+* support services with multiple interfaces ([60b08ad](https://github.com/Kizari/Anima/commit/60b08ad74f3ff8026890c619eca4bad59c50bf1d))
+
 # [1.0.0-alpha.9](https://github.com/Kizari/Anima/compare/v1.0.0-alpha.8...v1.0.0-alpha.9) (2024-04-12)
 
 
