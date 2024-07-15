@@ -1,3 +1,10 @@
+# [1.0.0-alpha.11](https://github.com/Kizari/Anima/compare/v1.0.0-alpha.10...v1.0.0-alpha.11) (2024-07-15)
+
+
+### Features
+
+* improve source generation + extension methods ([165e088](https://github.com/Kizari/Anima/commit/165e08805be8892a1ea7ebaedee5175f5b251c6d))
+
 # [1.0.0-alpha.10](https://github.com/Kizari/Anima/compare/v1.0.0-alpha.9...v1.0.0-alpha.10) (2024-04-12)
 
 
