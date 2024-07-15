@@ -188,4 +188,52 @@ public static class Extensions
     {
         return symbol.GetAttributes().FirstOrDefault(a => a.AttributeClass?.Name == fullAttributeName);
     }
+
+    /// <summary>
+    /// Retrieves all private readonly fields from the type that aren't assigned a value when declared.
+    /// </summary>
+    /// <param name="symbol">The symbol to retrieve the fields from.</param>
+    /// <returns>An enumerable of private readonly fields from the symbol.</returns>
+    public static IEnumerable<IFieldSymbol> GetUnassignedPrivateReadonlyFields(this ITypeSymbol symbol)
+    {
+        return symbol.GetMembers()
+            .OfType<IFieldSymbol>()
+            .Where(f => f.IsReadOnly
+                        && f is {DeclaredAccessibility: Accessibility.Private, IsImplicitlyDeclared: false}
+                        && f.DeclaringSyntaxReferences[0].GetSyntax()
+                            is not VariableDeclaratorSyntax {Initializer: not null});
+    }
+    
+    /// <summary>
+    /// Retrieves all private and protected readonly fields from the type that aren't assigned a value when declared.
+    /// </summary>
+    /// <param name="symbol">The symbol to retrieve the fields from.</param>
+    /// <returns>An enumerable of private and protected readonly fields from the symbol.</returns>
+    public static IEnumerable<IFieldSymbol> GetUnassignedPrivateAndProtectedReadonlyFields(this ITypeSymbol symbol)
+    {
+        return symbol.GetMembers()
+            .OfType<IFieldSymbol>()
+            .Where(f => f.IsReadOnly
+                        && f is
+                        {
+                            DeclaredAccessibility: Accessibility.Private or Accessibility.Protected,
+                            IsImplicitlyDeclared: false
+                        }
+                        && f.DeclaringSyntaxReferences[0].GetSyntax()
+                            is not VariableDeclaratorSyntax {Initializer: not null});
+    }
+
+    /// <summary>
+    /// Retrieves all methods from the given type that are marked with the given marker attribute.
+    /// </summary>
+    /// <param name="symbol">The symbol to retrieve methods from.</param>
+    /// <param name="markerAttributeName">Name of the marker attribute class including the "Attribute" suffix.</param>
+    /// <returns>An enumerable of the marked methods.</returns>
+    public static IEnumerable<string> GetMarkedMethods(this ITypeSymbol symbol, string markerAttributeName)
+    {
+        return symbol.GetMembers()
+            .OfType<IMethodSymbol>()
+            .Where(m => m.HasAttribute(markerAttributeName))
+            .Select(m => m.Name);
+    }
 }

@@ -29,11 +29,11 @@
     </ItemGroup>
     
     <ItemGroup>
-        <ProjectReference Include="..\Anima.Utilities.SourceGeneration\Anima.Utilities.SourceGeneration.csproj" PrivateAssets="all" />
+        <ProjectReference Include="..\Anima.Utilities.SourceGeneration\Anima.Utilities.SourceGeneration.csproj" 
+                          PrivateAssets="all" />
     </ItemGroup>
 
     <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
         <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
     </PropertyGroup>
-
 </Project>

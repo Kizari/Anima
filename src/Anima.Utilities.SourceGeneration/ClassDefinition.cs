@@ -40,6 +40,11 @@ public class ClassDefinition(INamedTypeSymbol symbol)
     public bool IsGenericType => Symbol.IsGenericType;
 
     /// <summary>
+    /// True if this type is an abstract class.
+    /// </summary>
+    public bool IsAbstract => Symbol.IsAbstract;
+
+    /// <summary>
     /// The local type name without generic type parameters in it.
     /// </summary>
     public string NameWithoutGenerics

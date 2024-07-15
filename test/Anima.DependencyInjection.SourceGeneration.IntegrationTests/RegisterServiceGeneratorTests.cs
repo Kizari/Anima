@@ -57,3 +57,8 @@ public class User;
 
 [RegisterService(ServiceLifetime.Singleton)]
 public class UserRepository : Repository<User, int>, IUserRepository;
+
+[RegisterService(ServiceLifetime.Singleton)]
+public class TestAbstractService;
+
+public abstract class TestAbstractBase;

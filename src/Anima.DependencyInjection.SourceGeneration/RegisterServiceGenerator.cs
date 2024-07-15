@@ -48,6 +48,7 @@ public class RegisterServiceGenerator : IncrementalClassGenerator<ServiceDefinit
                 })
                 .Select(s => s.ToDisplayString())
                 .ToArray(),
+            AbstractBase = symbol.BaseType?.IsAbstract == true ? symbol.BaseType.ToDisplayString() : null,
             ImplementationType = symbol.IsGenericType
                 ? $"{dummy.FullNameWithoutGenerics}<>"
                 : dummy.FullName,
@@ -63,7 +64,8 @@ public class RegisterServiceGenerator : IncrementalClassGenerator<ServiceDefinit
                 .OfType<IMethodSymbol>()
                 .Where(m => m.HasAttribute(OnConstructAttribute.Name))
                 .Select(m => m.Name)
-                .ToList()
+                .ToList(),
+            ServiceFields = symbol.GetUnassignedPrivateReadonlyFields().ToArray()
         };
     }
 
@@ -100,7 +102,7 @@ public class RegisterServiceGenerator : IncrementalClassGenerator<ServiceDefinit
 
         foreach (var definition in definitions)
         {
-            if (definition.Interfaces.Any())
+            if (definition.Interfaces?.Any() == true)
             {
                 foreach (var interfaceType in definition.Interfaces)
                 {
@@ -110,7 +112,9 @@ public class RegisterServiceGenerator : IncrementalClassGenerator<ServiceDefinit
             }
             else
             {
-                builder.AppendLine($"services.Add{definition.Lifetime}<{definition.ImplementationType}>();");
+                builder.AppendLine(definition.AbstractBase == null
+                    ? $"services.Add{definition.Lifetime}<{definition.ImplementationType}>();"
+                    : $"services.Add{definition.Lifetime}<{definition.AbstractBase}, {definition.ImplementationType}>();");
             }
         }
 
@@ -127,15 +131,7 @@ public class RegisterServiceGenerator : IncrementalClassGenerator<ServiceDefinit
 
     private void BuildConstructors(SourceProductionContext context, ServiceDefinition definition)
     {
-        var fields = definition.Symbol.GetMembers()
-            .OfType<IFieldSymbol>()
-            .Where(f => f.IsReadOnly
-                        && f is {DeclaredAccessibility: Accessibility.Private, IsImplicitlyDeclared: false}
-                        && f.DeclaringSyntaxReferences[0].GetSyntax()
-                            is not VariableDeclaratorSyntax {Initializer: not null})
-            .ToArray();
-
-        if (fields.Length == 0)
+        if (definition.ServiceFields?.Length < 1)
         {
             return;
         }
@@ -147,20 +143,50 @@ public class RegisterServiceGenerator : IncrementalClassGenerator<ServiceDefinit
             .AppendLine('{')
             .Indent()
             .AppendLine($"public {definition.Name}(")
-            .Indent()
-            .AppendLines(fields, f => $"{f.Type.ToDisplayString()} {f.Name.Substring(1)}", ',')
+            .Indent();
+
+        if (definition.HasAbstractBase)
+        {
+            definition.BaseServiceFields = definition.Symbol.BaseType!
+                .GetUnassignedPrivateAndProtectedReadonlyFields()
+                .ToArray();
+            
+            if (definition.ServiceFields?.Length < 1)
+            {
+                builder.AppendLines(definition.BaseServiceFields, 
+                    f => $"{f.Type.ToDisplayString()} {f.Name.Substring(1)}", ',');
+            }
+            else
+            {
+                builder.AppendLines(definition.BaseServiceFields, 
+                    f => $"{f.Type.ToDisplayString()} {f.Name.Substring(1)},");
+            }
+        }
+        
+        builder.AppendLines(definition.ServiceFields!, 
+                f => $"{f.Type.ToDisplayString()} {f.Name.Substring(1)}", ',')
             .Outdent()
             .AppendLine(')');
+
+        if (definition.HasAbstractBase)
+        {
+            builder.AppendLine(" : base")
+                .AppendLine('(')
+                .Indent()
+                .AppendLines(definition.BaseServiceFields!, f => f.Name.Substring(1), ',')
+                .Outdent()
+                .AppendLine(')');
+        }
         
         builder.AppendLine('{')
             .Indent();
 
-        foreach (var field in fields)
+        foreach (var field in definition.ServiceFields!)
         {
             builder.AppendLine($"{field.Name} = {field.Name.Substring(1)};");
         }
 
-        if (definition.OnConstructMethods.Count > 0)
+        if (definition.OnConstructMethods?.Count > 0)
         {
             builder.AppendLine();
             builder.AppendLines(definition.OnConstructMethods, m => $"{m}();");
