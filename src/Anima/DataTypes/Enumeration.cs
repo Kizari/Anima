@@ -64,7 +64,7 @@ public abstract class Enumeration<TValue> : IComparable
             throw new ArgumentException("Cannot compare objects of different type", nameof(obj));
         }
 
-        return Value.CompareTo(obj);
+        return Value.CompareTo(((Enumeration<TValue>)obj).Value);
     }
 
     public static implicit operator TValue(Enumeration<TValue> value) => value.Value;
