@@ -37,7 +37,7 @@ public abstract class Enumeration<TValue> : IComparable
     private TValue Value { get; }
 
     /// <inheritdoc />
-    public override bool Equals([NotNullWhen(true)] object? obj) => obj == this;
+    public override bool Equals([NotNullWhen(true)] object? obj) => ReferenceEquals(obj, this);
 
     /// <inheritdoc />
     public override int GetHashCode() => Value.GetHashCode();
@@ -48,8 +48,7 @@ public abstract class Enumeration<TValue> : IComparable
     /// <inheritdoc />
     public int CompareTo(object? obj)
     {
-        // ReSharper disable once PossibleUnintendedReferenceComparison
-        if (obj == this)
+        if (ReferenceEquals(obj, this))
         {
             return 0;
         }
@@ -87,4 +86,8 @@ public abstract class Enumeration<TValue> : IComparable
             ? throw new ArgumentException($"No matching enumeration member found for {value}", nameof(value))
             : (TEnum)result;
     }
+
+    public static bool operator ==(Enumeration<TValue>? a, Enumeration<TValue>? b) => ReferenceEquals(a, b);
+    
+    public static bool operator !=(Enumeration<TValue>? a, Enumeration<TValue>? b) => !ReferenceEquals(a, b);
 }
