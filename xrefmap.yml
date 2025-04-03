@@ -1,0 +1,1361 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Anima.DataTypes
+  name: Anima.DataTypes
+  href: api/Anima.DataTypes.html
+  commentId: N:Anima.DataTypes
+  fullName: Anima.DataTypes
+  nameWithType: Anima.DataTypes
+- uid: Anima.DataTypes.ConcurrentHashSet`1
+  name: ConcurrentHashSet<T>
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.html
+  commentId: T:Anima.DataTypes.ConcurrentHashSet`1
+  name.vb: ConcurrentHashSet(Of T)
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T)
+  nameWithType: ConcurrentHashSet<T>
+  nameWithType.vb: ConcurrentHashSet(Of T)
+- uid: Anima.DataTypes.ConcurrentHashSet`1.#ctor
+  name: ConcurrentHashSet()
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.html#Anima_DataTypes_ConcurrentHashSet_1__ctor
+  commentId: M:Anima.DataTypes.ConcurrentHashSet`1.#ctor
+  name.vb: New()
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.ConcurrentHashSet()
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).New()
+  nameWithType: ConcurrentHashSet<T>.ConcurrentHashSet()
+  nameWithType.vb: ConcurrentHashSet(Of T).New()
+- uid: Anima.DataTypes.ConcurrentHashSet`1.#ctor(System.Collections.Generic.IEnumerable{`0})
+  name: ConcurrentHashSet(IEnumerable<T>)
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.html#Anima_DataTypes_ConcurrentHashSet_1__ctor_System_Collections_Generic_IEnumerable__0__
+  commentId: M:Anima.DataTypes.ConcurrentHashSet`1.#ctor(System.Collections.Generic.IEnumerable{`0})
+  name.vb: New(IEnumerable(Of T))
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.ConcurrentHashSet(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).New(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: ConcurrentHashSet<T>.ConcurrentHashSet(IEnumerable<T>)
+  nameWithType.vb: ConcurrentHashSet(Of T).New(IEnumerable(Of T))
+- uid: Anima.DataTypes.ConcurrentHashSet`1.#ctor(System.Collections.Generic.IEnumerable{`0},System.Collections.Generic.IEqualityComparer{`0})
+  name: ConcurrentHashSet(IEnumerable<T>, IEqualityComparer<T>?)
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.html#Anima_DataTypes_ConcurrentHashSet_1__ctor_System_Collections_Generic_IEnumerable__0__System_Collections_Generic_IEqualityComparer__0__
+  commentId: M:Anima.DataTypes.ConcurrentHashSet`1.#ctor(System.Collections.Generic.IEnumerable{`0},System.Collections.Generic.IEqualityComparer{`0})
+  name.vb: New(IEnumerable(Of T), IEqualityComparer(Of T))
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.ConcurrentHashSet(System.Collections.Generic.IEnumerable<T>, System.Collections.Generic.IEqualityComparer<T>?)
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).New(System.Collections.Generic.IEnumerable(Of T), System.Collections.Generic.IEqualityComparer(Of T))
+  nameWithType: ConcurrentHashSet<T>.ConcurrentHashSet(IEnumerable<T>, IEqualityComparer<T>?)
+  nameWithType.vb: ConcurrentHashSet(Of T).New(IEnumerable(Of T), IEqualityComparer(Of T))
+- uid: Anima.DataTypes.ConcurrentHashSet`1.#ctor(System.Collections.Generic.IEqualityComparer{`0})
+  name: ConcurrentHashSet(IEqualityComparer<T>?)
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.html#Anima_DataTypes_ConcurrentHashSet_1__ctor_System_Collections_Generic_IEqualityComparer__0__
+  commentId: M:Anima.DataTypes.ConcurrentHashSet`1.#ctor(System.Collections.Generic.IEqualityComparer{`0})
+  name.vb: New(IEqualityComparer(Of T))
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.ConcurrentHashSet(System.Collections.Generic.IEqualityComparer<T>?)
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).New(System.Collections.Generic.IEqualityComparer(Of T))
+  nameWithType: ConcurrentHashSet<T>.ConcurrentHashSet(IEqualityComparer<T>?)
+  nameWithType.vb: ConcurrentHashSet(Of T).New(IEqualityComparer(Of T))
+- uid: Anima.DataTypes.ConcurrentHashSet`1.#ctor(System.Int32,System.Collections.Generic.IEnumerable{`0},System.Collections.Generic.IEqualityComparer{`0})
+  name: ConcurrentHashSet(int, IEnumerable<T>, IEqualityComparer<T>?)
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.html#Anima_DataTypes_ConcurrentHashSet_1__ctor_System_Int32_System_Collections_Generic_IEnumerable__0__System_Collections_Generic_IEqualityComparer__0__
+  commentId: M:Anima.DataTypes.ConcurrentHashSet`1.#ctor(System.Int32,System.Collections.Generic.IEnumerable{`0},System.Collections.Generic.IEqualityComparer{`0})
+  name.vb: New(Integer, IEnumerable(Of T), IEqualityComparer(Of T))
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.ConcurrentHashSet(int, System.Collections.Generic.IEnumerable<T>, System.Collections.Generic.IEqualityComparer<T>?)
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).New(Integer, System.Collections.Generic.IEnumerable(Of T), System.Collections.Generic.IEqualityComparer(Of T))
+  nameWithType: ConcurrentHashSet<T>.ConcurrentHashSet(int, IEnumerable<T>, IEqualityComparer<T>?)
+  nameWithType.vb: ConcurrentHashSet(Of T).New(Integer, IEnumerable(Of T), IEqualityComparer(Of T))
+- uid: Anima.DataTypes.ConcurrentHashSet`1.#ctor(System.Int32,System.Int32)
+  name: ConcurrentHashSet(int, int)
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.html#Anima_DataTypes_ConcurrentHashSet_1__ctor_System_Int32_System_Int32_
+  commentId: M:Anima.DataTypes.ConcurrentHashSet`1.#ctor(System.Int32,System.Int32)
+  name.vb: New(Integer, Integer)
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.ConcurrentHashSet(int, int)
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).New(Integer, Integer)
+  nameWithType: ConcurrentHashSet<T>.ConcurrentHashSet(int, int)
+  nameWithType.vb: ConcurrentHashSet(Of T).New(Integer, Integer)
+- uid: Anima.DataTypes.ConcurrentHashSet`1.#ctor(System.Int32,System.Int32,System.Collections.Generic.IEqualityComparer{`0})
+  name: ConcurrentHashSet(int, int, IEqualityComparer<T>?)
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.html#Anima_DataTypes_ConcurrentHashSet_1__ctor_System_Int32_System_Int32_System_Collections_Generic_IEqualityComparer__0__
+  commentId: M:Anima.DataTypes.ConcurrentHashSet`1.#ctor(System.Int32,System.Int32,System.Collections.Generic.IEqualityComparer{`0})
+  name.vb: New(Integer, Integer, IEqualityComparer(Of T))
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.ConcurrentHashSet(int, int, System.Collections.Generic.IEqualityComparer<T>?)
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).New(Integer, Integer, System.Collections.Generic.IEqualityComparer(Of T))
+  nameWithType: ConcurrentHashSet<T>.ConcurrentHashSet(int, int, IEqualityComparer<T>?)
+  nameWithType.vb: ConcurrentHashSet(Of T).New(Integer, Integer, IEqualityComparer(Of T))
+- uid: Anima.DataTypes.ConcurrentHashSet`1.#ctor*
+  name: ConcurrentHashSet
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.html#Anima_DataTypes_ConcurrentHashSet_1__ctor_
+  commentId: Overload:Anima.DataTypes.ConcurrentHashSet`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.ConcurrentHashSet
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).New
+  nameWithType: ConcurrentHashSet<T>.ConcurrentHashSet
+  nameWithType.vb: ConcurrentHashSet(Of T).New
+- uid: Anima.DataTypes.ConcurrentHashSet`1.Add(`0)
+  name: Add(T)
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.html#Anima_DataTypes_ConcurrentHashSet_1_Add__0_
+  commentId: M:Anima.DataTypes.ConcurrentHashSet`1.Add(`0)
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.Add(T)
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).Add(T)
+  nameWithType: ConcurrentHashSet<T>.Add(T)
+  nameWithType.vb: ConcurrentHashSet(Of T).Add(T)
+- uid: Anima.DataTypes.ConcurrentHashSet`1.Add*
+  name: Add
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.html#Anima_DataTypes_ConcurrentHashSet_1_Add_
+  commentId: Overload:Anima.DataTypes.ConcurrentHashSet`1.Add
+  isSpec: "True"
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.Add
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).Add
+  nameWithType: ConcurrentHashSet<T>.Add
+  nameWithType.vb: ConcurrentHashSet(Of T).Add
+- uid: Anima.DataTypes.ConcurrentHashSet`1.Clear
+  name: Clear()
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.html#Anima_DataTypes_ConcurrentHashSet_1_Clear
+  commentId: M:Anima.DataTypes.ConcurrentHashSet`1.Clear
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.Clear()
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).Clear()
+  nameWithType: ConcurrentHashSet<T>.Clear()
+  nameWithType.vb: ConcurrentHashSet(Of T).Clear()
+- uid: Anima.DataTypes.ConcurrentHashSet`1.Clear*
+  name: Clear
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.html#Anima_DataTypes_ConcurrentHashSet_1_Clear_
+  commentId: Overload:Anima.DataTypes.ConcurrentHashSet`1.Clear
+  isSpec: "True"
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.Clear
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).Clear
+  nameWithType: ConcurrentHashSet<T>.Clear
+  nameWithType.vb: ConcurrentHashSet(Of T).Clear
+- uid: Anima.DataTypes.ConcurrentHashSet`1.Comparer
+  name: Comparer
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.html#Anima_DataTypes_ConcurrentHashSet_1_Comparer
+  commentId: P:Anima.DataTypes.ConcurrentHashSet`1.Comparer
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.Comparer
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).Comparer
+  nameWithType: ConcurrentHashSet<T>.Comparer
+  nameWithType.vb: ConcurrentHashSet(Of T).Comparer
+- uid: Anima.DataTypes.ConcurrentHashSet`1.Comparer*
+  name: Comparer
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.html#Anima_DataTypes_ConcurrentHashSet_1_Comparer_
+  commentId: Overload:Anima.DataTypes.ConcurrentHashSet`1.Comparer
+  isSpec: "True"
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.Comparer
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).Comparer
+  nameWithType: ConcurrentHashSet<T>.Comparer
+  nameWithType.vb: ConcurrentHashSet(Of T).Comparer
+- uid: Anima.DataTypes.ConcurrentHashSet`1.Contains(`0)
+  name: Contains(T)
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.html#Anima_DataTypes_ConcurrentHashSet_1_Contains__0_
+  commentId: M:Anima.DataTypes.ConcurrentHashSet`1.Contains(`0)
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.Contains(T)
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).Contains(T)
+  nameWithType: ConcurrentHashSet<T>.Contains(T)
+  nameWithType.vb: ConcurrentHashSet(Of T).Contains(T)
+- uid: Anima.DataTypes.ConcurrentHashSet`1.Contains*
+  name: Contains
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.html#Anima_DataTypes_ConcurrentHashSet_1_Contains_
+  commentId: Overload:Anima.DataTypes.ConcurrentHashSet`1.Contains
+  isSpec: "True"
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.Contains
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).Contains
+  nameWithType: ConcurrentHashSet<T>.Contains
+  nameWithType.vb: ConcurrentHashSet(Of T).Contains
+- uid: Anima.DataTypes.ConcurrentHashSet`1.Count
+  name: Count
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.html#Anima_DataTypes_ConcurrentHashSet_1_Count
+  commentId: P:Anima.DataTypes.ConcurrentHashSet`1.Count
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.Count
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).Count
+  nameWithType: ConcurrentHashSet<T>.Count
+  nameWithType.vb: ConcurrentHashSet(Of T).Count
+- uid: Anima.DataTypes.ConcurrentHashSet`1.Count*
+  name: Count
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.html#Anima_DataTypes_ConcurrentHashSet_1_Count_
+  commentId: Overload:Anima.DataTypes.ConcurrentHashSet`1.Count
+  isSpec: "True"
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.Count
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).Count
+  nameWithType: ConcurrentHashSet<T>.Count
+  nameWithType.vb: ConcurrentHashSet(Of T).Count
+- uid: Anima.DataTypes.ConcurrentHashSet`1.Enumerator
+  name: ConcurrentHashSet<T>.Enumerator
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.Enumerator.html
+  commentId: T:Anima.DataTypes.ConcurrentHashSet`1.Enumerator
+  name.vb: ConcurrentHashSet(Of T).Enumerator
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.Enumerator
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).Enumerator
+  nameWithType: ConcurrentHashSet<T>.Enumerator
+  nameWithType.vb: ConcurrentHashSet(Of T).Enumerator
+- uid: Anima.DataTypes.ConcurrentHashSet`1.Enumerator.#ctor(Anima.DataTypes.ConcurrentHashSet{`0})
+  name: Enumerator(ConcurrentHashSet<T>)
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.Enumerator.html#Anima_DataTypes_ConcurrentHashSet_1_Enumerator__ctor_Anima_DataTypes_ConcurrentHashSet__0__
+  commentId: M:Anima.DataTypes.ConcurrentHashSet`1.Enumerator.#ctor(Anima.DataTypes.ConcurrentHashSet{`0})
+  name.vb: New(ConcurrentHashSet(Of T))
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.Enumerator.Enumerator(Anima.DataTypes.ConcurrentHashSet<T>)
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).Enumerator.New(Anima.DataTypes.ConcurrentHashSet(Of T))
+  nameWithType: ConcurrentHashSet<T>.Enumerator.Enumerator(ConcurrentHashSet<T>)
+  nameWithType.vb: ConcurrentHashSet(Of T).Enumerator.New(ConcurrentHashSet(Of T))
+- uid: Anima.DataTypes.ConcurrentHashSet`1.Enumerator.#ctor*
+  name: Enumerator
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.Enumerator.html#Anima_DataTypes_ConcurrentHashSet_1_Enumerator__ctor_
+  commentId: Overload:Anima.DataTypes.ConcurrentHashSet`1.Enumerator.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.Enumerator.Enumerator
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).Enumerator.New
+  nameWithType: ConcurrentHashSet<T>.Enumerator.Enumerator
+  nameWithType.vb: ConcurrentHashSet(Of T).Enumerator.New
+- uid: Anima.DataTypes.ConcurrentHashSet`1.Enumerator.Current
+  name: Current
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.Enumerator.html#Anima_DataTypes_ConcurrentHashSet_1_Enumerator_Current
+  commentId: P:Anima.DataTypes.ConcurrentHashSet`1.Enumerator.Current
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.Enumerator.Current
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).Enumerator.Current
+  nameWithType: ConcurrentHashSet<T>.Enumerator.Current
+  nameWithType.vb: ConcurrentHashSet(Of T).Enumerator.Current
+- uid: Anima.DataTypes.ConcurrentHashSet`1.Enumerator.Current*
+  name: Current
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.Enumerator.html#Anima_DataTypes_ConcurrentHashSet_1_Enumerator_Current_
+  commentId: Overload:Anima.DataTypes.ConcurrentHashSet`1.Enumerator.Current
+  isSpec: "True"
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.Enumerator.Current
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).Enumerator.Current
+  nameWithType: ConcurrentHashSet<T>.Enumerator.Current
+  nameWithType.vb: ConcurrentHashSet(Of T).Enumerator.Current
+- uid: Anima.DataTypes.ConcurrentHashSet`1.Enumerator.Dispose
+  name: Dispose()
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.Enumerator.html#Anima_DataTypes_ConcurrentHashSet_1_Enumerator_Dispose
+  commentId: M:Anima.DataTypes.ConcurrentHashSet`1.Enumerator.Dispose
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.Enumerator.Dispose()
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).Enumerator.Dispose()
+  nameWithType: ConcurrentHashSet<T>.Enumerator.Dispose()
+  nameWithType.vb: ConcurrentHashSet(Of T).Enumerator.Dispose()
+- uid: Anima.DataTypes.ConcurrentHashSet`1.Enumerator.Dispose*
+  name: Dispose
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.Enumerator.html#Anima_DataTypes_ConcurrentHashSet_1_Enumerator_Dispose_
+  commentId: Overload:Anima.DataTypes.ConcurrentHashSet`1.Enumerator.Dispose
+  isSpec: "True"
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.Enumerator.Dispose
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).Enumerator.Dispose
+  nameWithType: ConcurrentHashSet<T>.Enumerator.Dispose
+  nameWithType.vb: ConcurrentHashSet(Of T).Enumerator.Dispose
+- uid: Anima.DataTypes.ConcurrentHashSet`1.Enumerator.MoveNext
+  name: MoveNext()
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.Enumerator.html#Anima_DataTypes_ConcurrentHashSet_1_Enumerator_MoveNext
+  commentId: M:Anima.DataTypes.ConcurrentHashSet`1.Enumerator.MoveNext
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.Enumerator.MoveNext()
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).Enumerator.MoveNext()
+  nameWithType: ConcurrentHashSet<T>.Enumerator.MoveNext()
+  nameWithType.vb: ConcurrentHashSet(Of T).Enumerator.MoveNext()
+- uid: Anima.DataTypes.ConcurrentHashSet`1.Enumerator.MoveNext*
+  name: MoveNext
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.Enumerator.html#Anima_DataTypes_ConcurrentHashSet_1_Enumerator_MoveNext_
+  commentId: Overload:Anima.DataTypes.ConcurrentHashSet`1.Enumerator.MoveNext
+  isSpec: "True"
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.Enumerator.MoveNext
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).Enumerator.MoveNext
+  nameWithType: ConcurrentHashSet<T>.Enumerator.MoveNext
+  nameWithType.vb: ConcurrentHashSet(Of T).Enumerator.MoveNext
+- uid: Anima.DataTypes.ConcurrentHashSet`1.Enumerator.Reset
+  name: Reset()
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.Enumerator.html#Anima_DataTypes_ConcurrentHashSet_1_Enumerator_Reset
+  commentId: M:Anima.DataTypes.ConcurrentHashSet`1.Enumerator.Reset
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.Enumerator.Reset()
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).Enumerator.Reset()
+  nameWithType: ConcurrentHashSet<T>.Enumerator.Reset()
+  nameWithType.vb: ConcurrentHashSet(Of T).Enumerator.Reset()
+- uid: Anima.DataTypes.ConcurrentHashSet`1.Enumerator.Reset*
+  name: Reset
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.Enumerator.html#Anima_DataTypes_ConcurrentHashSet_1_Enumerator_Reset_
+  commentId: Overload:Anima.DataTypes.ConcurrentHashSet`1.Enumerator.Reset
+  isSpec: "True"
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.Enumerator.Reset
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).Enumerator.Reset
+  nameWithType: ConcurrentHashSet<T>.Enumerator.Reset
+  nameWithType.vb: ConcurrentHashSet(Of T).Enumerator.Reset
+- uid: Anima.DataTypes.ConcurrentHashSet`1.GetEnumerator
+  name: GetEnumerator()
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.html#Anima_DataTypes_ConcurrentHashSet_1_GetEnumerator
+  commentId: M:Anima.DataTypes.ConcurrentHashSet`1.GetEnumerator
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.GetEnumerator()
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).GetEnumerator()
+  nameWithType: ConcurrentHashSet<T>.GetEnumerator()
+  nameWithType.vb: ConcurrentHashSet(Of T).GetEnumerator()
+- uid: Anima.DataTypes.ConcurrentHashSet`1.GetEnumerator*
+  name: GetEnumerator
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.html#Anima_DataTypes_ConcurrentHashSet_1_GetEnumerator_
+  commentId: Overload:Anima.DataTypes.ConcurrentHashSet`1.GetEnumerator
+  isSpec: "True"
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.GetEnumerator
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).GetEnumerator
+  nameWithType: ConcurrentHashSet<T>.GetEnumerator
+  nameWithType.vb: ConcurrentHashSet(Of T).GetEnumerator
+- uid: Anima.DataTypes.ConcurrentHashSet`1.IsEmpty
+  name: IsEmpty
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.html#Anima_DataTypes_ConcurrentHashSet_1_IsEmpty
+  commentId: P:Anima.DataTypes.ConcurrentHashSet`1.IsEmpty
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.IsEmpty
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).IsEmpty
+  nameWithType: ConcurrentHashSet<T>.IsEmpty
+  nameWithType.vb: ConcurrentHashSet(Of T).IsEmpty
+- uid: Anima.DataTypes.ConcurrentHashSet`1.IsEmpty*
+  name: IsEmpty
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.html#Anima_DataTypes_ConcurrentHashSet_1_IsEmpty_
+  commentId: Overload:Anima.DataTypes.ConcurrentHashSet`1.IsEmpty
+  isSpec: "True"
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.IsEmpty
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).IsEmpty
+  nameWithType: ConcurrentHashSet<T>.IsEmpty
+  nameWithType.vb: ConcurrentHashSet(Of T).IsEmpty
+- uid: Anima.DataTypes.ConcurrentHashSet`1.TryGetValue(`0,`0@)
+  name: TryGetValue(T, out T)
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.html#Anima_DataTypes_ConcurrentHashSet_1_TryGetValue__0__0__
+  commentId: M:Anima.DataTypes.ConcurrentHashSet`1.TryGetValue(`0,`0@)
+  name.vb: TryGetValue(T, T)
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.TryGetValue(T, out T)
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).TryGetValue(T, T)
+  nameWithType: ConcurrentHashSet<T>.TryGetValue(T, out T)
+  nameWithType.vb: ConcurrentHashSet(Of T).TryGetValue(T, T)
+- uid: Anima.DataTypes.ConcurrentHashSet`1.TryGetValue*
+  name: TryGetValue
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.html#Anima_DataTypes_ConcurrentHashSet_1_TryGetValue_
+  commentId: Overload:Anima.DataTypes.ConcurrentHashSet`1.TryGetValue
+  isSpec: "True"
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.TryGetValue
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).TryGetValue
+  nameWithType: ConcurrentHashSet<T>.TryGetValue
+  nameWithType.vb: ConcurrentHashSet(Of T).TryGetValue
+- uid: Anima.DataTypes.ConcurrentHashSet`1.TryRemove(`0)
+  name: TryRemove(T)
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.html#Anima_DataTypes_ConcurrentHashSet_1_TryRemove__0_
+  commentId: M:Anima.DataTypes.ConcurrentHashSet`1.TryRemove(`0)
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.TryRemove(T)
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).TryRemove(T)
+  nameWithType: ConcurrentHashSet<T>.TryRemove(T)
+  nameWithType.vb: ConcurrentHashSet(Of T).TryRemove(T)
+- uid: Anima.DataTypes.ConcurrentHashSet`1.TryRemove*
+  name: TryRemove
+  href: api/Anima.DataTypes.ConcurrentHashSet-1.html#Anima_DataTypes_ConcurrentHashSet_1_TryRemove_
+  commentId: Overload:Anima.DataTypes.ConcurrentHashSet`1.TryRemove
+  isSpec: "True"
+  fullName: Anima.DataTypes.ConcurrentHashSet<T>.TryRemove
+  fullName.vb: Anima.DataTypes.ConcurrentHashSet(Of T).TryRemove
+  nameWithType: ConcurrentHashSet<T>.TryRemove
+  nameWithType.vb: ConcurrentHashSet(Of T).TryRemove
+- uid: Anima.DataTypes.Enumeration`1
+  name: Enumeration<TValue>
+  href: api/Anima.DataTypes.Enumeration-1.html
+  commentId: T:Anima.DataTypes.Enumeration`1
+  name.vb: Enumeration(Of TValue)
+  fullName: Anima.DataTypes.Enumeration<TValue>
+  fullName.vb: Anima.DataTypes.Enumeration(Of TValue)
+  nameWithType: Enumeration<TValue>
+  nameWithType.vb: Enumeration(Of TValue)
+- uid: Anima.DataTypes.Enumeration`1.#ctor(`0)
+  name: Enumeration(TValue)
+  href: api/Anima.DataTypes.Enumeration-1.html#Anima_DataTypes_Enumeration_1__ctor__0_
+  commentId: M:Anima.DataTypes.Enumeration`1.#ctor(`0)
+  name.vb: New(TValue)
+  fullName: Anima.DataTypes.Enumeration<TValue>.Enumeration(TValue)
+  fullName.vb: Anima.DataTypes.Enumeration(Of TValue).New(TValue)
+  nameWithType: Enumeration<TValue>.Enumeration(TValue)
+  nameWithType.vb: Enumeration(Of TValue).New(TValue)
+- uid: Anima.DataTypes.Enumeration`1.#ctor*
+  name: Enumeration
+  href: api/Anima.DataTypes.Enumeration-1.html#Anima_DataTypes_Enumeration_1__ctor_
+  commentId: Overload:Anima.DataTypes.Enumeration`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Anima.DataTypes.Enumeration<TValue>.Enumeration
+  fullName.vb: Anima.DataTypes.Enumeration(Of TValue).New
+  nameWithType: Enumeration<TValue>.Enumeration
+  nameWithType.vb: Enumeration(Of TValue).New
+- uid: Anima.DataTypes.Enumeration`1.CompareTo(System.Object)
+  name: CompareTo(object?)
+  href: api/Anima.DataTypes.Enumeration-1.html#Anima_DataTypes_Enumeration_1_CompareTo_System_Object_
+  commentId: M:Anima.DataTypes.Enumeration`1.CompareTo(System.Object)
+  name.vb: CompareTo(Object)
+  fullName: Anima.DataTypes.Enumeration<TValue>.CompareTo(object?)
+  fullName.vb: Anima.DataTypes.Enumeration(Of TValue).CompareTo(Object)
+  nameWithType: Enumeration<TValue>.CompareTo(object?)
+  nameWithType.vb: Enumeration(Of TValue).CompareTo(Object)
+- uid: Anima.DataTypes.Enumeration`1.CompareTo*
+  name: CompareTo
+  href: api/Anima.DataTypes.Enumeration-1.html#Anima_DataTypes_Enumeration_1_CompareTo_
+  commentId: Overload:Anima.DataTypes.Enumeration`1.CompareTo
+  isSpec: "True"
+  fullName: Anima.DataTypes.Enumeration<TValue>.CompareTo
+  fullName.vb: Anima.DataTypes.Enumeration(Of TValue).CompareTo
+  nameWithType: Enumeration<TValue>.CompareTo
+  nameWithType.vb: Enumeration(Of TValue).CompareTo
+- uid: Anima.DataTypes.Enumeration`1.Equals(System.Object)
+  name: Equals(object?)
+  href: api/Anima.DataTypes.Enumeration-1.html#Anima_DataTypes_Enumeration_1_Equals_System_Object_
+  commentId: M:Anima.DataTypes.Enumeration`1.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Anima.DataTypes.Enumeration<TValue>.Equals(object?)
+  fullName.vb: Anima.DataTypes.Enumeration(Of TValue).Equals(Object)
+  nameWithType: Enumeration<TValue>.Equals(object?)
+  nameWithType.vb: Enumeration(Of TValue).Equals(Object)
+- uid: Anima.DataTypes.Enumeration`1.Equals*
+  name: Equals
+  href: api/Anima.DataTypes.Enumeration-1.html#Anima_DataTypes_Enumeration_1_Equals_
+  commentId: Overload:Anima.DataTypes.Enumeration`1.Equals
+  isSpec: "True"
+  fullName: Anima.DataTypes.Enumeration<TValue>.Equals
+  fullName.vb: Anima.DataTypes.Enumeration(Of TValue).Equals
+  nameWithType: Enumeration<TValue>.Equals
+  nameWithType.vb: Enumeration(Of TValue).Equals
+- uid: Anima.DataTypes.Enumeration`1.FromValue*
+  name: FromValue
+  href: api/Anima.DataTypes.Enumeration-1.html#Anima_DataTypes_Enumeration_1_FromValue_
+  commentId: Overload:Anima.DataTypes.Enumeration`1.FromValue
+  isSpec: "True"
+  fullName: Anima.DataTypes.Enumeration<TValue>.FromValue
+  fullName.vb: Anima.DataTypes.Enumeration(Of TValue).FromValue
+  nameWithType: Enumeration<TValue>.FromValue
+  nameWithType.vb: Enumeration(Of TValue).FromValue
+- uid: Anima.DataTypes.Enumeration`1.FromValue``1(`0)
+  name: FromValue<TEnum>(TValue)
+  href: api/Anima.DataTypes.Enumeration-1.html#Anima_DataTypes_Enumeration_1_FromValue__1__0_
+  commentId: M:Anima.DataTypes.Enumeration`1.FromValue``1(`0)
+  name.vb: FromValue(Of TEnum)(TValue)
+  fullName: Anima.DataTypes.Enumeration<TValue>.FromValue<TEnum>(TValue)
+  fullName.vb: Anima.DataTypes.Enumeration(Of TValue).FromValue(Of TEnum)(TValue)
+  nameWithType: Enumeration<TValue>.FromValue<TEnum>(TValue)
+  nameWithType.vb: Enumeration(Of TValue).FromValue(Of TEnum)(TValue)
+- uid: Anima.DataTypes.Enumeration`1.GetHashCode
+  name: GetHashCode()
+  href: api/Anima.DataTypes.Enumeration-1.html#Anima_DataTypes_Enumeration_1_GetHashCode
+  commentId: M:Anima.DataTypes.Enumeration`1.GetHashCode
+  fullName: Anima.DataTypes.Enumeration<TValue>.GetHashCode()
+  fullName.vb: Anima.DataTypes.Enumeration(Of TValue).GetHashCode()
+  nameWithType: Enumeration<TValue>.GetHashCode()
+  nameWithType.vb: Enumeration(Of TValue).GetHashCode()
+- uid: Anima.DataTypes.Enumeration`1.GetHashCode*
+  name: GetHashCode
+  href: api/Anima.DataTypes.Enumeration-1.html#Anima_DataTypes_Enumeration_1_GetHashCode_
+  commentId: Overload:Anima.DataTypes.Enumeration`1.GetHashCode
+  isSpec: "True"
+  fullName: Anima.DataTypes.Enumeration<TValue>.GetHashCode
+  fullName.vb: Anima.DataTypes.Enumeration(Of TValue).GetHashCode
+  nameWithType: Enumeration<TValue>.GetHashCode
+  nameWithType.vb: Enumeration(Of TValue).GetHashCode
+- uid: Anima.DataTypes.Enumeration`1.ToString
+  name: ToString()
+  href: api/Anima.DataTypes.Enumeration-1.html#Anima_DataTypes_Enumeration_1_ToString
+  commentId: M:Anima.DataTypes.Enumeration`1.ToString
+  fullName: Anima.DataTypes.Enumeration<TValue>.ToString()
+  fullName.vb: Anima.DataTypes.Enumeration(Of TValue).ToString()
+  nameWithType: Enumeration<TValue>.ToString()
+  nameWithType.vb: Enumeration(Of TValue).ToString()
+- uid: Anima.DataTypes.Enumeration`1.ToString*
+  name: ToString
+  href: api/Anima.DataTypes.Enumeration-1.html#Anima_DataTypes_Enumeration_1_ToString_
+  commentId: Overload:Anima.DataTypes.Enumeration`1.ToString
+  isSpec: "True"
+  fullName: Anima.DataTypes.Enumeration<TValue>.ToString
+  fullName.vb: Anima.DataTypes.Enumeration(Of TValue).ToString
+  nameWithType: Enumeration<TValue>.ToString
+  nameWithType.vb: Enumeration(Of TValue).ToString
+- uid: Anima.DataTypes.Enumeration`1.op_Implicit(Anima.DataTypes.Enumeration{`0})~`0
+  name: implicit operator TValue(Enumeration<TValue>)
+  href: api/Anima.DataTypes.Enumeration-1.html#Anima_DataTypes_Enumeration_1_op_Implicit_Anima_DataTypes_Enumeration__0____0
+  commentId: M:Anima.DataTypes.Enumeration`1.op_Implicit(Anima.DataTypes.Enumeration{`0})~`0
+  name.vb: CType(Enumeration(Of TValue))
+  fullName: Anima.DataTypes.Enumeration<TValue>.implicit operator TValue(Anima.DataTypes.Enumeration<TValue>)
+  fullName.vb: Anima.DataTypes.Enumeration(Of TValue).CType(Anima.DataTypes.Enumeration(Of TValue))
+  nameWithType: Enumeration<TValue>.implicit operator TValue(Enumeration<TValue>)
+  nameWithType.vb: Enumeration(Of TValue).CType(Enumeration(Of TValue))
+- uid: Anima.DataTypes.Enumeration`1.op_Implicit*
+  name: implicit operator
+  href: api/Anima.DataTypes.Enumeration-1.html#Anima_DataTypes_Enumeration_1_op_Implicit_
+  commentId: Overload:Anima.DataTypes.Enumeration`1.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: Anima.DataTypes.Enumeration<TValue>.implicit operator
+  fullName.vb: Anima.DataTypes.Enumeration(Of TValue).CType
+  nameWithType: Enumeration<TValue>.implicit operator
+  nameWithType.vb: Enumeration(Of TValue).CType
+- uid: Anima.EntityFrameworkCore.SourceGeneration
+  name: Anima.EntityFrameworkCore.SourceGeneration
+  href: api/Anima.EntityFrameworkCore.SourceGeneration.html
+  commentId: N:Anima.EntityFrameworkCore.SourceGeneration
+  fullName: Anima.EntityFrameworkCore.SourceGeneration
+  nameWithType: Anima.EntityFrameworkCore.SourceGeneration
+- uid: Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator
+  name: DbSetGenerator
+  href: api/Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator.html
+  commentId: T:Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator
+  fullName: Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator
+  nameWithType: DbSetGenerator
+- uid: Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator.BuildSource(Microsoft.CodeAnalysis.SourceProductionContext,Microsoft.CodeAnalysis.Compilation,System.Collections.Immutable.ImmutableArray{Anima.Utilities.SourceGeneration.ClassDefinition})
+  name: BuildSource(SourceProductionContext, Compilation, ImmutableArray<ClassDefinition>)
+  href: api/Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator.html#Anima_EntityFrameworkCore_SourceGeneration_DbSetGenerator_BuildSource_Microsoft_CodeAnalysis_SourceProductionContext_Microsoft_CodeAnalysis_Compilation_System_Collections_Immutable_ImmutableArray_Anima_Utilities_SourceGeneration_ClassDefinition__
+  commentId: M:Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator.BuildSource(Microsoft.CodeAnalysis.SourceProductionContext,Microsoft.CodeAnalysis.Compilation,System.Collections.Immutable.ImmutableArray{Anima.Utilities.SourceGeneration.ClassDefinition})
+  name.vb: BuildSource(SourceProductionContext, Compilation, ImmutableArray(Of ClassDefinition))
+  fullName: Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator.BuildSource(Microsoft.CodeAnalysis.SourceProductionContext, Microsoft.CodeAnalysis.Compilation, System.Collections.Immutable.ImmutableArray<Anima.Utilities.SourceGeneration.ClassDefinition>)
+  fullName.vb: Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator.BuildSource(Microsoft.CodeAnalysis.SourceProductionContext, Microsoft.CodeAnalysis.Compilation, System.Collections.Immutable.ImmutableArray(Of Anima.Utilities.SourceGeneration.ClassDefinition))
+  nameWithType: DbSetGenerator.BuildSource(SourceProductionContext, Compilation, ImmutableArray<ClassDefinition>)
+  nameWithType.vb: DbSetGenerator.BuildSource(SourceProductionContext, Compilation, ImmutableArray(Of ClassDefinition))
+- uid: Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator.BuildSource*
+  name: BuildSource
+  href: api/Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator.html#Anima_EntityFrameworkCore_SourceGeneration_DbSetGenerator_BuildSource_
+  commentId: Overload:Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator.BuildSource
+  isSpec: "True"
+  fullName: Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator.BuildSource
+  nameWithType: DbSetGenerator.BuildSource
+- uid: Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator.Predicate(Microsoft.CodeAnalysis.CSharp.Syntax.ClassDeclarationSyntax)
+  name: Predicate(ClassDeclarationSyntax)
+  href: api/Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator.html#Anima_EntityFrameworkCore_SourceGeneration_DbSetGenerator_Predicate_Microsoft_CodeAnalysis_CSharp_Syntax_ClassDeclarationSyntax_
+  commentId: M:Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator.Predicate(Microsoft.CodeAnalysis.CSharp.Syntax.ClassDeclarationSyntax)
+  fullName: Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator.Predicate(Microsoft.CodeAnalysis.CSharp.Syntax.ClassDeclarationSyntax)
+  nameWithType: DbSetGenerator.Predicate(ClassDeclarationSyntax)
+- uid: Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator.Predicate*
+  name: Predicate
+  href: api/Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator.html#Anima_EntityFrameworkCore_SourceGeneration_DbSetGenerator_Predicate_
+  commentId: Overload:Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator.Predicate
+  isSpec: "True"
+  fullName: Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator.Predicate
+  nameWithType: DbSetGenerator.Predicate
+- uid: Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator.StaticSource
+  name: StaticSource
+  href: api/Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator.html#Anima_EntityFrameworkCore_SourceGeneration_DbSetGenerator_StaticSource
+  commentId: P:Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator.StaticSource
+  fullName: Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator.StaticSource
+  nameWithType: DbSetGenerator.StaticSource
+- uid: Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator.StaticSource*
+  name: StaticSource
+  href: api/Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator.html#Anima_EntityFrameworkCore_SourceGeneration_DbSetGenerator_StaticSource_
+  commentId: Overload:Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator.StaticSource
+  isSpec: "True"
+  fullName: Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator.StaticSource
+  nameWithType: DbSetGenerator.StaticSource
+- uid: Anima.EntityFrameworkCore.SourceGeneration.EntityInterface
+  name: EntityInterface
+  href: api/Anima.EntityFrameworkCore.SourceGeneration.EntityInterface.html
+  commentId: T:Anima.EntityFrameworkCore.SourceGeneration.EntityInterface
+  fullName: Anima.EntityFrameworkCore.SourceGeneration.EntityInterface
+  nameWithType: EntityInterface
+- uid: Anima.EntityFrameworkCore.SourceGeneration.EntityInterface.Name
+  name: Name
+  href: api/Anima.EntityFrameworkCore.SourceGeneration.EntityInterface.html#Anima_EntityFrameworkCore_SourceGeneration_EntityInterface_Name
+  commentId: F:Anima.EntityFrameworkCore.SourceGeneration.EntityInterface.Name
+  fullName: Anima.EntityFrameworkCore.SourceGeneration.EntityInterface.Name
+  nameWithType: EntityInterface.Name
+- uid: Anima.EntityFrameworkCore.SourceGeneration.EntityInterface.Namespace
+  name: Namespace
+  href: api/Anima.EntityFrameworkCore.SourceGeneration.EntityInterface.html#Anima_EntityFrameworkCore_SourceGeneration_EntityInterface_Namespace
+  commentId: F:Anima.EntityFrameworkCore.SourceGeneration.EntityInterface.Namespace
+  fullName: Anima.EntityFrameworkCore.SourceGeneration.EntityInterface.Namespace
+  nameWithType: EntityInterface.Namespace
+- uid: Anima.EntityFrameworkCore.SourceGeneration.EntityInterface.Source
+  name: Source
+  href: api/Anima.EntityFrameworkCore.SourceGeneration.EntityInterface.html#Anima_EntityFrameworkCore_SourceGeneration_EntityInterface_Source
+  commentId: P:Anima.EntityFrameworkCore.SourceGeneration.EntityInterface.Source
+  fullName: Anima.EntityFrameworkCore.SourceGeneration.EntityInterface.Source
+  nameWithType: EntityInterface.Source
+- uid: Anima.EntityFrameworkCore.SourceGeneration.EntityInterface.Source*
+  name: Source
+  href: api/Anima.EntityFrameworkCore.SourceGeneration.EntityInterface.html#Anima_EntityFrameworkCore_SourceGeneration_EntityInterface_Source_
+  commentId: Overload:Anima.EntityFrameworkCore.SourceGeneration.EntityInterface.Source
+  isSpec: "True"
+  fullName: Anima.EntityFrameworkCore.SourceGeneration.EntityInterface.Source
+  nameWithType: EntityInterface.Source
+- uid: Anima.EntityFrameworkCore.SourceGeneration.GenerateDbSetsAttribute
+  name: GenerateDbSetsAttribute
+  href: api/Anima.EntityFrameworkCore.SourceGeneration.GenerateDbSetsAttribute.html
+  commentId: T:Anima.EntityFrameworkCore.SourceGeneration.GenerateDbSetsAttribute
+  fullName: Anima.EntityFrameworkCore.SourceGeneration.GenerateDbSetsAttribute
+  nameWithType: GenerateDbSetsAttribute
+- uid: Anima.EntityFrameworkCore.SourceGeneration.GenerateDbSetsAttribute.Name
+  name: Name
+  href: api/Anima.EntityFrameworkCore.SourceGeneration.GenerateDbSetsAttribute.html#Anima_EntityFrameworkCore_SourceGeneration_GenerateDbSetsAttribute_Name
+  commentId: F:Anima.EntityFrameworkCore.SourceGeneration.GenerateDbSetsAttribute.Name
+  fullName: Anima.EntityFrameworkCore.SourceGeneration.GenerateDbSetsAttribute.Name
+  nameWithType: GenerateDbSetsAttribute.Name
+- uid: Anima.EntityFrameworkCore.SourceGeneration.GenerateDbSetsAttribute.ShortName
+  name: ShortName
+  href: api/Anima.EntityFrameworkCore.SourceGeneration.GenerateDbSetsAttribute.html#Anima_EntityFrameworkCore_SourceGeneration_GenerateDbSetsAttribute_ShortName
+  commentId: F:Anima.EntityFrameworkCore.SourceGeneration.GenerateDbSetsAttribute.ShortName
+  fullName: Anima.EntityFrameworkCore.SourceGeneration.GenerateDbSetsAttribute.ShortName
+  nameWithType: GenerateDbSetsAttribute.ShortName
+- uid: Anima.EntityFrameworkCore.SourceGeneration.GenerateDbSetsAttribute.Source
+  name: Source
+  href: api/Anima.EntityFrameworkCore.SourceGeneration.GenerateDbSetsAttribute.html#Anima_EntityFrameworkCore_SourceGeneration_GenerateDbSetsAttribute_Source
+  commentId: P:Anima.EntityFrameworkCore.SourceGeneration.GenerateDbSetsAttribute.Source
+  fullName: Anima.EntityFrameworkCore.SourceGeneration.GenerateDbSetsAttribute.Source
+  nameWithType: GenerateDbSetsAttribute.Source
+- uid: Anima.EntityFrameworkCore.SourceGeneration.GenerateDbSetsAttribute.Source*
+  name: Source
+  href: api/Anima.EntityFrameworkCore.SourceGeneration.GenerateDbSetsAttribute.html#Anima_EntityFrameworkCore_SourceGeneration_GenerateDbSetsAttribute_Source_
+  commentId: Overload:Anima.EntityFrameworkCore.SourceGeneration.GenerateDbSetsAttribute.Source
+  isSpec: "True"
+  fullName: Anima.EntityFrameworkCore.SourceGeneration.GenerateDbSetsAttribute.Source
+  nameWithType: GenerateDbSetsAttribute.Source
+- uid: Anima.Extensions
+  name: Anima.Extensions
+  href: api/Anima.Extensions.html
+  commentId: N:Anima.Extensions
+  fullName: Anima.Extensions
+  nameWithType: Anima.Extensions
+- uid: Anima.Extensions.DateTimeExtensions
+  name: DateTimeExtensions
+  href: api/Anima.Extensions.DateTimeExtensions.html
+  commentId: T:Anima.Extensions.DateTimeExtensions
+  fullName: Anima.Extensions.DateTimeExtensions
+  nameWithType: DateTimeExtensions
+- uid: Anima.Extensions.DateTimeExtensions.RoundToNearest(System.DateTime,System.TimeSpan)
+  name: RoundToNearest(DateTime, TimeSpan)
+  href: api/Anima.Extensions.DateTimeExtensions.html#Anima_Extensions_DateTimeExtensions_RoundToNearest_System_DateTime_System_TimeSpan_
+  commentId: M:Anima.Extensions.DateTimeExtensions.RoundToNearest(System.DateTime,System.TimeSpan)
+  name.vb: RoundToNearest(Date, TimeSpan)
+  fullName: Anima.Extensions.DateTimeExtensions.RoundToNearest(System.DateTime, System.TimeSpan)
+  fullName.vb: Anima.Extensions.DateTimeExtensions.RoundToNearest(Date, System.TimeSpan)
+  nameWithType: DateTimeExtensions.RoundToNearest(DateTime, TimeSpan)
+  nameWithType.vb: DateTimeExtensions.RoundToNearest(Date, TimeSpan)
+- uid: Anima.Extensions.DateTimeExtensions.RoundToNearest*
+  name: RoundToNearest
+  href: api/Anima.Extensions.DateTimeExtensions.html#Anima_Extensions_DateTimeExtensions_RoundToNearest_
+  commentId: Overload:Anima.Extensions.DateTimeExtensions.RoundToNearest
+  isSpec: "True"
+  fullName: Anima.Extensions.DateTimeExtensions.RoundToNearest
+  nameWithType: DateTimeExtensions.RoundToNearest
+- uid: Anima.Extensions.EnumerableExtensions
+  name: EnumerableExtensions
+  href: api/Anima.Extensions.EnumerableExtensions.html
+  commentId: T:Anima.Extensions.EnumerableExtensions
+  fullName: Anima.Extensions.EnumerableExtensions
+  nameWithType: EnumerableExtensions
+- uid: Anima.Extensions.EnumerableExtensions.ToListedSentence*
+  name: ToListedSentence
+  href: api/Anima.Extensions.EnumerableExtensions.html#Anima_Extensions_EnumerableExtensions_ToListedSentence_
+  commentId: Overload:Anima.Extensions.EnumerableExtensions.ToListedSentence
+  isSpec: "True"
+  fullName: Anima.Extensions.EnumerableExtensions.ToListedSentence
+  nameWithType: EnumerableExtensions.ToListedSentence
+- uid: Anima.Extensions.EnumerableExtensions.ToListedSentence``1(System.Collections.Generic.IEnumerable{``0},System.String)
+  name: ToListedSentence<T>(IEnumerable<T>, string)
+  href: api/Anima.Extensions.EnumerableExtensions.html#Anima_Extensions_EnumerableExtensions_ToListedSentence__1_System_Collections_Generic_IEnumerable___0__System_String_
+  commentId: M:Anima.Extensions.EnumerableExtensions.ToListedSentence``1(System.Collections.Generic.IEnumerable{``0},System.String)
+  name.vb: ToListedSentence(Of T)(IEnumerable(Of T), String)
+  fullName: Anima.Extensions.EnumerableExtensions.ToListedSentence<T>(System.Collections.Generic.IEnumerable<T>, string)
+  fullName.vb: Anima.Extensions.EnumerableExtensions.ToListedSentence(Of T)(System.Collections.Generic.IEnumerable(Of T), String)
+  nameWithType: EnumerableExtensions.ToListedSentence<T>(IEnumerable<T>, string)
+  nameWithType.vb: EnumerableExtensions.ToListedSentence(Of T)(IEnumerable(Of T), String)
+- uid: Anima.Extensions.FileSystemExtensions
+  name: FileSystemExtensions
+  href: api/Anima.Extensions.FileSystemExtensions.html
+  commentId: T:Anima.Extensions.FileSystemExtensions
+  fullName: Anima.Extensions.FileSystemExtensions
+  nameWithType: FileSystemExtensions
+- uid: Anima.Extensions.FileSystemExtensions.CombineNormalized(System.IO.Abstractions.IPath,System.String[])
+  name: CombineNormalized(IPath, params string[])
+  href: api/Anima.Extensions.FileSystemExtensions.html#Anima_Extensions_FileSystemExtensions_CombineNormalized_System_IO_Abstractions_IPath_System_String___
+  commentId: M:Anima.Extensions.FileSystemExtensions.CombineNormalized(System.IO.Abstractions.IPath,System.String[])
+  name.vb: CombineNormalized(IPath, ParamArray String())
+  fullName: Anima.Extensions.FileSystemExtensions.CombineNormalized(System.IO.Abstractions.IPath, params string[])
+  fullName.vb: Anima.Extensions.FileSystemExtensions.CombineNormalized(System.IO.Abstractions.IPath, ParamArray String())
+  nameWithType: FileSystemExtensions.CombineNormalized(IPath, params string[])
+  nameWithType.vb: FileSystemExtensions.CombineNormalized(IPath, ParamArray String())
+- uid: Anima.Extensions.FileSystemExtensions.CombineNormalized*
+  name: CombineNormalized
+  href: api/Anima.Extensions.FileSystemExtensions.html#Anima_Extensions_FileSystemExtensions_CombineNormalized_
+  commentId: Overload:Anima.Extensions.FileSystemExtensions.CombineNormalized
+  isSpec: "True"
+  fullName: Anima.Extensions.FileSystemExtensions.CombineNormalized
+  nameWithType: FileSystemExtensions.CombineNormalized
+- uid: Anima.Utilities.SourceGeneration
+  name: Anima.Utilities.SourceGeneration
+  href: api/Anima.Utilities.SourceGeneration.html
+  commentId: N:Anima.Utilities.SourceGeneration
+  fullName: Anima.Utilities.SourceGeneration
+  nameWithType: Anima.Utilities.SourceGeneration
+- uid: Anima.Utilities.SourceGeneration.AttributeHelper
+  name: AttributeHelper
+  href: api/Anima.Utilities.SourceGeneration.AttributeHelper.html
+  commentId: T:Anima.Utilities.SourceGeneration.AttributeHelper
+  fullName: Anima.Utilities.SourceGeneration.AttributeHelper
+  nameWithType: AttributeHelper
+- uid: Anima.Utilities.SourceGeneration.AttributeHelper.CreateSource(System.String,System.String,System.String,System.AttributeTargets,System.Boolean)
+  name: CreateSource(string, string, string?, AttributeTargets, bool)
+  href: api/Anima.Utilities.SourceGeneration.AttributeHelper.html#Anima_Utilities_SourceGeneration_AttributeHelper_CreateSource_System_String_System_String_System_String_System_AttributeTargets_System_Boolean_
+  commentId: M:Anima.Utilities.SourceGeneration.AttributeHelper.CreateSource(System.String,System.String,System.String,System.AttributeTargets,System.Boolean)
+  name.vb: CreateSource(String, String, String, AttributeTargets, Boolean)
+  fullName: Anima.Utilities.SourceGeneration.AttributeHelper.CreateSource(string, string, string?, System.AttributeTargets, bool)
+  fullName.vb: Anima.Utilities.SourceGeneration.AttributeHelper.CreateSource(String, String, String, System.AttributeTargets, Boolean)
+  nameWithType: AttributeHelper.CreateSource(string, string, string?, AttributeTargets, bool)
+  nameWithType.vb: AttributeHelper.CreateSource(String, String, String, AttributeTargets, Boolean)
+- uid: Anima.Utilities.SourceGeneration.AttributeHelper.CreateSource*
+  name: CreateSource
+  href: api/Anima.Utilities.SourceGeneration.AttributeHelper.html#Anima_Utilities_SourceGeneration_AttributeHelper_CreateSource_
+  commentId: Overload:Anima.Utilities.SourceGeneration.AttributeHelper.CreateSource
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.AttributeHelper.CreateSource
+  nameWithType: AttributeHelper.CreateSource
+- uid: Anima.Utilities.SourceGeneration.AttributeHelper.CreateSourceBuilder(System.String,System.String,System.String,System.AttributeTargets,System.Boolean)
+  name: CreateSourceBuilder(string, string, string?, AttributeTargets, bool)
+  href: api/Anima.Utilities.SourceGeneration.AttributeHelper.html#Anima_Utilities_SourceGeneration_AttributeHelper_CreateSourceBuilder_System_String_System_String_System_String_System_AttributeTargets_System_Boolean_
+  commentId: M:Anima.Utilities.SourceGeneration.AttributeHelper.CreateSourceBuilder(System.String,System.String,System.String,System.AttributeTargets,System.Boolean)
+  name.vb: CreateSourceBuilder(String, String, String, AttributeTargets, Boolean)
+  fullName: Anima.Utilities.SourceGeneration.AttributeHelper.CreateSourceBuilder(string, string, string?, System.AttributeTargets, bool)
+  fullName.vb: Anima.Utilities.SourceGeneration.AttributeHelper.CreateSourceBuilder(String, String, String, System.AttributeTargets, Boolean)
+  nameWithType: AttributeHelper.CreateSourceBuilder(string, string, string?, AttributeTargets, bool)
+  nameWithType.vb: AttributeHelper.CreateSourceBuilder(String, String, String, AttributeTargets, Boolean)
+- uid: Anima.Utilities.SourceGeneration.AttributeHelper.CreateSourceBuilder*
+  name: CreateSourceBuilder
+  href: api/Anima.Utilities.SourceGeneration.AttributeHelper.html#Anima_Utilities_SourceGeneration_AttributeHelper_CreateSourceBuilder_
+  commentId: Overload:Anima.Utilities.SourceGeneration.AttributeHelper.CreateSourceBuilder
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.AttributeHelper.CreateSourceBuilder
+  nameWithType: AttributeHelper.CreateSourceBuilder
+- uid: Anima.Utilities.SourceGeneration.ClassDefinition
+  name: ClassDefinition
+  href: api/Anima.Utilities.SourceGeneration.ClassDefinition.html
+  commentId: T:Anima.Utilities.SourceGeneration.ClassDefinition
+  fullName: Anima.Utilities.SourceGeneration.ClassDefinition
+  nameWithType: ClassDefinition
+- uid: Anima.Utilities.SourceGeneration.ClassDefinition.#ctor(Microsoft.CodeAnalysis.INamedTypeSymbol)
+  name: ClassDefinition(INamedTypeSymbol)
+  href: api/Anima.Utilities.SourceGeneration.ClassDefinition.html#Anima_Utilities_SourceGeneration_ClassDefinition__ctor_Microsoft_CodeAnalysis_INamedTypeSymbol_
+  commentId: M:Anima.Utilities.SourceGeneration.ClassDefinition.#ctor(Microsoft.CodeAnalysis.INamedTypeSymbol)
+  name.vb: New(INamedTypeSymbol)
+  fullName: Anima.Utilities.SourceGeneration.ClassDefinition.ClassDefinition(Microsoft.CodeAnalysis.INamedTypeSymbol)
+  fullName.vb: Anima.Utilities.SourceGeneration.ClassDefinition.New(Microsoft.CodeAnalysis.INamedTypeSymbol)
+  nameWithType: ClassDefinition.ClassDefinition(INamedTypeSymbol)
+  nameWithType.vb: ClassDefinition.New(INamedTypeSymbol)
+- uid: Anima.Utilities.SourceGeneration.ClassDefinition.#ctor*
+  name: ClassDefinition
+  href: api/Anima.Utilities.SourceGeneration.ClassDefinition.html#Anima_Utilities_SourceGeneration_ClassDefinition__ctor_
+  commentId: Overload:Anima.Utilities.SourceGeneration.ClassDefinition.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Anima.Utilities.SourceGeneration.ClassDefinition.ClassDefinition
+  fullName.vb: Anima.Utilities.SourceGeneration.ClassDefinition.New
+  nameWithType: ClassDefinition.ClassDefinition
+  nameWithType.vb: ClassDefinition.New
+- uid: Anima.Utilities.SourceGeneration.ClassDefinition.FileName
+  name: FileName
+  href: api/Anima.Utilities.SourceGeneration.ClassDefinition.html#Anima_Utilities_SourceGeneration_ClassDefinition_FileName
+  commentId: P:Anima.Utilities.SourceGeneration.ClassDefinition.FileName
+  fullName: Anima.Utilities.SourceGeneration.ClassDefinition.FileName
+  nameWithType: ClassDefinition.FileName
+- uid: Anima.Utilities.SourceGeneration.ClassDefinition.FileName*
+  name: FileName
+  href: api/Anima.Utilities.SourceGeneration.ClassDefinition.html#Anima_Utilities_SourceGeneration_ClassDefinition_FileName_
+  commentId: Overload:Anima.Utilities.SourceGeneration.ClassDefinition.FileName
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.ClassDefinition.FileName
+  nameWithType: ClassDefinition.FileName
+- uid: Anima.Utilities.SourceGeneration.ClassDefinition.FullName
+  name: FullName
+  href: api/Anima.Utilities.SourceGeneration.ClassDefinition.html#Anima_Utilities_SourceGeneration_ClassDefinition_FullName
+  commentId: P:Anima.Utilities.SourceGeneration.ClassDefinition.FullName
+  fullName: Anima.Utilities.SourceGeneration.ClassDefinition.FullName
+  nameWithType: ClassDefinition.FullName
+- uid: Anima.Utilities.SourceGeneration.ClassDefinition.FullName*
+  name: FullName
+  href: api/Anima.Utilities.SourceGeneration.ClassDefinition.html#Anima_Utilities_SourceGeneration_ClassDefinition_FullName_
+  commentId: Overload:Anima.Utilities.SourceGeneration.ClassDefinition.FullName
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.ClassDefinition.FullName
+  nameWithType: ClassDefinition.FullName
+- uid: Anima.Utilities.SourceGeneration.ClassDefinition.FullNameWithoutGenerics
+  name: FullNameWithoutGenerics
+  href: api/Anima.Utilities.SourceGeneration.ClassDefinition.html#Anima_Utilities_SourceGeneration_ClassDefinition_FullNameWithoutGenerics
+  commentId: P:Anima.Utilities.SourceGeneration.ClassDefinition.FullNameWithoutGenerics
+  fullName: Anima.Utilities.SourceGeneration.ClassDefinition.FullNameWithoutGenerics
+  nameWithType: ClassDefinition.FullNameWithoutGenerics
+- uid: Anima.Utilities.SourceGeneration.ClassDefinition.FullNameWithoutGenerics*
+  name: FullNameWithoutGenerics
+  href: api/Anima.Utilities.SourceGeneration.ClassDefinition.html#Anima_Utilities_SourceGeneration_ClassDefinition_FullNameWithoutGenerics_
+  commentId: Overload:Anima.Utilities.SourceGeneration.ClassDefinition.FullNameWithoutGenerics
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.ClassDefinition.FullNameWithoutGenerics
+  nameWithType: ClassDefinition.FullNameWithoutGenerics
+- uid: Anima.Utilities.SourceGeneration.ClassDefinition.IsAbstract
+  name: IsAbstract
+  href: api/Anima.Utilities.SourceGeneration.ClassDefinition.html#Anima_Utilities_SourceGeneration_ClassDefinition_IsAbstract
+  commentId: P:Anima.Utilities.SourceGeneration.ClassDefinition.IsAbstract
+  fullName: Anima.Utilities.SourceGeneration.ClassDefinition.IsAbstract
+  nameWithType: ClassDefinition.IsAbstract
+- uid: Anima.Utilities.SourceGeneration.ClassDefinition.IsAbstract*
+  name: IsAbstract
+  href: api/Anima.Utilities.SourceGeneration.ClassDefinition.html#Anima_Utilities_SourceGeneration_ClassDefinition_IsAbstract_
+  commentId: Overload:Anima.Utilities.SourceGeneration.ClassDefinition.IsAbstract
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.ClassDefinition.IsAbstract
+  nameWithType: ClassDefinition.IsAbstract
+- uid: Anima.Utilities.SourceGeneration.ClassDefinition.IsGenericType
+  name: IsGenericType
+  href: api/Anima.Utilities.SourceGeneration.ClassDefinition.html#Anima_Utilities_SourceGeneration_ClassDefinition_IsGenericType
+  commentId: P:Anima.Utilities.SourceGeneration.ClassDefinition.IsGenericType
+  fullName: Anima.Utilities.SourceGeneration.ClassDefinition.IsGenericType
+  nameWithType: ClassDefinition.IsGenericType
+- uid: Anima.Utilities.SourceGeneration.ClassDefinition.IsGenericType*
+  name: IsGenericType
+  href: api/Anima.Utilities.SourceGeneration.ClassDefinition.html#Anima_Utilities_SourceGeneration_ClassDefinition_IsGenericType_
+  commentId: Overload:Anima.Utilities.SourceGeneration.ClassDefinition.IsGenericType
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.ClassDefinition.IsGenericType
+  nameWithType: ClassDefinition.IsGenericType
+- uid: Anima.Utilities.SourceGeneration.ClassDefinition.Name
+  name: Name
+  href: api/Anima.Utilities.SourceGeneration.ClassDefinition.html#Anima_Utilities_SourceGeneration_ClassDefinition_Name
+  commentId: P:Anima.Utilities.SourceGeneration.ClassDefinition.Name
+  fullName: Anima.Utilities.SourceGeneration.ClassDefinition.Name
+  nameWithType: ClassDefinition.Name
+- uid: Anima.Utilities.SourceGeneration.ClassDefinition.Name*
+  name: Name
+  href: api/Anima.Utilities.SourceGeneration.ClassDefinition.html#Anima_Utilities_SourceGeneration_ClassDefinition_Name_
+  commentId: Overload:Anima.Utilities.SourceGeneration.ClassDefinition.Name
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.ClassDefinition.Name
+  nameWithType: ClassDefinition.Name
+- uid: Anima.Utilities.SourceGeneration.ClassDefinition.NameWithoutGenerics
+  name: NameWithoutGenerics
+  href: api/Anima.Utilities.SourceGeneration.ClassDefinition.html#Anima_Utilities_SourceGeneration_ClassDefinition_NameWithoutGenerics
+  commentId: P:Anima.Utilities.SourceGeneration.ClassDefinition.NameWithoutGenerics
+  fullName: Anima.Utilities.SourceGeneration.ClassDefinition.NameWithoutGenerics
+  nameWithType: ClassDefinition.NameWithoutGenerics
+- uid: Anima.Utilities.SourceGeneration.ClassDefinition.NameWithoutGenerics*
+  name: NameWithoutGenerics
+  href: api/Anima.Utilities.SourceGeneration.ClassDefinition.html#Anima_Utilities_SourceGeneration_ClassDefinition_NameWithoutGenerics_
+  commentId: Overload:Anima.Utilities.SourceGeneration.ClassDefinition.NameWithoutGenerics
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.ClassDefinition.NameWithoutGenerics
+  nameWithType: ClassDefinition.NameWithoutGenerics
+- uid: Anima.Utilities.SourceGeneration.ClassDefinition.Namespace
+  name: Namespace
+  href: api/Anima.Utilities.SourceGeneration.ClassDefinition.html#Anima_Utilities_SourceGeneration_ClassDefinition_Namespace
+  commentId: P:Anima.Utilities.SourceGeneration.ClassDefinition.Namespace
+  fullName: Anima.Utilities.SourceGeneration.ClassDefinition.Namespace
+  nameWithType: ClassDefinition.Namespace
+- uid: Anima.Utilities.SourceGeneration.ClassDefinition.Namespace*
+  name: Namespace
+  href: api/Anima.Utilities.SourceGeneration.ClassDefinition.html#Anima_Utilities_SourceGeneration_ClassDefinition_Namespace_
+  commentId: Overload:Anima.Utilities.SourceGeneration.ClassDefinition.Namespace
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.ClassDefinition.Namespace
+  nameWithType: ClassDefinition.Namespace
+- uid: Anima.Utilities.SourceGeneration.ClassDefinition.Symbol
+  name: Symbol
+  href: api/Anima.Utilities.SourceGeneration.ClassDefinition.html#Anima_Utilities_SourceGeneration_ClassDefinition_Symbol
+  commentId: P:Anima.Utilities.SourceGeneration.ClassDefinition.Symbol
+  fullName: Anima.Utilities.SourceGeneration.ClassDefinition.Symbol
+  nameWithType: ClassDefinition.Symbol
+- uid: Anima.Utilities.SourceGeneration.ClassDefinition.Symbol*
+  name: Symbol
+  href: api/Anima.Utilities.SourceGeneration.ClassDefinition.html#Anima_Utilities_SourceGeneration_ClassDefinition_Symbol_
+  commentId: Overload:Anima.Utilities.SourceGeneration.ClassDefinition.Symbol
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.ClassDefinition.Symbol
+  nameWithType: ClassDefinition.Symbol
+- uid: Anima.Utilities.SourceGeneration.Extensions
+  name: Extensions
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html
+  commentId: T:Anima.Utilities.SourceGeneration.Extensions
+  fullName: Anima.Utilities.SourceGeneration.Extensions
+  nameWithType: Extensions
+- uid: Anima.Utilities.SourceGeneration.Extensions.GetAttribute(Microsoft.CodeAnalysis.ISymbol,System.String)
+  name: GetAttribute(ISymbol, string)
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_GetAttribute_Microsoft_CodeAnalysis_ISymbol_System_String_
+  commentId: M:Anima.Utilities.SourceGeneration.Extensions.GetAttribute(Microsoft.CodeAnalysis.ISymbol,System.String)
+  name.vb: GetAttribute(ISymbol, String)
+  fullName: Anima.Utilities.SourceGeneration.Extensions.GetAttribute(Microsoft.CodeAnalysis.ISymbol, string)
+  fullName.vb: Anima.Utilities.SourceGeneration.Extensions.GetAttribute(Microsoft.CodeAnalysis.ISymbol, String)
+  nameWithType: Extensions.GetAttribute(ISymbol, string)
+  nameWithType.vb: Extensions.GetAttribute(ISymbol, String)
+- uid: Anima.Utilities.SourceGeneration.Extensions.GetAttribute*
+  name: GetAttribute
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_GetAttribute_
+  commentId: Overload:Anima.Utilities.SourceGeneration.Extensions.GetAttribute
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.Extensions.GetAttribute
+  nameWithType: Extensions.GetAttribute
+- uid: Anima.Utilities.SourceGeneration.Extensions.GetMarkedMethods(Microsoft.CodeAnalysis.ITypeSymbol,System.String)
+  name: GetMarkedMethods(ITypeSymbol, string)
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_GetMarkedMethods_Microsoft_CodeAnalysis_ITypeSymbol_System_String_
+  commentId: M:Anima.Utilities.SourceGeneration.Extensions.GetMarkedMethods(Microsoft.CodeAnalysis.ITypeSymbol,System.String)
+  name.vb: GetMarkedMethods(ITypeSymbol, String)
+  fullName: Anima.Utilities.SourceGeneration.Extensions.GetMarkedMethods(Microsoft.CodeAnalysis.ITypeSymbol, string)
+  fullName.vb: Anima.Utilities.SourceGeneration.Extensions.GetMarkedMethods(Microsoft.CodeAnalysis.ITypeSymbol, String)
+  nameWithType: Extensions.GetMarkedMethods(ITypeSymbol, string)
+  nameWithType.vb: Extensions.GetMarkedMethods(ITypeSymbol, String)
+- uid: Anima.Utilities.SourceGeneration.Extensions.GetMarkedMethods*
+  name: GetMarkedMethods
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_GetMarkedMethods_
+  commentId: Overload:Anima.Utilities.SourceGeneration.Extensions.GetMarkedMethods
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.Extensions.GetMarkedMethods
+  nameWithType: Extensions.GetMarkedMethods
+- uid: Anima.Utilities.SourceGeneration.Extensions.GetMembersByAttribute*
+  name: GetMembersByAttribute
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_GetMembersByAttribute_
+  commentId: Overload:Anima.Utilities.SourceGeneration.Extensions.GetMembersByAttribute
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.Extensions.GetMembersByAttribute
+  nameWithType: Extensions.GetMembersByAttribute
+- uid: Anima.Utilities.SourceGeneration.Extensions.GetMembersByAttribute``1(Microsoft.CodeAnalysis.ITypeSymbol,System.String)
+  name: GetMembersByAttribute<TMember>(ITypeSymbol, string)
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_GetMembersByAttribute__1_Microsoft_CodeAnalysis_ITypeSymbol_System_String_
+  commentId: M:Anima.Utilities.SourceGeneration.Extensions.GetMembersByAttribute``1(Microsoft.CodeAnalysis.ITypeSymbol,System.String)
+  name.vb: GetMembersByAttribute(Of TMember)(ITypeSymbol, String)
+  fullName: Anima.Utilities.SourceGeneration.Extensions.GetMembersByAttribute<TMember>(Microsoft.CodeAnalysis.ITypeSymbol, string)
+  fullName.vb: Anima.Utilities.SourceGeneration.Extensions.GetMembersByAttribute(Of TMember)(Microsoft.CodeAnalysis.ITypeSymbol, String)
+  nameWithType: Extensions.GetMembersByAttribute<TMember>(ITypeSymbol, string)
+  nameWithType.vb: Extensions.GetMembersByAttribute(Of TMember)(ITypeSymbol, String)
+- uid: Anima.Utilities.SourceGeneration.Extensions.GetUnassignedPrivateAndProtectedReadonlyFields(Microsoft.CodeAnalysis.ITypeSymbol)
+  name: GetUnassignedPrivateAndProtectedReadonlyFields(ITypeSymbol)
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_GetUnassignedPrivateAndProtectedReadonlyFields_Microsoft_CodeAnalysis_ITypeSymbol_
+  commentId: M:Anima.Utilities.SourceGeneration.Extensions.GetUnassignedPrivateAndProtectedReadonlyFields(Microsoft.CodeAnalysis.ITypeSymbol)
+  fullName: Anima.Utilities.SourceGeneration.Extensions.GetUnassignedPrivateAndProtectedReadonlyFields(Microsoft.CodeAnalysis.ITypeSymbol)
+  nameWithType: Extensions.GetUnassignedPrivateAndProtectedReadonlyFields(ITypeSymbol)
+- uid: Anima.Utilities.SourceGeneration.Extensions.GetUnassignedPrivateAndProtectedReadonlyFields*
+  name: GetUnassignedPrivateAndProtectedReadonlyFields
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_GetUnassignedPrivateAndProtectedReadonlyFields_
+  commentId: Overload:Anima.Utilities.SourceGeneration.Extensions.GetUnassignedPrivateAndProtectedReadonlyFields
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.Extensions.GetUnassignedPrivateAndProtectedReadonlyFields
+  nameWithType: Extensions.GetUnassignedPrivateAndProtectedReadonlyFields
+- uid: Anima.Utilities.SourceGeneration.Extensions.GetUnassignedPrivateReadonlyFields(Microsoft.CodeAnalysis.ITypeSymbol)
+  name: GetUnassignedPrivateReadonlyFields(ITypeSymbol)
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_GetUnassignedPrivateReadonlyFields_Microsoft_CodeAnalysis_ITypeSymbol_
+  commentId: M:Anima.Utilities.SourceGeneration.Extensions.GetUnassignedPrivateReadonlyFields(Microsoft.CodeAnalysis.ITypeSymbol)
+  fullName: Anima.Utilities.SourceGeneration.Extensions.GetUnassignedPrivateReadonlyFields(Microsoft.CodeAnalysis.ITypeSymbol)
+  nameWithType: Extensions.GetUnassignedPrivateReadonlyFields(ITypeSymbol)
+- uid: Anima.Utilities.SourceGeneration.Extensions.GetUnassignedPrivateReadonlyFields*
+  name: GetUnassignedPrivateReadonlyFields
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_GetUnassignedPrivateReadonlyFields_
+  commentId: Overload:Anima.Utilities.SourceGeneration.Extensions.GetUnassignedPrivateReadonlyFields
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.Extensions.GetUnassignedPrivateReadonlyFields
+  nameWithType: Extensions.GetUnassignedPrivateReadonlyFields
+- uid: Anima.Utilities.SourceGeneration.Extensions.HasAnyAttribute(Microsoft.CodeAnalysis.CSharp.Syntax.MemberDeclarationSyntax,System.String[])
+  name: HasAnyAttribute(MemberDeclarationSyntax, params string[])
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_HasAnyAttribute_Microsoft_CodeAnalysis_CSharp_Syntax_MemberDeclarationSyntax_System_String___
+  commentId: M:Anima.Utilities.SourceGeneration.Extensions.HasAnyAttribute(Microsoft.CodeAnalysis.CSharp.Syntax.MemberDeclarationSyntax,System.String[])
+  name.vb: HasAnyAttribute(MemberDeclarationSyntax, ParamArray String())
+  fullName: Anima.Utilities.SourceGeneration.Extensions.HasAnyAttribute(Microsoft.CodeAnalysis.CSharp.Syntax.MemberDeclarationSyntax, params string[])
+  fullName.vb: Anima.Utilities.SourceGeneration.Extensions.HasAnyAttribute(Microsoft.CodeAnalysis.CSharp.Syntax.MemberDeclarationSyntax, ParamArray String())
+  nameWithType: Extensions.HasAnyAttribute(MemberDeclarationSyntax, params string[])
+  nameWithType.vb: Extensions.HasAnyAttribute(MemberDeclarationSyntax, ParamArray String())
+- uid: Anima.Utilities.SourceGeneration.Extensions.HasAnyAttribute*
+  name: HasAnyAttribute
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_HasAnyAttribute_
+  commentId: Overload:Anima.Utilities.SourceGeneration.Extensions.HasAnyAttribute
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.Extensions.HasAnyAttribute
+  nameWithType: Extensions.HasAnyAttribute
+- uid: Anima.Utilities.SourceGeneration.Extensions.HasAttribute(Microsoft.CodeAnalysis.CSharp.Syntax.MemberDeclarationSyntax,System.String)
+  name: HasAttribute(MemberDeclarationSyntax, string)
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_HasAttribute_Microsoft_CodeAnalysis_CSharp_Syntax_MemberDeclarationSyntax_System_String_
+  commentId: M:Anima.Utilities.SourceGeneration.Extensions.HasAttribute(Microsoft.CodeAnalysis.CSharp.Syntax.MemberDeclarationSyntax,System.String)
+  name.vb: HasAttribute(MemberDeclarationSyntax, String)
+  fullName: Anima.Utilities.SourceGeneration.Extensions.HasAttribute(Microsoft.CodeAnalysis.CSharp.Syntax.MemberDeclarationSyntax, string)
+  fullName.vb: Anima.Utilities.SourceGeneration.Extensions.HasAttribute(Microsoft.CodeAnalysis.CSharp.Syntax.MemberDeclarationSyntax, String)
+  nameWithType: Extensions.HasAttribute(MemberDeclarationSyntax, string)
+  nameWithType.vb: Extensions.HasAttribute(MemberDeclarationSyntax, String)
+- uid: Anima.Utilities.SourceGeneration.Extensions.HasAttribute(Microsoft.CodeAnalysis.ISymbol,System.String)
+  name: HasAttribute(ISymbol, string)
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_HasAttribute_Microsoft_CodeAnalysis_ISymbol_System_String_
+  commentId: M:Anima.Utilities.SourceGeneration.Extensions.HasAttribute(Microsoft.CodeAnalysis.ISymbol,System.String)
+  name.vb: HasAttribute(ISymbol, String)
+  fullName: Anima.Utilities.SourceGeneration.Extensions.HasAttribute(Microsoft.CodeAnalysis.ISymbol, string)
+  fullName.vb: Anima.Utilities.SourceGeneration.Extensions.HasAttribute(Microsoft.CodeAnalysis.ISymbol, String)
+  nameWithType: Extensions.HasAttribute(ISymbol, string)
+  nameWithType.vb: Extensions.HasAttribute(ISymbol, String)
+- uid: Anima.Utilities.SourceGeneration.Extensions.HasAttribute*
+  name: HasAttribute
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_HasAttribute_
+  commentId: Overload:Anima.Utilities.SourceGeneration.Extensions.HasAttribute
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.Extensions.HasAttribute
+  nameWithType: Extensions.HasAttribute
+- uid: Anima.Utilities.SourceGeneration.Extensions.HasBaseClass(Microsoft.CodeAnalysis.CSharp.Syntax.ClassDeclarationSyntax,System.String)
+  name: HasBaseClass(ClassDeclarationSyntax, string)
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_HasBaseClass_Microsoft_CodeAnalysis_CSharp_Syntax_ClassDeclarationSyntax_System_String_
+  commentId: M:Anima.Utilities.SourceGeneration.Extensions.HasBaseClass(Microsoft.CodeAnalysis.CSharp.Syntax.ClassDeclarationSyntax,System.String)
+  name.vb: HasBaseClass(ClassDeclarationSyntax, String)
+  fullName: Anima.Utilities.SourceGeneration.Extensions.HasBaseClass(Microsoft.CodeAnalysis.CSharp.Syntax.ClassDeclarationSyntax, string)
+  fullName.vb: Anima.Utilities.SourceGeneration.Extensions.HasBaseClass(Microsoft.CodeAnalysis.CSharp.Syntax.ClassDeclarationSyntax, String)
+  nameWithType: Extensions.HasBaseClass(ClassDeclarationSyntax, string)
+  nameWithType.vb: Extensions.HasBaseClass(ClassDeclarationSyntax, String)
+- uid: Anima.Utilities.SourceGeneration.Extensions.HasBaseClass*
+  name: HasBaseClass
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_HasBaseClass_
+  commentId: Overload:Anima.Utilities.SourceGeneration.Extensions.HasBaseClass
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.Extensions.HasBaseClass
+  nameWithType: Extensions.HasBaseClass
+- uid: Anima.Utilities.SourceGeneration.Extensions.HasGenericAttribute(Microsoft.CodeAnalysis.CSharp.Syntax.MemberDeclarationSyntax,System.String)
+  name: HasGenericAttribute(MemberDeclarationSyntax, string)
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_HasGenericAttribute_Microsoft_CodeAnalysis_CSharp_Syntax_MemberDeclarationSyntax_System_String_
+  commentId: M:Anima.Utilities.SourceGeneration.Extensions.HasGenericAttribute(Microsoft.CodeAnalysis.CSharp.Syntax.MemberDeclarationSyntax,System.String)
+  name.vb: HasGenericAttribute(MemberDeclarationSyntax, String)
+  fullName: Anima.Utilities.SourceGeneration.Extensions.HasGenericAttribute(Microsoft.CodeAnalysis.CSharp.Syntax.MemberDeclarationSyntax, string)
+  fullName.vb: Anima.Utilities.SourceGeneration.Extensions.HasGenericAttribute(Microsoft.CodeAnalysis.CSharp.Syntax.MemberDeclarationSyntax, String)
+  nameWithType: Extensions.HasGenericAttribute(MemberDeclarationSyntax, string)
+  nameWithType.vb: Extensions.HasGenericAttribute(MemberDeclarationSyntax, String)
+- uid: Anima.Utilities.SourceGeneration.Extensions.HasGenericAttribute*
+  name: HasGenericAttribute
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_HasGenericAttribute_
+  commentId: Overload:Anima.Utilities.SourceGeneration.Extensions.HasGenericAttribute
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.Extensions.HasGenericAttribute
+  nameWithType: Extensions.HasGenericAttribute
+- uid: Anima.Utilities.SourceGeneration.Extensions.HasGenericInterface(Microsoft.CodeAnalysis.CSharp.Syntax.ClassDeclarationSyntax,System.String)
+  name: HasGenericInterface(ClassDeclarationSyntax, string)
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_HasGenericInterface_Microsoft_CodeAnalysis_CSharp_Syntax_ClassDeclarationSyntax_System_String_
+  commentId: M:Anima.Utilities.SourceGeneration.Extensions.HasGenericInterface(Microsoft.CodeAnalysis.CSharp.Syntax.ClassDeclarationSyntax,System.String)
+  name.vb: HasGenericInterface(ClassDeclarationSyntax, String)
+  fullName: Anima.Utilities.SourceGeneration.Extensions.HasGenericInterface(Microsoft.CodeAnalysis.CSharp.Syntax.ClassDeclarationSyntax, string)
+  fullName.vb: Anima.Utilities.SourceGeneration.Extensions.HasGenericInterface(Microsoft.CodeAnalysis.CSharp.Syntax.ClassDeclarationSyntax, String)
+  nameWithType: Extensions.HasGenericInterface(ClassDeclarationSyntax, string)
+  nameWithType.vb: Extensions.HasGenericInterface(ClassDeclarationSyntax, String)
+- uid: Anima.Utilities.SourceGeneration.Extensions.HasGenericInterface*
+  name: HasGenericInterface
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_HasGenericInterface_
+  commentId: Overload:Anima.Utilities.SourceGeneration.Extensions.HasGenericInterface
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.Extensions.HasGenericInterface
+  nameWithType: Extensions.HasGenericInterface
+- uid: Anima.Utilities.SourceGeneration.Extensions.HasInterface(Microsoft.CodeAnalysis.CSharp.Syntax.ClassDeclarationSyntax,System.String)
+  name: HasInterface(ClassDeclarationSyntax, string)
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_HasInterface_Microsoft_CodeAnalysis_CSharp_Syntax_ClassDeclarationSyntax_System_String_
+  commentId: M:Anima.Utilities.SourceGeneration.Extensions.HasInterface(Microsoft.CodeAnalysis.CSharp.Syntax.ClassDeclarationSyntax,System.String)
+  name.vb: HasInterface(ClassDeclarationSyntax, String)
+  fullName: Anima.Utilities.SourceGeneration.Extensions.HasInterface(Microsoft.CodeAnalysis.CSharp.Syntax.ClassDeclarationSyntax, string)
+  fullName.vb: Anima.Utilities.SourceGeneration.Extensions.HasInterface(Microsoft.CodeAnalysis.CSharp.Syntax.ClassDeclarationSyntax, String)
+  nameWithType: Extensions.HasInterface(ClassDeclarationSyntax, string)
+  nameWithType.vb: Extensions.HasInterface(ClassDeclarationSyntax, String)
+- uid: Anima.Utilities.SourceGeneration.Extensions.HasInterface*
+  name: HasInterface
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_HasInterface_
+  commentId: Overload:Anima.Utilities.SourceGeneration.Extensions.HasInterface
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.Extensions.HasInterface
+  nameWithType: Extensions.HasInterface
+- uid: Anima.Utilities.SourceGeneration.Extensions.Pluralize(System.String)
+  name: Pluralize(string)
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_Pluralize_System_String_
+  commentId: M:Anima.Utilities.SourceGeneration.Extensions.Pluralize(System.String)
+  name.vb: Pluralize(String)
+  fullName: Anima.Utilities.SourceGeneration.Extensions.Pluralize(string)
+  fullName.vb: Anima.Utilities.SourceGeneration.Extensions.Pluralize(String)
+  nameWithType: Extensions.Pluralize(string)
+  nameWithType.vb: Extensions.Pluralize(String)
+- uid: Anima.Utilities.SourceGeneration.Extensions.Pluralize*
+  name: Pluralize
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_Pluralize_
+  commentId: Overload:Anima.Utilities.SourceGeneration.Extensions.Pluralize
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.Extensions.Pluralize
+  nameWithType: Extensions.Pluralize
+- uid: Anima.Utilities.SourceGeneration.Extensions.Split*
+  name: Split
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_Split_
+  commentId: Overload:Anima.Utilities.SourceGeneration.Extensions.Split
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.Extensions.Split
+  nameWithType: Extensions.Split
+- uid: Anima.Utilities.SourceGeneration.Extensions.Split``1(``0)
+  name: Split<TFlags>(TFlags)
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_Split__1___0_
+  commentId: M:Anima.Utilities.SourceGeneration.Extensions.Split``1(``0)
+  name.vb: Split(Of TFlags)(TFlags)
+  fullName: Anima.Utilities.SourceGeneration.Extensions.Split<TFlags>(TFlags)
+  fullName.vb: Anima.Utilities.SourceGeneration.Extensions.Split(Of TFlags)(TFlags)
+  nameWithType: Extensions.Split<TFlags>(TFlags)
+  nameWithType.vb: Extensions.Split(Of TFlags)(TFlags)
+- uid: Anima.Utilities.SourceGeneration.Extensions.ToPropertyName(System.String)
+  name: ToPropertyName(string)
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_ToPropertyName_System_String_
+  commentId: M:Anima.Utilities.SourceGeneration.Extensions.ToPropertyName(System.String)
+  name.vb: ToPropertyName(String)
+  fullName: Anima.Utilities.SourceGeneration.Extensions.ToPropertyName(string)
+  fullName.vb: Anima.Utilities.SourceGeneration.Extensions.ToPropertyName(String)
+  nameWithType: Extensions.ToPropertyName(string)
+  nameWithType.vb: Extensions.ToPropertyName(String)
+- uid: Anima.Utilities.SourceGeneration.Extensions.ToPropertyName*
+  name: ToPropertyName
+  href: api/Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_ToPropertyName_
+  commentId: Overload:Anima.Utilities.SourceGeneration.Extensions.ToPropertyName
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.Extensions.ToPropertyName
+  nameWithType: Extensions.ToPropertyName
+- uid: Anima.Utilities.SourceGeneration.IncrementalClassGenerator
+  name: IncrementalClassGenerator
+  href: api/Anima.Utilities.SourceGeneration.IncrementalClassGenerator.html
+  commentId: T:Anima.Utilities.SourceGeneration.IncrementalClassGenerator
+  fullName: Anima.Utilities.SourceGeneration.IncrementalClassGenerator
+  nameWithType: IncrementalClassGenerator
+- uid: Anima.Utilities.SourceGeneration.IncrementalClassGenerator`1
+  name: IncrementalClassGenerator<TDefinition>
+  href: api/Anima.Utilities.SourceGeneration.IncrementalClassGenerator-1.html
+  commentId: T:Anima.Utilities.SourceGeneration.IncrementalClassGenerator`1
+  name.vb: IncrementalClassGenerator(Of TDefinition)
+  fullName: Anima.Utilities.SourceGeneration.IncrementalClassGenerator<TDefinition>
+  fullName.vb: Anima.Utilities.SourceGeneration.IncrementalClassGenerator(Of TDefinition)
+  nameWithType: IncrementalClassGenerator<TDefinition>
+  nameWithType.vb: IncrementalClassGenerator(Of TDefinition)
+- uid: Anima.Utilities.SourceGeneration.IncrementalClassGenerator`1.BuildSource(Microsoft.CodeAnalysis.SourceProductionContext,Microsoft.CodeAnalysis.Compilation,System.Collections.Immutable.ImmutableArray{`0})
+  name: BuildSource(SourceProductionContext, Compilation, ImmutableArray<TDefinition>)
+  href: api/Anima.Utilities.SourceGeneration.IncrementalClassGenerator-1.html#Anima_Utilities_SourceGeneration_IncrementalClassGenerator_1_BuildSource_Microsoft_CodeAnalysis_SourceProductionContext_Microsoft_CodeAnalysis_Compilation_System_Collections_Immutable_ImmutableArray__0__
+  commentId: M:Anima.Utilities.SourceGeneration.IncrementalClassGenerator`1.BuildSource(Microsoft.CodeAnalysis.SourceProductionContext,Microsoft.CodeAnalysis.Compilation,System.Collections.Immutable.ImmutableArray{`0})
+  name.vb: BuildSource(SourceProductionContext, Compilation, ImmutableArray(Of TDefinition))
+  fullName: Anima.Utilities.SourceGeneration.IncrementalClassGenerator<TDefinition>.BuildSource(Microsoft.CodeAnalysis.SourceProductionContext, Microsoft.CodeAnalysis.Compilation, System.Collections.Immutable.ImmutableArray<TDefinition>)
+  fullName.vb: Anima.Utilities.SourceGeneration.IncrementalClassGenerator(Of TDefinition).BuildSource(Microsoft.CodeAnalysis.SourceProductionContext, Microsoft.CodeAnalysis.Compilation, System.Collections.Immutable.ImmutableArray(Of TDefinition))
+  nameWithType: IncrementalClassGenerator<TDefinition>.BuildSource(SourceProductionContext, Compilation, ImmutableArray<TDefinition>)
+  nameWithType.vb: IncrementalClassGenerator(Of TDefinition).BuildSource(SourceProductionContext, Compilation, ImmutableArray(Of TDefinition))
+- uid: Anima.Utilities.SourceGeneration.IncrementalClassGenerator`1.BuildSource*
+  name: BuildSource
+  href: api/Anima.Utilities.SourceGeneration.IncrementalClassGenerator-1.html#Anima_Utilities_SourceGeneration_IncrementalClassGenerator_1_BuildSource_
+  commentId: Overload:Anima.Utilities.SourceGeneration.IncrementalClassGenerator`1.BuildSource
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.IncrementalClassGenerator<TDefinition>.BuildSource
+  fullName.vb: Anima.Utilities.SourceGeneration.IncrementalClassGenerator(Of TDefinition).BuildSource
+  nameWithType: IncrementalClassGenerator<TDefinition>.BuildSource
+  nameWithType.vb: IncrementalClassGenerator(Of TDefinition).BuildSource
+- uid: Anima.Utilities.SourceGeneration.IncrementalClassGenerator`1.Initialize(Microsoft.CodeAnalysis.IncrementalGeneratorInitializationContext)
+  name: Initialize(IncrementalGeneratorInitializationContext)
+  href: api/Anima.Utilities.SourceGeneration.IncrementalClassGenerator-1.html#Anima_Utilities_SourceGeneration_IncrementalClassGenerator_1_Initialize_Microsoft_CodeAnalysis_IncrementalGeneratorInitializationContext_
+  commentId: M:Anima.Utilities.SourceGeneration.IncrementalClassGenerator`1.Initialize(Microsoft.CodeAnalysis.IncrementalGeneratorInitializationContext)
+  fullName: Anima.Utilities.SourceGeneration.IncrementalClassGenerator<TDefinition>.Initialize(Microsoft.CodeAnalysis.IncrementalGeneratorInitializationContext)
+  fullName.vb: Anima.Utilities.SourceGeneration.IncrementalClassGenerator(Of TDefinition).Initialize(Microsoft.CodeAnalysis.IncrementalGeneratorInitializationContext)
+  nameWithType: IncrementalClassGenerator<TDefinition>.Initialize(IncrementalGeneratorInitializationContext)
+  nameWithType.vb: IncrementalClassGenerator(Of TDefinition).Initialize(IncrementalGeneratorInitializationContext)
+- uid: Anima.Utilities.SourceGeneration.IncrementalClassGenerator`1.Initialize*
+  name: Initialize
+  href: api/Anima.Utilities.SourceGeneration.IncrementalClassGenerator-1.html#Anima_Utilities_SourceGeneration_IncrementalClassGenerator_1_Initialize_
+  commentId: Overload:Anima.Utilities.SourceGeneration.IncrementalClassGenerator`1.Initialize
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.IncrementalClassGenerator<TDefinition>.Initialize
+  fullName.vb: Anima.Utilities.SourceGeneration.IncrementalClassGenerator(Of TDefinition).Initialize
+  nameWithType: IncrementalClassGenerator<TDefinition>.Initialize
+  nameWithType.vb: IncrementalClassGenerator(Of TDefinition).Initialize
+- uid: Anima.Utilities.SourceGeneration.IncrementalClassGenerator`1.Predicate(Microsoft.CodeAnalysis.CSharp.Syntax.ClassDeclarationSyntax)
+  name: Predicate(ClassDeclarationSyntax)
+  href: api/Anima.Utilities.SourceGeneration.IncrementalClassGenerator-1.html#Anima_Utilities_SourceGeneration_IncrementalClassGenerator_1_Predicate_Microsoft_CodeAnalysis_CSharp_Syntax_ClassDeclarationSyntax_
+  commentId: M:Anima.Utilities.SourceGeneration.IncrementalClassGenerator`1.Predicate(Microsoft.CodeAnalysis.CSharp.Syntax.ClassDeclarationSyntax)
+  fullName: Anima.Utilities.SourceGeneration.IncrementalClassGenerator<TDefinition>.Predicate(Microsoft.CodeAnalysis.CSharp.Syntax.ClassDeclarationSyntax)
+  fullName.vb: Anima.Utilities.SourceGeneration.IncrementalClassGenerator(Of TDefinition).Predicate(Microsoft.CodeAnalysis.CSharp.Syntax.ClassDeclarationSyntax)
+  nameWithType: IncrementalClassGenerator<TDefinition>.Predicate(ClassDeclarationSyntax)
+  nameWithType.vb: IncrementalClassGenerator(Of TDefinition).Predicate(ClassDeclarationSyntax)
+- uid: Anima.Utilities.SourceGeneration.IncrementalClassGenerator`1.Predicate*
+  name: Predicate
+  href: api/Anima.Utilities.SourceGeneration.IncrementalClassGenerator-1.html#Anima_Utilities_SourceGeneration_IncrementalClassGenerator_1_Predicate_
+  commentId: Overload:Anima.Utilities.SourceGeneration.IncrementalClassGenerator`1.Predicate
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.IncrementalClassGenerator<TDefinition>.Predicate
+  fullName.vb: Anima.Utilities.SourceGeneration.IncrementalClassGenerator(Of TDefinition).Predicate
+  nameWithType: IncrementalClassGenerator<TDefinition>.Predicate
+  nameWithType.vb: IncrementalClassGenerator(Of TDefinition).Predicate
+- uid: Anima.Utilities.SourceGeneration.IncrementalClassGenerator`1.StaticSource
+  name: StaticSource
+  href: api/Anima.Utilities.SourceGeneration.IncrementalClassGenerator-1.html#Anima_Utilities_SourceGeneration_IncrementalClassGenerator_1_StaticSource
+  commentId: P:Anima.Utilities.SourceGeneration.IncrementalClassGenerator`1.StaticSource
+  fullName: Anima.Utilities.SourceGeneration.IncrementalClassGenerator<TDefinition>.StaticSource
+  fullName.vb: Anima.Utilities.SourceGeneration.IncrementalClassGenerator(Of TDefinition).StaticSource
+  nameWithType: IncrementalClassGenerator<TDefinition>.StaticSource
+  nameWithType.vb: IncrementalClassGenerator(Of TDefinition).StaticSource
+- uid: Anima.Utilities.SourceGeneration.IncrementalClassGenerator`1.StaticSource*
+  name: StaticSource
+  href: api/Anima.Utilities.SourceGeneration.IncrementalClassGenerator-1.html#Anima_Utilities_SourceGeneration_IncrementalClassGenerator_1_StaticSource_
+  commentId: Overload:Anima.Utilities.SourceGeneration.IncrementalClassGenerator`1.StaticSource
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.IncrementalClassGenerator<TDefinition>.StaticSource
+  fullName.vb: Anima.Utilities.SourceGeneration.IncrementalClassGenerator(Of TDefinition).StaticSource
+  nameWithType: IncrementalClassGenerator<TDefinition>.StaticSource
+  nameWithType.vb: IncrementalClassGenerator(Of TDefinition).StaticSource
+- uid: Anima.Utilities.SourceGeneration.IncrementalClassGenerator`1.Transform(Microsoft.CodeAnalysis.GeneratorSyntaxContext,System.Threading.CancellationToken)
+  name: Transform(GeneratorSyntaxContext, CancellationToken)
+  href: api/Anima.Utilities.SourceGeneration.IncrementalClassGenerator-1.html#Anima_Utilities_SourceGeneration_IncrementalClassGenerator_1_Transform_Microsoft_CodeAnalysis_GeneratorSyntaxContext_System_Threading_CancellationToken_
+  commentId: M:Anima.Utilities.SourceGeneration.IncrementalClassGenerator`1.Transform(Microsoft.CodeAnalysis.GeneratorSyntaxContext,System.Threading.CancellationToken)
+  fullName: Anima.Utilities.SourceGeneration.IncrementalClassGenerator<TDefinition>.Transform(Microsoft.CodeAnalysis.GeneratorSyntaxContext, System.Threading.CancellationToken)
+  fullName.vb: Anima.Utilities.SourceGeneration.IncrementalClassGenerator(Of TDefinition).Transform(Microsoft.CodeAnalysis.GeneratorSyntaxContext, System.Threading.CancellationToken)
+  nameWithType: IncrementalClassGenerator<TDefinition>.Transform(GeneratorSyntaxContext, CancellationToken)
+  nameWithType.vb: IncrementalClassGenerator(Of TDefinition).Transform(GeneratorSyntaxContext, CancellationToken)
+- uid: Anima.Utilities.SourceGeneration.IncrementalClassGenerator`1.Transform*
+  name: Transform
+  href: api/Anima.Utilities.SourceGeneration.IncrementalClassGenerator-1.html#Anima_Utilities_SourceGeneration_IncrementalClassGenerator_1_Transform_
+  commentId: Overload:Anima.Utilities.SourceGeneration.IncrementalClassGenerator`1.Transform
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.IncrementalClassGenerator<TDefinition>.Transform
+  fullName.vb: Anima.Utilities.SourceGeneration.IncrementalClassGenerator(Of TDefinition).Transform
+  nameWithType: IncrementalClassGenerator<TDefinition>.Transform
+  nameWithType.vb: IncrementalClassGenerator(Of TDefinition).Transform
+- uid: Anima.Utilities.SourceGeneration.SourceBuilder
+  name: SourceBuilder
+  href: api/Anima.Utilities.SourceGeneration.SourceBuilder.html
+  commentId: T:Anima.Utilities.SourceGeneration.SourceBuilder
+  fullName: Anima.Utilities.SourceGeneration.SourceBuilder
+  nameWithType: SourceBuilder
+- uid: Anima.Utilities.SourceGeneration.SourceBuilder.#ctor
+  name: SourceBuilder()
+  href: api/Anima.Utilities.SourceGeneration.SourceBuilder.html#Anima_Utilities_SourceGeneration_SourceBuilder__ctor
+  commentId: M:Anima.Utilities.SourceGeneration.SourceBuilder.#ctor
+  name.vb: New()
+  fullName: Anima.Utilities.SourceGeneration.SourceBuilder.SourceBuilder()
+  fullName.vb: Anima.Utilities.SourceGeneration.SourceBuilder.New()
+  nameWithType: SourceBuilder.SourceBuilder()
+  nameWithType.vb: SourceBuilder.New()
+- uid: Anima.Utilities.SourceGeneration.SourceBuilder.#ctor*
+  name: SourceBuilder
+  href: api/Anima.Utilities.SourceGeneration.SourceBuilder.html#Anima_Utilities_SourceGeneration_SourceBuilder__ctor_
+  commentId: Overload:Anima.Utilities.SourceGeneration.SourceBuilder.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Anima.Utilities.SourceGeneration.SourceBuilder.SourceBuilder
+  fullName.vb: Anima.Utilities.SourceGeneration.SourceBuilder.New
+  nameWithType: SourceBuilder.SourceBuilder
+  nameWithType.vb: SourceBuilder.New
+- uid: Anima.Utilities.SourceGeneration.SourceBuilder.Append(System.Char)
+  name: Append(char)
+  href: api/Anima.Utilities.SourceGeneration.SourceBuilder.html#Anima_Utilities_SourceGeneration_SourceBuilder_Append_System_Char_
+  commentId: M:Anima.Utilities.SourceGeneration.SourceBuilder.Append(System.Char)
+  name.vb: Append(Char)
+  fullName: Anima.Utilities.SourceGeneration.SourceBuilder.Append(char)
+  fullName.vb: Anima.Utilities.SourceGeneration.SourceBuilder.Append(Char)
+  nameWithType: SourceBuilder.Append(char)
+  nameWithType.vb: SourceBuilder.Append(Char)
+- uid: Anima.Utilities.SourceGeneration.SourceBuilder.Append(System.String)
+  name: Append(string)
+  href: api/Anima.Utilities.SourceGeneration.SourceBuilder.html#Anima_Utilities_SourceGeneration_SourceBuilder_Append_System_String_
+  commentId: M:Anima.Utilities.SourceGeneration.SourceBuilder.Append(System.String)
+  name.vb: Append(String)
+  fullName: Anima.Utilities.SourceGeneration.SourceBuilder.Append(string)
+  fullName.vb: Anima.Utilities.SourceGeneration.SourceBuilder.Append(String)
+  nameWithType: SourceBuilder.Append(string)
+  nameWithType.vb: SourceBuilder.Append(String)
+- uid: Anima.Utilities.SourceGeneration.SourceBuilder.Append*
+  name: Append
+  href: api/Anima.Utilities.SourceGeneration.SourceBuilder.html#Anima_Utilities_SourceGeneration_SourceBuilder_Append_
+  commentId: Overload:Anima.Utilities.SourceGeneration.SourceBuilder.Append
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.SourceBuilder.Append
+  nameWithType: SourceBuilder.Append
+- uid: Anima.Utilities.SourceGeneration.SourceBuilder.AppendLine
+  name: AppendLine()
+  href: api/Anima.Utilities.SourceGeneration.SourceBuilder.html#Anima_Utilities_SourceGeneration_SourceBuilder_AppendLine
+  commentId: M:Anima.Utilities.SourceGeneration.SourceBuilder.AppendLine
+  fullName: Anima.Utilities.SourceGeneration.SourceBuilder.AppendLine()
+  nameWithType: SourceBuilder.AppendLine()
+- uid: Anima.Utilities.SourceGeneration.SourceBuilder.AppendLine(System.Char)
+  name: AppendLine(char)
+  href: api/Anima.Utilities.SourceGeneration.SourceBuilder.html#Anima_Utilities_SourceGeneration_SourceBuilder_AppendLine_System_Char_
+  commentId: M:Anima.Utilities.SourceGeneration.SourceBuilder.AppendLine(System.Char)
+  name.vb: AppendLine(Char)
+  fullName: Anima.Utilities.SourceGeneration.SourceBuilder.AppendLine(char)
+  fullName.vb: Anima.Utilities.SourceGeneration.SourceBuilder.AppendLine(Char)
+  nameWithType: SourceBuilder.AppendLine(char)
+  nameWithType.vb: SourceBuilder.AppendLine(Char)
+- uid: Anima.Utilities.SourceGeneration.SourceBuilder.AppendLine(System.String)
+  name: AppendLine(string)
+  href: api/Anima.Utilities.SourceGeneration.SourceBuilder.html#Anima_Utilities_SourceGeneration_SourceBuilder_AppendLine_System_String_
+  commentId: M:Anima.Utilities.SourceGeneration.SourceBuilder.AppendLine(System.String)
+  name.vb: AppendLine(String)
+  fullName: Anima.Utilities.SourceGeneration.SourceBuilder.AppendLine(string)
+  fullName.vb: Anima.Utilities.SourceGeneration.SourceBuilder.AppendLine(String)
+  nameWithType: SourceBuilder.AppendLine(string)
+  nameWithType.vb: SourceBuilder.AppendLine(String)
+- uid: Anima.Utilities.SourceGeneration.SourceBuilder.AppendLine*
+  name: AppendLine
+  href: api/Anima.Utilities.SourceGeneration.SourceBuilder.html#Anima_Utilities_SourceGeneration_SourceBuilder_AppendLine_
+  commentId: Overload:Anima.Utilities.SourceGeneration.SourceBuilder.AppendLine
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.SourceBuilder.AppendLine
+  nameWithType: SourceBuilder.AppendLine
+- uid: Anima.Utilities.SourceGeneration.SourceBuilder.AppendLines*
+  name: AppendLines
+  href: api/Anima.Utilities.SourceGeneration.SourceBuilder.html#Anima_Utilities_SourceGeneration_SourceBuilder_AppendLines_
+  commentId: Overload:Anima.Utilities.SourceGeneration.SourceBuilder.AppendLines
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.SourceBuilder.AppendLines
+  nameWithType: SourceBuilder.AppendLines
+- uid: Anima.Utilities.SourceGeneration.SourceBuilder.AppendLines``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.String})
+  name: AppendLines<TObject>(IEnumerable<TObject>, Func<TObject, string>)
+  href: api/Anima.Utilities.SourceGeneration.SourceBuilder.html#Anima_Utilities_SourceGeneration_SourceBuilder_AppendLines__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_String__
+  commentId: M:Anima.Utilities.SourceGeneration.SourceBuilder.AppendLines``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.String})
+  name.vb: AppendLines(Of TObject)(IEnumerable(Of TObject), Func(Of TObject, String))
+  fullName: Anima.Utilities.SourceGeneration.SourceBuilder.AppendLines<TObject>(System.Collections.Generic.IEnumerable<TObject>, System.Func<TObject, string>)
+  fullName.vb: Anima.Utilities.SourceGeneration.SourceBuilder.AppendLines(Of TObject)(System.Collections.Generic.IEnumerable(Of TObject), System.Func(Of TObject, String))
+  nameWithType: SourceBuilder.AppendLines<TObject>(IEnumerable<TObject>, Func<TObject, string>)
+  nameWithType.vb: SourceBuilder.AppendLines(Of TObject)(IEnumerable(Of TObject), Func(Of TObject, String))
+- uid: Anima.Utilities.SourceGeneration.SourceBuilder.AppendLines``1(``0[],System.Func{``0,System.String},System.Char)
+  name: AppendLines<TObject>(TObject[], Func<TObject, string>, char)
+  href: api/Anima.Utilities.SourceGeneration.SourceBuilder.html#Anima_Utilities_SourceGeneration_SourceBuilder_AppendLines__1___0___System_Func___0_System_String__System_Char_
+  commentId: M:Anima.Utilities.SourceGeneration.SourceBuilder.AppendLines``1(``0[],System.Func{``0,System.String},System.Char)
+  name.vb: AppendLines(Of TObject)(TObject(), Func(Of TObject, String), Char)
+  fullName: Anima.Utilities.SourceGeneration.SourceBuilder.AppendLines<TObject>(TObject[], System.Func<TObject, string>, char)
+  fullName.vb: Anima.Utilities.SourceGeneration.SourceBuilder.AppendLines(Of TObject)(TObject(), System.Func(Of TObject, String), Char)
+  nameWithType: SourceBuilder.AppendLines<TObject>(TObject[], Func<TObject, string>, char)
+  nameWithType.vb: SourceBuilder.AppendLines(Of TObject)(TObject(), Func(Of TObject, String), Char)
+- uid: Anima.Utilities.SourceGeneration.SourceBuilder.Indent
+  name: Indent()
+  href: api/Anima.Utilities.SourceGeneration.SourceBuilder.html#Anima_Utilities_SourceGeneration_SourceBuilder_Indent
+  commentId: M:Anima.Utilities.SourceGeneration.SourceBuilder.Indent
+  fullName: Anima.Utilities.SourceGeneration.SourceBuilder.Indent()
+  nameWithType: SourceBuilder.Indent()
+- uid: Anima.Utilities.SourceGeneration.SourceBuilder.Indent*
+  name: Indent
+  href: api/Anima.Utilities.SourceGeneration.SourceBuilder.html#Anima_Utilities_SourceGeneration_SourceBuilder_Indent_
+  commentId: Overload:Anima.Utilities.SourceGeneration.SourceBuilder.Indent
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.SourceBuilder.Indent
+  nameWithType: SourceBuilder.Indent
+- uid: Anima.Utilities.SourceGeneration.SourceBuilder.Outdent
+  name: Outdent()
+  href: api/Anima.Utilities.SourceGeneration.SourceBuilder.html#Anima_Utilities_SourceGeneration_SourceBuilder_Outdent
+  commentId: M:Anima.Utilities.SourceGeneration.SourceBuilder.Outdent
+  fullName: Anima.Utilities.SourceGeneration.SourceBuilder.Outdent()
+  nameWithType: SourceBuilder.Outdent()
+- uid: Anima.Utilities.SourceGeneration.SourceBuilder.Outdent*
+  name: Outdent
+  href: api/Anima.Utilities.SourceGeneration.SourceBuilder.html#Anima_Utilities_SourceGeneration_SourceBuilder_Outdent_
+  commentId: Overload:Anima.Utilities.SourceGeneration.SourceBuilder.Outdent
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.SourceBuilder.Outdent
+  nameWithType: SourceBuilder.Outdent
+- uid: Anima.Utilities.SourceGeneration.SourceBuilder.ToString
+  name: ToString()
+  href: api/Anima.Utilities.SourceGeneration.SourceBuilder.html#Anima_Utilities_SourceGeneration_SourceBuilder_ToString
+  commentId: M:Anima.Utilities.SourceGeneration.SourceBuilder.ToString
+  fullName: Anima.Utilities.SourceGeneration.SourceBuilder.ToString()
+  nameWithType: SourceBuilder.ToString()
+- uid: Anima.Utilities.SourceGeneration.SourceBuilder.ToString*
+  name: ToString
+  href: api/Anima.Utilities.SourceGeneration.SourceBuilder.html#Anima_Utilities_SourceGeneration_SourceBuilder_ToString_
+  commentId: Overload:Anima.Utilities.SourceGeneration.SourceBuilder.ToString
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.SourceBuilder.ToString
+  nameWithType: SourceBuilder.ToString
+- uid: Anima.Utilities.SourceGeneration.StaticSourceDefinition
+  name: StaticSourceDefinition
+  href: api/Anima.Utilities.SourceGeneration.StaticSourceDefinition.html
+  commentId: T:Anima.Utilities.SourceGeneration.StaticSourceDefinition
+  fullName: Anima.Utilities.SourceGeneration.StaticSourceDefinition
+  nameWithType: StaticSourceDefinition
+- uid: Anima.Utilities.SourceGeneration.StaticSourceDefinition.FileName
+  name: FileName
+  href: api/Anima.Utilities.SourceGeneration.StaticSourceDefinition.html#Anima_Utilities_SourceGeneration_StaticSourceDefinition_FileName
+  commentId: P:Anima.Utilities.SourceGeneration.StaticSourceDefinition.FileName
+  fullName: Anima.Utilities.SourceGeneration.StaticSourceDefinition.FileName
+  nameWithType: StaticSourceDefinition.FileName
+- uid: Anima.Utilities.SourceGeneration.StaticSourceDefinition.FileName*
+  name: FileName
+  href: api/Anima.Utilities.SourceGeneration.StaticSourceDefinition.html#Anima_Utilities_SourceGeneration_StaticSourceDefinition_FileName_
+  commentId: Overload:Anima.Utilities.SourceGeneration.StaticSourceDefinition.FileName
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.StaticSourceDefinition.FileName
+  nameWithType: StaticSourceDefinition.FileName
+- uid: Anima.Utilities.SourceGeneration.StaticSourceDefinition.Source
+  name: Source
+  href: api/Anima.Utilities.SourceGeneration.StaticSourceDefinition.html#Anima_Utilities_SourceGeneration_StaticSourceDefinition_Source
+  commentId: P:Anima.Utilities.SourceGeneration.StaticSourceDefinition.Source
+  fullName: Anima.Utilities.SourceGeneration.StaticSourceDefinition.Source
+  nameWithType: StaticSourceDefinition.Source
+- uid: Anima.Utilities.SourceGeneration.StaticSourceDefinition.Source*
+  name: Source
+  href: api/Anima.Utilities.SourceGeneration.StaticSourceDefinition.html#Anima_Utilities_SourceGeneration_StaticSourceDefinition_Source_
+  commentId: Overload:Anima.Utilities.SourceGeneration.StaticSourceDefinition.Source
+  isSpec: "True"
+  fullName: Anima.Utilities.SourceGeneration.StaticSourceDefinition.Source
+  nameWithType: StaticSourceDefinition.Source

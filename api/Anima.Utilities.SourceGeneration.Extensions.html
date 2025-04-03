@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Extensions | Anima </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Extensions | Anima ">
+      
+      <meta name="description" content="Extension methods to assist with source generation.">
+      <link rel="icon" href="../images/logo.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Kizari/Anima/new/main/apiSpec/new?filename=Anima_Utilities_SourceGeneration_Extensions.md&amp;value=---%0Auid%3A%20Anima.Utilities.SourceGeneration.Extensions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="Anima">
+            Anima
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Anima.Utilities.SourceGeneration.Extensions">
+
+
+
+  <h1 id="Anima_Utilities_SourceGeneration_Extensions" data-uid="Anima.Utilities.SourceGeneration.Extensions" class="text-break">
+Class Extensions  <a class="header-action link-secondary" title="View source" href="https://github.com/Kizari/Anima/blob/main/src/Anima.Utilities.SourceGeneration/Extensions.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Anima.html">Anima</a>.<a class="xref" href="Anima.Utilities.html">Utilities</a>.<a class="xref" href="Anima.Utilities.SourceGeneration.html">SourceGeneration</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Anima.Utilities.SourceGeneration.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Extension methods to assist with source generation.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class Extensions</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Extensions</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Anima_Utilities_SourceGeneration_Extensions_GetAttribute_" data-uid="Anima.Utilities.SourceGeneration.Extensions.GetAttribute*"></a>
+
+  <h3 id="Anima_Utilities_SourceGeneration_Extensions_GetAttribute_Microsoft_CodeAnalysis_ISymbol_System_String_" data-uid="Anima.Utilities.SourceGeneration.Extensions.GetAttribute(Microsoft.CodeAnalysis.ISymbol,System.String)">
+  GetAttribute(ISymbol, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kizari/Anima/blob/main/src/Anima.Utilities.SourceGeneration/Extensions.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the attribute with the given name from the given symbol.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AttributeData? GetAttribute(this ISymbol symbol, string fullAttributeName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>symbol</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.isymbol">ISymbol</a></dt>
+    <dd><p>The symbol to get the attribute from.</p>
+</dd>
+    <dt><code>fullAttributeName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the attribute (with &quot;Attribute&quot; suffix) to retrieve.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.attributedata">AttributeData</a></dt>
+    <dd><p>The data associated with the attribute.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Anima_Utilities_SourceGeneration_Extensions_GetMarkedMethods_" data-uid="Anima.Utilities.SourceGeneration.Extensions.GetMarkedMethods*"></a>
+
+  <h3 id="Anima_Utilities_SourceGeneration_Extensions_GetMarkedMethods_Microsoft_CodeAnalysis_ITypeSymbol_System_String_" data-uid="Anima.Utilities.SourceGeneration.Extensions.GetMarkedMethods(Microsoft.CodeAnalysis.ITypeSymbol,System.String)">
+  GetMarkedMethods(ITypeSymbol, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kizari/Anima/blob/main/src/Anima.Utilities.SourceGeneration/Extensions.cs/#L232"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves all methods from the given type that are marked with the given marker attribute.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;string&gt; GetMarkedMethods(this ITypeSymbol symbol, string markerAttributeName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>symbol</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.itypesymbol">ITypeSymbol</a></dt>
+    <dd><p>The symbol to retrieve methods from.</p>
+</dd>
+    <dt><code>markerAttributeName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the marker attribute class including the &quot;Attribute&quot; suffix.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>An enumerable of the marked methods.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Anima_Utilities_SourceGeneration_Extensions_GetMembersByAttribute_" data-uid="Anima.Utilities.SourceGeneration.Extensions.GetMembersByAttribute*"></a>
+
+  <h3 id="Anima_Utilities_SourceGeneration_Extensions_GetMembersByAttribute__1_Microsoft_CodeAnalysis_ITypeSymbol_System_String_" data-uid="Anima.Utilities.SourceGeneration.Extensions.GetMembersByAttribute``1(Microsoft.CodeAnalysis.ITypeSymbol,System.String)">
+  GetMembersByAttribute&lt;TMember&gt;(ITypeSymbol, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kizari/Anima/blob/main/src/Anima.Utilities.SourceGeneration/Extensions.cs/#L173"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets all members of the given member type that are decorated by an attribute with the given attribute name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TMember&gt; GetMembersByAttribute&lt;TMember&gt;(this ITypeSymbol symbol, string fullAttributeName) where TMember : ISymbol</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>symbol</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.itypesymbol">ITypeSymbol</a></dt>
+    <dd><p>The type to get members from.</p>
+</dd>
+    <dt><code>fullAttributeName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the attribute (with &quot;Attribute&quot; suffix) to check for.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TMember&gt;</dt>
+    <dd><p>Enumerable containing all members of type <b>TMember</b> that are decorated with the given attribute.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TMember</code></dt>
+    <dd><p>The type of the members to retrieve.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Anima_Utilities_SourceGeneration_Extensions_GetUnassignedPrivateAndProtectedReadonlyFields_" data-uid="Anima.Utilities.SourceGeneration.Extensions.GetUnassignedPrivateAndProtectedReadonlyFields*"></a>
+
+  <h3 id="Anima_Utilities_SourceGeneration_Extensions_GetUnassignedPrivateAndProtectedReadonlyFields_Microsoft_CodeAnalysis_ITypeSymbol_" data-uid="Anima.Utilities.SourceGeneration.Extensions.GetUnassignedPrivateAndProtectedReadonlyFields(Microsoft.CodeAnalysis.ITypeSymbol)">
+  GetUnassignedPrivateAndProtectedReadonlyFields(ITypeSymbol)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kizari/Anima/blob/main/src/Anima.Utilities.SourceGeneration/Extensions.cs/#L212"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves all private and protected readonly fields from the type that aren't assigned a value when declared.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;IFieldSymbol&gt; GetUnassignedPrivateAndProtectedReadonlyFields(this ITypeSymbol symbol)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>symbol</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.itypesymbol">ITypeSymbol</a></dt>
+    <dd><p>The symbol to retrieve the fields from.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.ifieldsymbol">IFieldSymbol</a>&gt;</dt>
+    <dd><p>An enumerable of private and protected readonly fields from the symbol.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Anima_Utilities_SourceGeneration_Extensions_GetUnassignedPrivateReadonlyFields_" data-uid="Anima.Utilities.SourceGeneration.Extensions.GetUnassignedPrivateReadonlyFields*"></a>
+
+  <h3 id="Anima_Utilities_SourceGeneration_Extensions_GetUnassignedPrivateReadonlyFields_Microsoft_CodeAnalysis_ITypeSymbol_" data-uid="Anima.Utilities.SourceGeneration.Extensions.GetUnassignedPrivateReadonlyFields(Microsoft.CodeAnalysis.ITypeSymbol)">
+  GetUnassignedPrivateReadonlyFields(ITypeSymbol)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kizari/Anima/blob/main/src/Anima.Utilities.SourceGeneration/Extensions.cs/#L197"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves all private readonly fields from the type that aren't assigned a value when declared.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;IFieldSymbol&gt; GetUnassignedPrivateReadonlyFields(this ITypeSymbol symbol)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>symbol</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.itypesymbol">ITypeSymbol</a></dt>
+    <dd><p>The symbol to retrieve the fields from.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.ifieldsymbol">IFieldSymbol</a>&gt;</dt>
+    <dd><p>An enumerable of private readonly fields from the symbol.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Anima_Utilities_SourceGeneration_Extensions_HasAnyAttribute_" data-uid="Anima.Utilities.SourceGeneration.Extensions.HasAnyAttribute*"></a>
+
+  <h3 id="Anima_Utilities_SourceGeneration_Extensions_HasAnyAttribute_Microsoft_CodeAnalysis_CSharp_Syntax_MemberDeclarationSyntax_System_String___" data-uid="Anima.Utilities.SourceGeneration.Extensions.HasAnyAttribute(Microsoft.CodeAnalysis.CSharp.Syntax.MemberDeclarationSyntax,System.String[])">
+  HasAnyAttribute(MemberDeclarationSyntax, params string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kizari/Anima/blob/main/src/Anima.Utilities.SourceGeneration/Extensions.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks if the given member has at least one of the given attributes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool HasAnyAttribute(this MemberDeclarationSyntax syntax, params string[] attributeNames)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>syntax</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.csharp.syntax.memberdeclarationsyntax">MemberDeclarationSyntax</a></dt>
+    <dd><p>The member to check for attributes.</p>
+</dd>
+    <dt><code>attributeNames</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>The short names (without &quot;Attribute&quot; suffix) of the attributes to check for.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if one or more of the attributes are present on the member.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Anima_Utilities_SourceGeneration_Extensions_HasAttribute_" data-uid="Anima.Utilities.SourceGeneration.Extensions.HasAttribute*"></a>
+
+  <h3 id="Anima_Utilities_SourceGeneration_Extensions_HasAttribute_Microsoft_CodeAnalysis_CSharp_Syntax_MemberDeclarationSyntax_System_String_" data-uid="Anima.Utilities.SourceGeneration.Extensions.HasAttribute(Microsoft.CodeAnalysis.CSharp.Syntax.MemberDeclarationSyntax,System.String)">
+  HasAttribute(MemberDeclarationSyntax, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kizari/Anima/blob/main/src/Anima.Utilities.SourceGeneration/Extensions.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks if a <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.csharp.syntax.memberdeclarationsyntax">MemberDeclarationSyntax</a> is decorated with an attribute of the given name.<br>
+Does not work with attributes that have type parameters—use <a class="xref" href="Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_HasGenericAttribute_Microsoft_CodeAnalysis_CSharp_Syntax_MemberDeclarationSyntax_System_String_">HasGenericAttribute(MemberDeclarationSyntax, string)</a> instead.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool HasAttribute(this MemberDeclarationSyntax syntax, string attributeName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>syntax</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.csharp.syntax.memberdeclarationsyntax">MemberDeclarationSyntax</a></dt>
+    <dd><p>The member declaration syntax to check for the attribute.</p>
+</dd>
+    <dt><code>attributeName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The short name (without &quot;Attribute&quot; suffix) of the attribute to check for.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the attribute is present on the member.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Anima_Utilities_SourceGeneration_Extensions_HasAttribute_" data-uid="Anima.Utilities.SourceGeneration.Extensions.HasAttribute*"></a>
+
+  <h3 id="Anima_Utilities_SourceGeneration_Extensions_HasAttribute_Microsoft_CodeAnalysis_ISymbol_System_String_" data-uid="Anima.Utilities.SourceGeneration.Extensions.HasAttribute(Microsoft.CodeAnalysis.ISymbol,System.String)">
+  HasAttribute(ISymbol, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kizari/Anima/blob/main/src/Anima.Utilities.SourceGeneration/Extensions.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks if the given symbol is decorated by an attribute with the given name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool HasAttribute(this ISymbol symbol, string fullAttributeName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>symbol</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.isymbol">ISymbol</a></dt>
+    <dd><p>The symbol to check.</p>
+</dd>
+    <dt><code>fullAttributeName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the attribute (with &quot;Attribute&quot; suffix) to check for.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the symbol is decorated with the attribute.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Anima_Utilities_SourceGeneration_Extensions_HasBaseClass_" data-uid="Anima.Utilities.SourceGeneration.Extensions.HasBaseClass*"></a>
+
+  <h3 id="Anima_Utilities_SourceGeneration_Extensions_HasBaseClass_Microsoft_CodeAnalysis_CSharp_Syntax_ClassDeclarationSyntax_System_String_" data-uid="Anima.Utilities.SourceGeneration.Extensions.HasBaseClass(Microsoft.CodeAnalysis.CSharp.Syntax.ClassDeclarationSyntax,System.String)">
+  HasBaseClass(ClassDeclarationSyntax, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kizari/Anima/blob/main/src/Anima.Utilities.SourceGeneration/Extensions.cs/#L148"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks if the given class inherits a class with the given base class name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool HasBaseClass(this ClassDeclarationSyntax syntax, string baseClassName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>syntax</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.csharp.syntax.classdeclarationsyntax">ClassDeclarationSyntax</a></dt>
+    <dd><p>The class to check for the base class.</p>
+</dd>
+    <dt><code>baseClassName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The local name of the base class to check for.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the class inherits the base class.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Anima_Utilities_SourceGeneration_Extensions_HasGenericAttribute_" data-uid="Anima.Utilities.SourceGeneration.Extensions.HasGenericAttribute*"></a>
+
+  <h3 id="Anima_Utilities_SourceGeneration_Extensions_HasGenericAttribute_Microsoft_CodeAnalysis_CSharp_Syntax_MemberDeclarationSyntax_System_String_" data-uid="Anima.Utilities.SourceGeneration.Extensions.HasGenericAttribute(Microsoft.CodeAnalysis.CSharp.Syntax.MemberDeclarationSyntax,System.String)">
+  HasGenericAttribute(MemberDeclarationSyntax, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kizari/Anima/blob/main/src/Anima.Utilities.SourceGeneration/Extensions.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks if a <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.csharp.syntax.memberdeclarationsyntax">MemberDeclarationSyntax</a> is decorated with a generic attribute of the given name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool HasGenericAttribute(this MemberDeclarationSyntax syntax, string attributeName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>syntax</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.csharp.syntax.memberdeclarationsyntax">MemberDeclarationSyntax</a></dt>
+    <dd><p>The member declaration syntax to check for the attribute.</p>
+</dd>
+    <dt><code>attributeName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The short name (without &quot;Attribute&quot; suffix) of the attribute to check for.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the generic attribute is present on the member.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Anima_Utilities_SourceGeneration_Extensions_HasGenericInterface_" data-uid="Anima.Utilities.SourceGeneration.Extensions.HasGenericInterface*"></a>
+
+  <h3 id="Anima_Utilities_SourceGeneration_Extensions_HasGenericInterface_Microsoft_CodeAnalysis_CSharp_Syntax_ClassDeclarationSyntax_System_String_" data-uid="Anima.Utilities.SourceGeneration.Extensions.HasGenericInterface(Microsoft.CodeAnalysis.CSharp.Syntax.ClassDeclarationSyntax,System.String)">
+  HasGenericInterface(ClassDeclarationSyntax, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kizari/Anima/blob/main/src/Anima.Utilities.SourceGeneration/Extensions.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks if a <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.csharp.syntax.classdeclarationsyntax">ClassDeclarationSyntax</a> implements a generic interface with the given name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool HasGenericInterface(this ClassDeclarationSyntax classDeclaration, string interfaceName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>classDeclaration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.csharp.syntax.classdeclarationsyntax">ClassDeclarationSyntax</a></dt>
+    <dd><p>The class declaration syntax to check for the matching interface.</p>
+</dd>
+    <dt><code>interfaceName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The local name of the interface to check for.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the generic interface is implemented in the class.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Anima_Utilities_SourceGeneration_Extensions_HasInterface_" data-uid="Anima.Utilities.SourceGeneration.Extensions.HasInterface*"></a>
+
+  <h3 id="Anima_Utilities_SourceGeneration_Extensions_HasInterface_Microsoft_CodeAnalysis_CSharp_Syntax_ClassDeclarationSyntax_System_String_" data-uid="Anima.Utilities.SourceGeneration.Extensions.HasInterface(Microsoft.CodeAnalysis.CSharp.Syntax.ClassDeclarationSyntax,System.String)">
+  HasInterface(ClassDeclarationSyntax, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kizari/Anima/blob/main/src/Anima.Utilities.SourceGeneration/Extensions.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks if a <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.csharp.syntax.classdeclarationsyntax">ClassDeclarationSyntax</a> implements an interface with the given name.<br>
+Does not work with interfaces that have type parameters—use <a class="xref" href="Anima.Utilities.SourceGeneration.Extensions.html#Anima_Utilities_SourceGeneration_Extensions_HasGenericInterface_Microsoft_CodeAnalysis_CSharp_Syntax_ClassDeclarationSyntax_System_String_">HasGenericInterface(ClassDeclarationSyntax, string)</a> instead.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool HasInterface(this ClassDeclarationSyntax classDeclaration, string interfaceName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>classDeclaration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.csharp.syntax.classdeclarationsyntax">ClassDeclarationSyntax</a></dt>
+    <dd><p>The class declaration syntax to check for the matching interface.</p>
+</dd>
+    <dt><code>interfaceName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The local name of the interface to check for.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the interface is implemented in the class.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Anima_Utilities_SourceGeneration_Extensions_Pluralize_" data-uid="Anima.Utilities.SourceGeneration.Extensions.Pluralize*"></a>
+
+  <h3 id="Anima_Utilities_SourceGeneration_Extensions_Pluralize_System_String_" data-uid="Anima.Utilities.SourceGeneration.Extensions.Pluralize(System.String)">
+  Pluralize(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kizari/Anima/blob/main/src/Anima.Utilities.SourceGeneration/Extensions.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts a singular string to a plural string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Pluralize(this string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The singular text to convert.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The pluralized text.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Anima_Utilities_SourceGeneration_Extensions_Split_" data-uid="Anima.Utilities.SourceGeneration.Extensions.Split*"></a>
+
+  <h3 id="Anima_Utilities_SourceGeneration_Extensions_Split__1___0_" data-uid="Anima.Utilities.SourceGeneration.Extensions.Split``1(``0)">
+  Split&lt;TFlags&gt;(TFlags)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kizari/Anima/blob/main/src/Anima.Utilities.SourceGeneration/Extensions.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Splits a bitfield into its individual flags.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;TFlags&gt; Split&lt;TFlags&gt;(this TFlags value) where TFlags : struct, Enum</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">TFlags</span></dt>
+    <dd><p>The bitfield to split.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TFlags&gt;</dt>
+    <dd><p>An enumerable containing the individual flags.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TFlags</code></dt>
+    <dd><p>The type of the flags enum representing the bitfield.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Anima_Utilities_SourceGeneration_Extensions_ToPropertyName_" data-uid="Anima.Utilities.SourceGeneration.Extensions.ToPropertyName*"></a>
+
+  <h3 id="Anima_Utilities_SourceGeneration_Extensions_ToPropertyName_System_String_" data-uid="Anima.Utilities.SourceGeneration.Extensions.ToPropertyName(System.String)">
+  ToPropertyName(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kizari/Anima/blob/main/src/Anima.Utilities.SourceGeneration/Extensions.cs/#L112"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts a field name that follows standard C# conventions to a matching property name.
+For example, &quot;_someValue&quot; will convert to &quot;SomeValue.&quot;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToPropertyName(this string fieldName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fieldName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the backing field.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The property name.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

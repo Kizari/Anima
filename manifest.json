@@ -1,0 +1,275 @@
+{
+  "source_base_path": "/github/workspace/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.DataTypes.ConcurrentHashSet-1.Enumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.DataTypes.ConcurrentHashSet-1.Enumerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.DataTypes.ConcurrentHashSet-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.DataTypes.ConcurrentHashSet-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.DataTypes.Enumeration-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.DataTypes.Enumeration-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.DataTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.DataTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.EntityFrameworkCore.SourceGeneration.DbSetGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.EntityFrameworkCore.SourceGeneration.EntityInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.EntityFrameworkCore.SourceGeneration.EntityInterface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.EntityFrameworkCore.SourceGeneration.GenerateDbSetsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.EntityFrameworkCore.SourceGeneration.GenerateDbSetsAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.EntityFrameworkCore.SourceGeneration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.EntityFrameworkCore.SourceGeneration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.Extensions.DateTimeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.Extensions.DateTimeExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.Extensions.EnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.Extensions.EnumerableExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.Extensions.FileSystemExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.Extensions.FileSystemExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.Utilities.SourceGeneration.AttributeHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.Utilities.SourceGeneration.AttributeHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.Utilities.SourceGeneration.ClassDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.Utilities.SourceGeneration.ClassDefinition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.Utilities.SourceGeneration.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.Utilities.SourceGeneration.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.Utilities.SourceGeneration.IncrementalClassGenerator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.Utilities.SourceGeneration.IncrementalClassGenerator-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.Utilities.SourceGeneration.IncrementalClassGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.Utilities.SourceGeneration.IncrementalClassGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.Utilities.SourceGeneration.SourceBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.Utilities.SourceGeneration.SourceBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.Utilities.SourceGeneration.StaticSourceDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.Utilities.SourceGeneration.StaticSourceDefinition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.Utilities.SourceGeneration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.Utilities.SourceGeneration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/anima.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/anima.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
