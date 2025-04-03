@@ -4,19 +4,33 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anima.Utilities.SourceGener
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anima.EntityFrameworkCore.SourceGeneration", "src\Anima.EntityFrameworkCore.SourceGeneration\Anima.EntityFrameworkCore.SourceGeneration.csproj", "{018A73EC-F68C-4220-BE87-423A04A39AD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anima.DependencyInjection.SourceGeneration", "src\Anima.DependencyInjection.SourceGeneration\Anima.DependencyInjection.SourceGeneration.csproj", "{9114C479-CBB4-4EFE-A9CB-F6A0DB709D9B}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{4FFE0F12-74B3-4E57-9CCD-ADE2E3EF4786}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anima.DependencyInjection.SourceGeneration.IntegrationTests", "test\Anima.DependencyInjection.SourceGeneration.IntegrationTests\Anima.DependencyInjection.SourceGeneration.IntegrationTests.csproj", "{DA8EB3BB-0F14-4DBA-9F96-BC41E9B63E3B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4FFE0F12-74B3-4E57-9CCD-ADE2E3EF4786}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anima.EntityFrameworkCore.SourceGeneration.IntegrationTests", "test\Anima.EntityFrameworkCore.SourceGeneration.IntegrationTests\Anima.EntityFrameworkCore.SourceGeneration.IntegrationTests.csproj", "{1C327A10-FE4B-4633-9A7F-6ABF9750F831}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anima.DependencyInjection.SourceGeneration.UnitTests", "test\Anima.DependencyInjection.SourceGeneration.UnitTests\Anima.DependencyInjection.SourceGeneration.UnitTests.csproj", "{921B7032-A398-4E8D-8F7D-CFB0DBDA4FFA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anima", "src\Anima\Anima.csproj", "{85634E2F-723C-4135-B77B-702BA1866A55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anima.DependencyInjection.SourceGeneration.Sample", "test\Anima.DependencyInjection.SourceGeneration.Sample\Anima.DependencyInjection.SourceGeneration.Sample.csproj", "{8125FEB8-2A58-4B8F-AD54-A5CC3BB7B700}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{A8C0A724-EF14-4020-9222-540DB260D46A}"
+	ProjectSection(SolutionItems) = preProject
+		docs\docfx.json = docs\docfx.json
+		docs\index.md = docs\index.md
+		docs\toc.yml = docs\toc.yml
+		docs\filterConfig.yml = docs\filterConfig.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{0C7533D3-3F5B-47AE-87D1-CFE8CFB7DEC6}"
+	ProjectSection(SolutionItems) = preProject
+		docs\images\logo.png = docs\images\logo.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "templates", "templates", "{910D747A-B1F3-4A3F-9CB2-BFF146E4F303}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "custom", "custom", "{33171C33-1D0D-4663-ACC8-5A7E2365EB03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "public", "public", "{23F6BE05-0C68-4804-9461-6CD9F9C28CB5}"
+	ProjectSection(SolutionItems) = preProject
+		docs\templates\custom\public\main.css = docs\templates\custom\public\main.css
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,35 +46,20 @@ Global
 		{018A73EC-F68C-4220-BE87-423A04A39AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{018A73EC-F68C-4220-BE87-423A04A39AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{018A73EC-F68C-4220-BE87-423A04A39AD1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9114C479-CBB4-4EFE-A9CB-F6A0DB709D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9114C479-CBB4-4EFE-A9CB-F6A0DB709D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9114C479-CBB4-4EFE-A9CB-F6A0DB709D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9114C479-CBB4-4EFE-A9CB-F6A0DB709D9B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DA8EB3BB-0F14-4DBA-9F96-BC41E9B63E3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DA8EB3BB-0F14-4DBA-9F96-BC41E9B63E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DA8EB3BB-0F14-4DBA-9F96-BC41E9B63E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DA8EB3BB-0F14-4DBA-9F96-BC41E9B63E3B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1C327A10-FE4B-4633-9A7F-6ABF9750F831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1C327A10-FE4B-4633-9A7F-6ABF9750F831}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C327A10-FE4B-4633-9A7F-6ABF9750F831}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C327A10-FE4B-4633-9A7F-6ABF9750F831}.Release|Any CPU.Build.0 = Release|Any CPU
-		{921B7032-A398-4E8D-8F7D-CFB0DBDA4FFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{921B7032-A398-4E8D-8F7D-CFB0DBDA4FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{921B7032-A398-4E8D-8F7D-CFB0DBDA4FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{921B7032-A398-4E8D-8F7D-CFB0DBDA4FFA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{85634E2F-723C-4135-B77B-702BA1866A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{85634E2F-723C-4135-B77B-702BA1866A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85634E2F-723C-4135-B77B-702BA1866A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85634E2F-723C-4135-B77B-702BA1866A55}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8125FEB8-2A58-4B8F-AD54-A5CC3BB7B700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8125FEB8-2A58-4B8F-AD54-A5CC3BB7B700}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8125FEB8-2A58-4B8F-AD54-A5CC3BB7B700}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8125FEB8-2A58-4B8F-AD54-A5CC3BB7B700}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{DA8EB3BB-0F14-4DBA-9F96-BC41E9B63E3B} = {4FFE0F12-74B3-4E57-9CCD-ADE2E3EF4786}
 		{1C327A10-FE4B-4633-9A7F-6ABF9750F831} = {4FFE0F12-74B3-4E57-9CCD-ADE2E3EF4786}
-		{921B7032-A398-4E8D-8F7D-CFB0DBDA4FFA} = {4FFE0F12-74B3-4E57-9CCD-ADE2E3EF4786}
-		{8125FEB8-2A58-4B8F-AD54-A5CC3BB7B700} = {4FFE0F12-74B3-4E57-9CCD-ADE2E3EF4786}
+		{0C7533D3-3F5B-47AE-87D1-CFE8CFB7DEC6} = {A8C0A724-EF14-4020-9222-540DB260D46A}
+		{910D747A-B1F3-4A3F-9CB2-BFF146E4F303} = {A8C0A724-EF14-4020-9222-540DB260D46A}
+		{33171C33-1D0D-4663-ACC8-5A7E2365EB03} = {910D747A-B1F3-4A3F-9CB2-BFF146E4F303}
+		{23F6BE05-0C68-4804-9461-6CD9F9C28CB5} = {33171C33-1D0D-4663-ACC8-5A7E2365EB03}
 	EndGlobalSection
 EndGlobal
