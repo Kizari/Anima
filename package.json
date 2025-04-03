@@ -33,9 +33,9 @@
   },
   "release": {
     "branches": [
-      "main",
+      "stable",
       {
-        "name": "alpha",
+        "name": "main",
         "prerelease": true
       }
     ],
@@ -60,8 +60,8 @@
       ]
     ],
     "projectPath": [
+      "src/Anima/Anima.csproj",
       "src/Anima.Utilities.SourceGeneration/Anima.Utilities.SourceGeneration.csproj",
-      "src/Anima.DependencyInjection.SourceGeneration/Anima.DependencyInjection.SourceGeneration.csproj",
       "src/Anima.EntityFrameworkCore.SourceGeneration/Anima.EntityFrameworkCore.SourceGeneration.csproj"
     ],
     "npmPublish": false,
