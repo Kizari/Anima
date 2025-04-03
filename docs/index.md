@@ -11,11 +11,11 @@ General purpose .NET libraries for everyday use.
 
 ## Packages
 
-| Name                                         | Description                                                                     |
-|----------------------------------------------|---------------------------------------------------------------------------------|
-| `Anima`                                      | Helper classes, types, methods, and extensions for common .NET operations.      |
-| `Anima.Utilities.SourceGeneration`           | Utility classes and helper methods to aid in the creation of source generators. |
-| `Anima.EntityFrameworkCore.SourceGeneration` | Source generators to reduce boilerplate when working with EntityFrameworkCore.  |
+| Name                                                | Description                                                                     |
+|-----------------------------------------------------|---------------------------------------------------------------------------------|
+| `Visium.Anima`                                      | Helper classes, types, methods, and extensions for common .NET operations.      |
+| `Visium.Anima.Utilities.SourceGeneration`           | Utility classes and helper methods to aid in the creation of source generators. |
+| `Visium.Anima.EntityFrameworkCore.SourceGeneration` | Source generators to reduce boilerplate when working with EntityFrameworkCore.  |
 
 ## Installation
 
@@ -31,7 +31,7 @@ dotnet add package <PackageName>
 For example, to install `Anima.EntityFrameworkCore.SourceGeneration`, run the following command:
 
 ```
-dotnet add package Anima.EntityFrameworkCore.SourceGeneration
+dotnet add package Visium.Anima.EntityFrameworkCore.SourceGeneration
 ```
 
 ## Usage

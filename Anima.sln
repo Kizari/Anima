@@ -33,6 +33,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "public", "public", "{23F6BE
 		docs\templates\custom\public\main.css = docs\templates\custom\public\main.css
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "github", "github", "{A783B3FF-6A3B-491D-880B-7CEB30803137}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{1814A34F-FB30-44C1-88A5-3C053F7B0FE4}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\docfx.yml = .github\workflows\docfx.yml
+		.github\workflows\main.yml = .github\workflows\main.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,5 +70,6 @@ Global
 		{910D747A-B1F3-4A3F-9CB2-BFF146E4F303} = {A8C0A724-EF14-4020-9222-540DB260D46A}
 		{33171C33-1D0D-4663-ACC8-5A7E2365EB03} = {910D747A-B1F3-4A3F-9CB2-BFF146E4F303}
 		{23F6BE05-0C68-4804-9461-6CD9F9C28CB5} = {33171C33-1D0D-4663-ACC8-5A7E2365EB03}
+		{1814A34F-FB30-44C1-88A5-3C053F7B0FE4} = {A783B3FF-6A3B-491D-880B-7CEB30803137}
 	EndGlobalSection
 EndGlobal
