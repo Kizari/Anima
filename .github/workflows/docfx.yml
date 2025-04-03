@@ -15,11 +15,17 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        
+      - name: Temporarily Remove Local NuGet Feed
+        run: mv nuget.config nuget.config.bak
 
       - name: Build Documentation
         uses: nunit/docfx-action@v4.0.0
         with:
           args: docs/docfx.json
+          
+      - name: Restore Original NuGet Config
+        run: mv nuget.config.bak nuget.config
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
