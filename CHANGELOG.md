@@ -1,3 +1,10 @@
+# [1.0.0-alpha.12](https://github.com/Kizari/Anima/compare/v1.0.0-alpha.11...v1.0.0-alpha.12) (2025-04-03)
+
+
+### Features
+
+* remove DI source generators ([eba45b5](https://github.com/Kizari/Anima/commit/eba45b5a301cce61f7f11b32362bac3d531c3acc))
+
 # [1.0.0-alpha.11](https://github.com/Kizari/Anima/compare/v1.0.0-alpha.10...v1.0.0-alpha.11) (2024-07-15)
 
 
