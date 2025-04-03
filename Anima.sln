@@ -21,6 +21,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{0C7533D3-3F5B-47AE-87D1-CFE8CFB7DEC6}"
 	ProjectSection(SolutionItems) = preProject
 		docs\images\logo.png = docs\images\logo.png
+		docs\images\anima.png = docs\images\anima.png
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "templates", "templates", "{910D747A-B1F3-4A3F-9CB2-BFF146E4F303}"

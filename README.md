@@ -1,14 +1,9 @@
-# Anima
+![Anima](docs/images/anima.png)
 
-General purpose .NET libraries for everyday use.
+General purpose .NET utility libraries for everyday use.
 
 > [!WARNING]  
 > Anima is currently in alpha, so releases are liable to regularly include breaking changes.
 
-## Libraries
-
-| Name                                         | Description                                                                     |
-|----------------------------------------------|---------------------------------------------------------------------------------|
-| `Anima`                                      | Helper classes, types, methods, and extensions for common .NET operations.      |
-| `Anima.Utilities.SourceGeneration`           | Utility classes and helper methods to aid in the creation of source generators. |
-| `Anima.EntityFrameworkCore.SourceGeneration` | Source generators to reduce boilerplate when working with EntityFrameworkCore.  |
+**Please see the [Anima documentation](https://kizari.github.io/Anima) for more information on which packages
+are available and how to consume them.**

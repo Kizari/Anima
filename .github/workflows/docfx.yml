@@ -1,6 +1,7 @@
 name: Publish Documentation Website
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
