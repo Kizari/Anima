@@ -1,9 +1,9 @@
-name: Deploy Alpha Releases to NuGet
+name: Deploy Alpha Release to NuGet
 
 on:
   push:
     branches:
-      - alpha
+      - main
 
 jobs:
   build:
@@ -25,7 +25,6 @@ jobs:
           
       - name: Build Local Packages for Integration Tests
         run: |
-          dotnet pack src/Anima.DependencyInjection.SourceGeneration/Anima.DependencyInjection.SourceGeneration.csproj -o ./packages
           dotnet pack src/Anima.EntityFrameworkCore.SourceGeneration/Anima.EntityFrameworkCore.SourceGeneration.csproj -o ./packages
 
       - name: Build the Projects

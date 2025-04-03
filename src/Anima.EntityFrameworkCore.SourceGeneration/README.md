@@ -13,6 +13,10 @@ Set the project's `DbContext` class as `partial` and mark it with the `[Generate
 attribute to automatically generate `DbSet` properties for every class
 in the project that implements `IEntityTypeConfiguration`.
 
+> [!TIP]  
+> For classes that don't need to implement `IEntityTypeConfiguration`, the `IEntity` marker interface from the
+> `Anima.EntityFrameworkCore` namespace can be implemented instead to mark the class for `DbSet` generation.
+
 ### Example
 
 Given the following classes:

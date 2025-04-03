@@ -1,0 +1,55 @@
+/* Add spacing to the content container on the landing page */
+.content {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+/* Add spacing above any heading that isn't the first heading in its parent container */
+h1 ~ h1,
+h1 ~ h2,
+h1 ~ h3,
+h1 ~ h4,
+h1 ~ h5,
+h1 ~ h6,
+h2 ~ h1,
+h2 ~ h2,
+h2 ~ h3,
+h2 ~ h4,
+h2 ~ h5,
+h2 ~ h6,
+h3 ~ h1,
+h3 ~ h2,
+h3 ~ h3,
+h3 ~ h4,
+h3 ~ h5,
+h3 ~ h6,
+h4 ~ h1,
+h4 ~ h2,
+h4 ~ h3,
+h4 ~ h4,
+h4 ~ h5,
+h4 ~ h6,
+h5 ~ h1,
+h5 ~ h2,
+h5 ~ h3,
+h5 ~ h4,
+h5 ~ h5,
+h5 ~ h6,
+h6 ~ h1,
+h6 ~ h2,
+h6 ~ h3,
+h6 ~ h4,
+h6 ~ h5,
+h6 ~ h6 {
+    margin-top: 1em;
+}
+
+/* Add a small margin beneath headings */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5em;
+}
+
+/* Hide the site footer */
+footer {
+    display: none;
+}

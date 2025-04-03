@@ -1,0 +1,4 @@
+﻿### YamlMime:ManagedReference
+apiRules:
+  - exclude:
+      uidRegex: ^Pluralize.NET\.

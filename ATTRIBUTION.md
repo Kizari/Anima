@@ -28,8 +28,8 @@ SOFTWARE.
 
 ==============================================================================
 
-CoreFX (https://github.com/dotnet/corefx)
-The MIT License (MIT)
+CoreFX (https://github.com/dotnet/corefx)  
+The MIT License (MIT)  
 Copyright (c) .NET Foundation and Contributors
 
 ---
