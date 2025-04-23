@@ -92,6 +92,156 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Anima.Extensions.Console.Application.ConsoleApplicationBuilderFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.Extensions.Console.Application.ConsoleApplicationBuilderFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.Extensions.Console.Application.IConsoleApplication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.Extensions.Console.Application.IConsoleApplication.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.Extensions.Console.Application.IConsoleApplicationBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.Extensions.Console.Application.IConsoleApplicationBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.Extensions.Console.Application.IConsoleApplicationBuilderFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.Extensions.Console.Application.IConsoleApplicationBuilderFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.Extensions.Console.Application.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.Extensions.Console.Application.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.Extensions.Console.Command.IAsyncConsoleCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.Extensions.Console.Command.IAsyncConsoleCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.Extensions.Console.Command.IConsoleCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.Extensions.Console.Command.IConsoleCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.Extensions.Console.Command.IConsoleCommandBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.Extensions.Console.Command.IConsoleCommandBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.Extensions.Console.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.Extensions.Console.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.Extensions.Console.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.Extensions.Console.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.Extensions.Console.Menu.IConsoleMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.Extensions.Console.Menu.IConsoleMenu.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.Extensions.Console.Menu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.Extensions.Console.Menu.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.Extensions.Console.Utilities.ConsoleWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.Extensions.Console.Utilities.ConsoleWriter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.Extensions.Console.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.Extensions.Console.Utilities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Anima.Extensions.Console.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Anima.Extensions.Console.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Anima.Extensions.DateTimeExtensions.yml",
       "output": {
         ".html": {
@@ -214,11 +364,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "api/toc.json"
-        },
         ".html": {
           "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
@@ -257,11 +407,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "toc.json"
-        },
         ".html": {
           "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""

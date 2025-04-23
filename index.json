@@ -39,6 +39,81 @@
     "title": "Namespace Anima.EntityFrameworkCore.SourceGeneration | Anima",
     "keywords": "Namespace Anima.EntityFrameworkCore.SourceGeneration Classes DbSetGenerator Automatically generates DbSet properties for the context marked with [GenerateDbSets] from classes that inherit IEntityTypeConfiguration EntityInterface Static source definition for the IEntity interface. This is a marker interface for entity classes that don't need to implement IEntityTypeConfiguration. GenerateDbSetsAttribute Static source definition for the [GenerateDbSets] attribute."
   },
+  "api/Anima.Extensions.Console.Application.ConsoleApplicationBuilderFactory.html": {
+    "href": "api/Anima.Extensions.Console.Application.ConsoleApplicationBuilderFactory.html",
+    "title": "Class ConsoleApplicationBuilderFactory | Anima",
+    "keywords": "Class ConsoleApplicationBuilderFactory Namespace Anima.Extensions.Console.Application Assembly Anima.Extensions.Console.dll Supports all classes in the .NET class hierarchy and provides low-level services to derived classes. This is the ultimate base class of all .NET classes; it is the root of the type hierarchy. public class ConsoleApplicationBuilderFactory : IConsoleApplicationBuilderFactory Inheritance object ConsoleApplicationBuilderFactory Implements IConsoleApplicationBuilderFactory Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors ConsoleApplicationBuilderFactory(IConsoleMenu) public ConsoleApplicationBuilderFactory(IConsoleMenu menu) Parameters menu IConsoleMenu Methods Create() Instantiates a new uninitialized IConsoleApplicationBuilder. public IConsoleApplicationBuilder Create() Returns IConsoleApplicationBuilder"
+  },
+  "api/Anima.Extensions.Console.Application.IConsoleApplication.html": {
+    "href": "api/Anima.Extensions.Console.Application.IConsoleApplication.html",
+    "title": "Interface IConsoleApplication | Anima",
+    "keywords": "Interface IConsoleApplication Namespace Anima.Extensions.Console.Application Assembly Anima.Extensions.Console.dll Represents a simple console application. public interface IConsoleApplication Methods RunAsync() Continuously loops through the application menus until the user selects the exit command from the root menu. Task RunAsync() Returns Task RunOnceAsync() Loops through the menu tree once. Returns once the user has selected a command and that command has finished executing. Task RunOnceAsync() Returns Task"
+  },
+  "api/Anima.Extensions.Console.Application.IConsoleApplicationBuilder.html": {
+    "href": "api/Anima.Extensions.Console.Application.IConsoleApplicationBuilder.html",
+    "title": "Interface IConsoleApplicationBuilder | Anima",
+    "keywords": "Interface IConsoleApplicationBuilder Namespace Anima.Extensions.Console.Application Assembly Anima.Extensions.Console.dll Represents a builder for an IConsoleApplication. public interface IConsoleApplicationBuilder Methods Build() Builds the application. IConsoleApplication Build() Returns IConsoleApplication The configured IConsoleApplication instance. Remarks Call RunAsync() or RunOnceAsync() on the returned IConsoleApplication to execute the resulting application. WithTitle(string, ConsoleColor) Displays a title when a run method is called on the resulting IConsoleApplication. IConsoleApplicationBuilder WithTitle(string title, ConsoleColor color = ConsoleColor.Gray) Parameters title string Title text to display to the user. color ConsoleColor Color to display the title in. Returns IConsoleApplicationBuilder A reference to this builder. Examples Using the title \"My Application\" would result in the following output: ============================ M Y A P P L I C A T I O N ============================"
+  },
+  "api/Anima.Extensions.Console.Application.IConsoleApplicationBuilderFactory.html": {
+    "href": "api/Anima.Extensions.Console.Application.IConsoleApplicationBuilderFactory.html",
+    "title": "Interface IConsoleApplicationBuilderFactory | Anima",
+    "keywords": "Interface IConsoleApplicationBuilderFactory Namespace Anima.Extensions.Console.Application Assembly Anima.Extensions.Console.dll Represents a factory that creates instances of IConsoleApplicationBuilder. public interface IConsoleApplicationBuilderFactory Methods Create() Instantiates a new uninitialized IConsoleApplicationBuilder. IConsoleApplicationBuilder Create() Returns IConsoleApplicationBuilder"
+  },
+  "api/Anima.Extensions.Console.Application.html": {
+    "href": "api/Anima.Extensions.Console.Application.html",
+    "title": "Namespace Anima.Extensions.Console.Application | Anima",
+    "keywords": "Namespace Anima.Extensions.Console.Application Classes ConsoleApplicationBuilderFactory Supports all classes in the .NET class hierarchy and provides low-level services to derived classes. This is the ultimate base class of all .NET classes; it is the root of the type hierarchy. Interfaces IConsoleApplication Represents a simple console application. IConsoleApplicationBuilder Represents a builder for an IConsoleApplication. IConsoleApplicationBuilderFactory Represents a factory that creates instances of IConsoleApplicationBuilder."
+  },
+  "api/Anima.Extensions.Console.Command.IAsyncConsoleCommand.html": {
+    "href": "api/Anima.Extensions.Console.Command.IAsyncConsoleCommand.html",
+    "title": "Interface IAsyncConsoleCommand | Anima",
+    "keywords": "Interface IAsyncConsoleCommand Namespace Anima.Extensions.Console.Command Assembly Anima.Extensions.Console.dll Represents an asynchronous command that can be executed from within a console application. public interface IAsyncConsoleCommand : IConsoleCommandBase Inherited Members IConsoleCommandBase.Path IConsoleCommandBase.Description Methods ExecuteAsync() The actions to perform when executing this command. Task ExecuteAsync() Returns Task"
+  },
+  "api/Anima.Extensions.Console.Command.IConsoleCommand.html": {
+    "href": "api/Anima.Extensions.Console.Command.IConsoleCommand.html",
+    "title": "Interface IConsoleCommand | Anima",
+    "keywords": "Interface IConsoleCommand Namespace Anima.Extensions.Console.Command Assembly Anima.Extensions.Console.dll Represents a synchronous command that can be executed from within a console application. public interface IConsoleCommand : IConsoleCommandBase Inherited Members IConsoleCommandBase.Path IConsoleCommandBase.Description Methods Execute() The actions to perform when executing this command. void Execute()"
+  },
+  "api/Anima.Extensions.Console.Command.IConsoleCommandBase.html": {
+    "href": "api/Anima.Extensions.Console.Command.IConsoleCommandBase.html",
+    "title": "Interface IConsoleCommandBase | Anima",
+    "keywords": "Interface IConsoleCommandBase Namespace Anima.Extensions.Console.Command Assembly Anima.Extensions.Console.dll Represents a command that can be executed from a console application. public interface IConsoleCommandBase Properties Description User-facing description of what the command does when executed. This will be displayed in the console. string Description { get; } Property Value string Path Path to the command in the console command menu tree. string Path { get; } Property Value string Remarks Each menu should be separated by a / character. If no / characters are present, the command will be added to the root menu. If / characters are present, the substring after the final / character will be the text of the menu item that represents this command."
+  },
+  "api/Anima.Extensions.Console.Command.html": {
+    "href": "api/Anima.Extensions.Console.Command.html",
+    "title": "Namespace Anima.Extensions.Console.Command | Anima",
+    "keywords": "Namespace Anima.Extensions.Console.Command Interfaces IAsyncConsoleCommand Represents an asynchronous command that can be executed from within a console application. IConsoleCommand Represents a synchronous command that can be executed from within a console application. IConsoleCommandBase Represents a command that can be executed from a console application."
+  },
+  "api/Anima.Extensions.Console.Extensions.html": {
+    "href": "api/Anima.Extensions.Console.Extensions.html",
+    "title": "Class Extensions | Anima",
+    "keywords": "Class Extensions Namespace Anima.Extensions.Console Assembly Anima.Extensions.Console.dll Extensions methods for consumers. public static class Extensions Inheritance object Extensions Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods AddAnimaConsole(IServiceCollection) Adds Anima.Extensions.Console services to the given service collection. public static IServiceCollection AddAnimaConsole(this IServiceCollection services) Parameters services IServiceCollection Service collection to add the services to. Returns IServiceCollection Same collection as the input parameter."
+  },
+  "api/Anima.Extensions.Console.Menu.IConsoleMenu.html": {
+    "href": "api/Anima.Extensions.Console.Menu.IConsoleMenu.html",
+    "title": "Interface IConsoleMenu | Anima",
+    "keywords": "Interface IConsoleMenu Namespace Anima.Extensions.Console.Menu Assembly Anima.Extensions.Console.dll Represents a tree of menus for a console application. public interface IConsoleMenu Methods RunAsync() Steps the user through the menu recursively, until a command is selected or the exit option is selected. Task<bool> RunAsync() Returns Task<bool> true if the menu was exited through the exit option, otherwise false."
+  },
+  "api/Anima.Extensions.Console.Menu.html": {
+    "href": "api/Anima.Extensions.Console.Menu.html",
+    "title": "Namespace Anima.Extensions.Console.Menu | Anima",
+    "keywords": "Namespace Anima.Extensions.Console.Menu Interfaces IConsoleMenu Represents a tree of menus for a console application."
+  },
+  "api/Anima.Extensions.Console.Utilities.ConsoleWriter.html": {
+    "href": "api/Anima.Extensions.Console.Utilities.ConsoleWriter.html",
+    "title": "Class ConsoleWriter | Anima",
+    "keywords": "Class ConsoleWriter Namespace Anima.Extensions.Console.Utilities Assembly Anima.Extensions.Console.dll Simple helper class for writing colored messages to the console. public static class ConsoleWriter Inheritance object ConsoleWriter Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Write(string, ConsoleColor?) Appends text to the console. public static void Write(string text, ConsoleColor? color = null) Parameters text string Message to display in the console. color ConsoleColor? Color of the message, will use the current color if null. WriteLine(string, ConsoleColor?) Writes a line of text to the console. public static void WriteLine(string text, ConsoleColor? color = null) Parameters text string Message to display in the console. color ConsoleColor? Color of the message, will use the current color if null. WriteLines(ConsoleColor?, params string[]) Writes multiple lines of text to the console. public static void WriteLines(ConsoleColor? color = null, params string[] lines) Parameters color ConsoleColor? Color to display the messages in, will use the current color if null. lines string[] The lines of text to display in the console."
+  },
+  "api/Anima.Extensions.Console.Utilities.html": {
+    "href": "api/Anima.Extensions.Console.Utilities.html",
+    "title": "Namespace Anima.Extensions.Console.Utilities | Anima",
+    "keywords": "Namespace Anima.Extensions.Console.Utilities Classes ConsoleWriter Simple helper class for writing colored messages to the console."
+  },
+  "api/Anima.Extensions.Console.html": {
+    "href": "api/Anima.Extensions.Console.html",
+    "title": "Namespace Anima.Extensions.Console | Anima",
+    "keywords": "Namespace Anima.Extensions.Console Classes Extensions Extensions methods for consumers."
+  },
   "api/Anima.Extensions.DateTimeExtensions.html": {
     "href": "api/Anima.Extensions.DateTimeExtensions.html",
     "title": "Class DateTimeExtensions | Anima",
@@ -102,6 +177,6 @@
   "index.html": {
     "href": "index.html",
     "title": "Anima | Anima",
-    "keywords": "Anima General purpose .NET libraries for everyday use. Warning Anima is currently in alpha, so releases are liable to regularly include breaking changes. Packages Name Description Visium.Anima Helper classes, types, methods, and extensions for common .NET operations. Visium.Anima.Utilities.SourceGeneration Utility classes and helper methods to aid in the creation of source generators. Visium.Anima.EntityFrameworkCore.SourceGeneration Source generators to reduce boilerplate when working with EntityFrameworkCore. Installation To install a package, simply search for the package name from the table above in the NuGet package manager of your favourite IDE. Alternatively, they can be installed from the commandline if you have the .NET SDK installed by using the following command: dotnet add package <PackageName> For example, to install Anima.EntityFrameworkCore.SourceGeneration, run the following command: dotnet add package Visium.Anima.EntityFrameworkCore.SourceGeneration Usage Refer to the API documentation by clicking the API tab in the header bar of this site."
+    "keywords": "Anima General purpose .NET libraries for everyday use. Warning Anima is currently in alpha, so releases are liable to regularly include breaking changes. Packages Name Description Visium.Anima Helper classes, types, methods, and extensions for common .NET operations. Visium.Anima.Utilities.SourceGeneration Utility classes and helper methods to aid in the creation of source generators. Visium.Anima.EntityFrameworkCore.SourceGeneration Source generators to reduce boilerplate when working with EntityFrameworkCore. Visium.Anima.Extensions.Console Build simple console applications with Microsoft.Extensions.DependencyInjection. Installation To install a package, simply search for the package name from the table above in the NuGet package manager of your favourite IDE. Alternatively, they can be installed from the commandline if you have the .NET SDK installed by using the following command: dotnet add package <PackageName> For example, to install Anima.EntityFrameworkCore.SourceGeneration, run the following command: dotnet add package Visium.Anima.EntityFrameworkCore.SourceGeneration Usage Refer to the API documentation by clicking the API tab in the header bar of this site."
   }
 }
