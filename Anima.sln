@@ -41,6 +41,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{
 		.github\workflows\main.yml = .github\workflows\main.yml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anima.Extensions.Console", "src\Anima.Extensions.Console\Anima.Extensions.Console.csproj", "{E64BE1E3-2D7F-433D-AE29-05A24B2819BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{85634E2F-723C-4135-B77B-702BA1866A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85634E2F-723C-4135-B77B-702BA1866A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85634E2F-723C-4135-B77B-702BA1866A55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E64BE1E3-2D7F-433D-AE29-05A24B2819BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E64BE1E3-2D7F-433D-AE29-05A24B2819BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E64BE1E3-2D7F-433D-AE29-05A24B2819BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E64BE1E3-2D7F-433D-AE29-05A24B2819BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1C327A10-FE4B-4633-9A7F-6ABF9750F831} = {4FFE0F12-74B3-4E57-9CCD-ADE2E3EF4786}

@@ -11,11 +11,12 @@ General purpose .NET libraries for everyday use.
 
 ## Packages
 
-| Name                                                | Description                                                                     |
-|-----------------------------------------------------|---------------------------------------------------------------------------------|
-| `Visium.Anima`                                      | Helper classes, types, methods, and extensions for common .NET operations.      |
-| `Visium.Anima.Utilities.SourceGeneration`           | Utility classes and helper methods to aid in the creation of source generators. |
-| `Visium.Anima.EntityFrameworkCore.SourceGeneration` | Source generators to reduce boilerplate when working with EntityFrameworkCore.  |
+| Name                                                | Description                                                                        |
+|-----------------------------------------------------|------------------------------------------------------------------------------------|
+| `Visium.Anima`                                      | Helper classes, types, methods, and extensions for common .NET operations.         |
+| `Visium.Anima.Utilities.SourceGeneration`           | Utility classes and helper methods to aid in the creation of source generators.    |
+| `Visium.Anima.EntityFrameworkCore.SourceGeneration` | Source generators to reduce boilerplate when working with EntityFrameworkCore.     |
+| `Visium.Anima.Extensions.Console`                   | Build simple console applications with `Microsoft.Extensions.DependencyInjection`. |
 
 ## Installation
 
