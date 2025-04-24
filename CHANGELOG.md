@@ -1,3 +1,10 @@
+# [1.0.0-alpha.14](https://github.com/Kizari/Anima/compare/v1.0.0-alpha.13...v1.0.0-alpha.14) (2025-04-24)
+
+
+### Features
+
+* **console:** add customization for exit command ([68776ea](https://github.com/Kizari/Anima/commit/68776ea957bbec46de9e325df24671fd5ae0f7c0))
+
 # [1.0.0-alpha.13](https://github.com/Kizari/Anima/compare/v1.0.0-alpha.12...v1.0.0-alpha.13) (2025-04-24)
 
 
