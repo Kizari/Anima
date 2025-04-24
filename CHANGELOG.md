@@ -1,3 +1,10 @@
+# [1.0.0-alpha.15](https://github.com/Kizari/Anima/compare/v1.0.0-alpha.14...v1.0.0-alpha.15) (2025-04-24)
+
+
+### Bug Fixes
+
+* **console:** set package details in csproj ([48d9f2a](https://github.com/Kizari/Anima/commit/48d9f2a3d7e1da94c8bfcedac0b46f1889cc66ca))
+
 # [1.0.0-alpha.14](https://github.com/Kizari/Anima/compare/v1.0.0-alpha.13...v1.0.0-alpha.14) (2025-04-24)
 
 
