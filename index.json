@@ -42,7 +42,7 @@
   "api/Anima.Extensions.Console.Application.ConsoleApplicationBuilderFactory.html": {
     "href": "api/Anima.Extensions.Console.Application.ConsoleApplicationBuilderFactory.html",
     "title": "Class ConsoleApplicationBuilderFactory | Anima",
-    "keywords": "Class ConsoleApplicationBuilderFactory Namespace Anima.Extensions.Console.Application Assembly Anima.Extensions.Console.dll Supports all classes in the .NET class hierarchy and provides low-level services to derived classes. This is the ultimate base class of all .NET classes; it is the root of the type hierarchy. public class ConsoleApplicationBuilderFactory : IConsoleApplicationBuilderFactory Inheritance object ConsoleApplicationBuilderFactory Implements IConsoleApplicationBuilderFactory Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors ConsoleApplicationBuilderFactory(IConsoleMenu) public ConsoleApplicationBuilderFactory(IConsoleMenu menu) Parameters menu IConsoleMenu Methods Create() Instantiates a new uninitialized IConsoleApplicationBuilder. public IConsoleApplicationBuilder Create() Returns IConsoleApplicationBuilder"
+    "keywords": "Class ConsoleApplicationBuilderFactory Namespace Anima.Extensions.Console.Application Assembly Anima.Extensions.Console.dll public class ConsoleApplicationBuilderFactory : IConsoleApplicationBuilderFactory Inheritance object ConsoleApplicationBuilderFactory Implements IConsoleApplicationBuilderFactory Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors ConsoleApplicationBuilderFactory(IConsoleMenu) public ConsoleApplicationBuilderFactory(IConsoleMenu menu) Parameters menu IConsoleMenu Methods Create() Instantiates a new uninitialized IConsoleApplicationBuilder. public IConsoleApplicationBuilder Create() Returns IConsoleApplicationBuilder"
   },
   "api/Anima.Extensions.Console.Application.IConsoleApplication.html": {
     "href": "api/Anima.Extensions.Console.Application.IConsoleApplication.html",
@@ -62,7 +62,7 @@
   "api/Anima.Extensions.Console.Application.html": {
     "href": "api/Anima.Extensions.Console.Application.html",
     "title": "Namespace Anima.Extensions.Console.Application | Anima",
-    "keywords": "Namespace Anima.Extensions.Console.Application Classes ConsoleApplicationBuilderFactory Supports all classes in the .NET class hierarchy and provides low-level services to derived classes. This is the ultimate base class of all .NET classes; it is the root of the type hierarchy. Interfaces IConsoleApplication Represents a simple console application. IConsoleApplicationBuilder Represents a builder for an IConsoleApplication. IConsoleApplicationBuilderFactory Represents a factory that creates instances of IConsoleApplicationBuilder."
+    "keywords": "Namespace Anima.Extensions.Console.Application Classes ConsoleApplicationBuilderFactory Interfaces IConsoleApplication Represents a simple console application. IConsoleApplicationBuilder Represents a builder for an IConsoleApplication. IConsoleApplicationBuilderFactory Represents a factory that creates instances of IConsoleApplicationBuilder."
   },
   "api/Anima.Extensions.Console.Command.IAsyncConsoleCommand.html": {
     "href": "api/Anima.Extensions.Console.Command.IAsyncConsoleCommand.html",
