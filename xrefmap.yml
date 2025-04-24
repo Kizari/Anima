@@ -697,6 +697,22 @@ references:
   isSpec: "True"
   fullName: Anima.Extensions.Console.Application.IConsoleApplicationBuilder.Build
   nameWithType: IConsoleApplicationBuilder.Build
+- uid: Anima.Extensions.Console.Application.IConsoleApplicationBuilder.WithCustomExitCommand(System.String,System.String,System.Action)
+  name: WithCustomExitCommand(string, string, Action?)
+  href: api/Anima.Extensions.Console.Application.IConsoleApplicationBuilder.html#Anima_Extensions_Console_Application_IConsoleApplicationBuilder_WithCustomExitCommand_System_String_System_String_System_Action_
+  commentId: M:Anima.Extensions.Console.Application.IConsoleApplicationBuilder.WithCustomExitCommand(System.String,System.String,System.Action)
+  name.vb: WithCustomExitCommand(String, String, Action)
+  fullName: Anima.Extensions.Console.Application.IConsoleApplicationBuilder.WithCustomExitCommand(string, string, System.Action?)
+  fullName.vb: Anima.Extensions.Console.Application.IConsoleApplicationBuilder.WithCustomExitCommand(String, String, System.Action)
+  nameWithType: IConsoleApplicationBuilder.WithCustomExitCommand(string, string, Action?)
+  nameWithType.vb: IConsoleApplicationBuilder.WithCustomExitCommand(String, String, Action)
+- uid: Anima.Extensions.Console.Application.IConsoleApplicationBuilder.WithCustomExitCommand*
+  name: WithCustomExitCommand
+  href: api/Anima.Extensions.Console.Application.IConsoleApplicationBuilder.html#Anima_Extensions_Console_Application_IConsoleApplicationBuilder_WithCustomExitCommand_
+  commentId: Overload:Anima.Extensions.Console.Application.IConsoleApplicationBuilder.WithCustomExitCommand
+  isSpec: "True"
+  fullName: Anima.Extensions.Console.Application.IConsoleApplicationBuilder.WithCustomExitCommand
+  nameWithType: IConsoleApplicationBuilder.WithCustomExitCommand
 - uid: Anima.Extensions.Console.Application.IConsoleApplicationBuilder.WithTitle(System.String,System.ConsoleColor)
   name: WithTitle(string, ConsoleColor)
   href: api/Anima.Extensions.Console.Application.IConsoleApplicationBuilder.html#Anima_Extensions_Console_Application_IConsoleApplicationBuilder_WithTitle_System_String_System_ConsoleColor_

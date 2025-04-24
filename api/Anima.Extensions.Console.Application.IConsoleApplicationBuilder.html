@@ -125,7 +125,7 @@ Interface IConsoleApplicationBuilder  <a class="header-action link-secondary" ti
 
   <h3 id="Anima_Extensions_Console_Application_IConsoleApplicationBuilder_Build" data-uid="Anima.Extensions.Console.Application.IConsoleApplicationBuilder.Build">
   Build()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Kizari/Anima/blob/main/src/Anima.Extensions.Console/Application/IConsoleApplicationBuilder.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kizari/Anima/blob/main/src/Anima.Extensions.Console/Application/IConsoleApplicationBuilder.cs/#L44"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Builds the application.</p>
@@ -154,6 +154,52 @@ Interface IConsoleApplicationBuilder  <a class="header-action link-secondary" ti
   <div class="markdown level1 remarks"><p>Call <a class="xref" href="Anima.Extensions.Console.Application.IConsoleApplication.html#Anima_Extensions_Console_Application_IConsoleApplication_RunAsync">RunAsync()</a> or <a class="xref" href="Anima.Extensions.Console.Application.IConsoleApplication.html#Anima_Extensions_Console_Application_IConsoleApplication_RunOnceAsync">RunOnceAsync()</a>
 on the returned <a class="xref" href="Anima.Extensions.Console.Application.IConsoleApplication.html">IConsoleApplication</a> to execute the resulting application.</p>
 </div>
+
+
+
+
+  <a id="Anima_Extensions_Console_Application_IConsoleApplicationBuilder_WithCustomExitCommand_" data-uid="Anima.Extensions.Console.Application.IConsoleApplicationBuilder.WithCustomExitCommand*"></a>
+
+  <h3 id="Anima_Extensions_Console_Application_IConsoleApplicationBuilder_WithCustomExitCommand_System_String_System_String_System_Action_" data-uid="Anima.Extensions.Console.Application.IConsoleApplicationBuilder.WithCustomExitCommand(System.String,System.String,System.Action)">
+  WithCustomExitCommand(string, string, Action?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Kizari/Anima/blob/main/src/Anima.Extensions.Console/Application/IConsoleApplicationBuilder.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Customizes the exit command for the application's menu.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IConsoleApplicationBuilder WithCustomExitCommand(string path, string description, Action? onSelected = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Path to the exit command within the menu tree.</p>
+</dd>
+    <dt><code>description</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Text description to display beneath the exit command.</p>
+</dd>
+    <dt><code>onSelected</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd><p>Optional action to execute when the command is selected.
+The default behaviour of terminating the menu loop will still apply.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Anima.Extensions.Console.Application.IConsoleApplicationBuilder.html">IConsoleApplicationBuilder</a></dt>
+    <dd><p>A reference to this builder.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
 
 
 
