@@ -1,3 +1,10 @@
+# [1.0.0-alpha.13](https://github.com/Kizari/Anima/compare/v1.0.0-alpha.12...v1.0.0-alpha.13) (2025-04-24)
+
+
+### Features
+
+* add Anima.Extensions.Console library ([69579de](https://github.com/Kizari/Anima/commit/69579defc5105c747eb4cc28bbe1dd6f13a675cd))
+
 # [1.0.0-alpha.12](https://github.com/Kizari/Anima/compare/v1.0.0-alpha.11...v1.0.0-alpha.12) (2025-04-03)
 
 
