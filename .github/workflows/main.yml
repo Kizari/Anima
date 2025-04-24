@@ -2,6 +2,7 @@ name: Deploy Alpha Release to NuGet
 
 on:
   push:
+    workflow_dispatch:
     branches:
       - main
 
