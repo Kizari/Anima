@@ -22,6 +22,18 @@ public interface IConsoleApplicationBuilder
     IConsoleApplicationBuilder WithTitle(string title, ConsoleColor color = ConsoleColor.Gray);
 
     /// <summary>
+    /// Customizes the exit command for the application's menu.
+    /// </summary>
+    /// <param name="path">Path to the exit command within the menu tree.</param>
+    /// <param name="description">Text description to display beneath the exit command.</param>
+    /// <param name="onSelected">
+    /// Optional action to execute when the command is selected.
+    /// The default behaviour of terminating the menu loop will still apply.
+    /// </param>
+    /// <returns>A reference to this builder.</returns>
+    public IConsoleApplicationBuilder WithCustomExitCommand(string path, string description, Action? onSelected = null);
+
+    /// <summary>
     /// Builds the application.
     /// </summary>
     /// <returns>The configured <see cref="IConsoleApplication"/> instance.</returns>

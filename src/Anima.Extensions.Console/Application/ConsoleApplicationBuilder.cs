@@ -17,6 +17,13 @@ internal class ConsoleApplicationBuilder(IConsoleMenu menu) : IConsoleApplicatio
     }
 
     /// <inheritdoc />
+    public IConsoleApplicationBuilder WithCustomExitCommand(string path, string description, Action? onSelected = null)
+    {
+        ((ConsoleMenu)menu).CustomExitCommand = new ConsoleMenu.ExitCommand(path, description, onSelected);
+        return this;
+    }
+
+    /// <inheritdoc />
     public IConsoleApplication Build()
     {
         if (_isCompleted)

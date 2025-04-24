@@ -8,6 +8,11 @@ namespace Anima.Extensions.Console.Menu;
 /// <inheritdoc />
 internal class ConsoleMenu(IServiceProvider provider) : IConsoleMenu
 {
+    /// <summary>
+    /// User-defined <see cref="ExitCommand"/> that will override the default one if present.
+    /// </summary>
+    internal ExitCommand? CustomExitCommand { get; set; }
+    
     /// <inheritdoc />
     public async Task<bool> RunAsync()
     {
@@ -142,7 +147,7 @@ internal class ConsoleMenu(IServiceProvider provider) : IConsoleMenu
             }
         }
 
-        root.Add(new CommandNode(new ExitCommand()));
+        root.Add(new CommandNode(CustomExitCommand ?? new ExitCommand(null, null, null)));
         return root;
     }
 
@@ -180,18 +185,18 @@ internal class ConsoleMenu(IServiceProvider provider) : IConsoleMenu
     /// <summary>
     /// Default command that allows the user to break out of this menu.
     /// </summary>
-    private class ExitCommand : IConsoleCommand
+    internal class ExitCommand(string? path, string? description, Action? onSelected) : IConsoleCommand
     {
         /// <inheritdoc />
-        public string Path => "Exit";
+        public string Path => path ?? "Exit";
         
         /// <inheritdoc />
-        public string Description => "Closes the application.";
+        public string Description => description ?? "Closes the application.";
 
         /// <inheritdoc />
         public void Execute()
         {
-            // Body not required since this command is detected by type
+            onSelected?.Invoke();
         }
     }
 }
