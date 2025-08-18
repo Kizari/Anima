@@ -1,3 +1,10 @@
+# [1.0.0-alpha.16](https://github.com/Kizari/Anima/compare/v1.0.0-alpha.15...v1.0.0-alpha.16) (2025-08-18)
+
+
+### Bug Fixes
+
+* ensure generator utils are packed correctly ([231f2c3](https://github.com/Kizari/Anima/commit/231f2c38f98929de30627c90377892f5ebe7f1d0))
+
 # [1.0.0-alpha.15](https://github.com/Kizari/Anima/compare/v1.0.0-alpha.14...v1.0.0-alpha.15) (2025-04-24)
 
 
